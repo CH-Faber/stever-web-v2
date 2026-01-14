@@ -1,0 +1,58 @@
+[
+  {
+    "id": "preset_1768307801354_x15zseb",
+    "name": "brain",
+    "purpose": "main",
+    "config": {
+      "api": "custom",
+      "model": "gemini-3-flash-preview-nothinking",
+      "endpointId": "ep_1768106212725_pdsw0a5",
+      "url": "https://api.laozhang.ai/"
+    },
+    "isDefault": true,
+    "createdAt": "2026-01-13T12:36:41.354Z",
+    "updatedAt": "2026-01-13T12:36:58.063Z"
+  },
+  {
+    "id": "preset_1768307866757_d18vh09",
+    "name": "code",
+    "purpose": "code",
+    "config": {
+      "api": "custom",
+      "model": "claude-opus-4-5-20251101",
+      "endpointId": "ep_1768106212725_pdsw0a5",
+      "url": "https://api.laozhang.ai/"
+    },
+    "isDefault": true,
+    "createdAt": "2026-01-13T12:37:46.756Z",
+    "updatedAt": "2026-01-13T12:37:46.756Z"
+  },
+  {
+    "id": "preset_1768307964288_v21k5py",
+    "name": "view",
+    "purpose": "vision",
+    "config": {
+      "api": "custom",
+      "model": "grok-3-image",
+      "endpointId": "ep_1768106212725_pdsw0a5",
+      "url": "https://api.laozhang.ai/"
+    },
+    "isDefault": true,
+    "createdAt": "2026-01-13T12:39:24.288Z",
+    "updatedAt": "2026-01-13T12:39:24.288Z"
+  },
+  {
+    "id": "preset_1768308049739_6nfjpyo",
+    "name": "embedding",
+    "purpose": "embedding",
+    "config": {
+      "api": "custom",
+      "model": "text-embedding-ada-002",
+      "endpointId": "ep_1768106212725_pdsw0a5",
+      "url": "https://api.laozhang.ai/"
+    },
+    "isDefault": true,
+    "createdAt": "2026-01-13T12:40:49.739Z",
+    "updatedAt": "2026-01-14T13:34:49.084Z"
+  }
+]

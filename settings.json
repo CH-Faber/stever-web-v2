@@ -1,0 +1,7 @@
+{
+  "host": "localhost",
+  "port": 25565,
+  "auth": "offline",
+  "version": "1.19.4",
+  "allowInsecureCoding": true
+}

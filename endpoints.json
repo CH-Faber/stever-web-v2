@@ -1,0 +1,11 @@
+[
+  {
+    "id": "ep_1768106212725_pdsw0a5",
+    "name": "LaoZhang API",
+    "baseUrl": "https://api.laozhang.ai/",
+    "apiKey": "sk-ymizxDW6dBPeLIX6B28fD809989543C3AbB728F5D147659b",
+    "apiFormat": "openai",
+    "createdAt": "2025-01-11T00:00:00.000Z",
+    "updatedAt": "2026-01-12T17:48:50.571Z"
+  }
+]
