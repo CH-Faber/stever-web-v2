@@ -3,7 +3,8 @@
 # Deployment script for stever-web-v2
 # Usage: ./deploy.sh [update|full]
 
-set -e
+# Remove 'set -e' to allow git pull to fail without stopping the script
+# set -e
 
 PROJECT_DIR="/var/www/stever-web-v2"
 NGINX_CONF="mc.faberhu.top"
@@ -47,19 +48,24 @@ full_deploy() {
     
     # Pull latest code
     log_info "Pulling latest code from git..."
-    git pull
+    if git pull; then
+        log_info "Code updated successfully"
+    else
+        log_warn "Git pull failed, continuing with existing code..."
+        log_warn "To fix this, see: nginx/GIT_SETUP.md"
+    fi
     
     # Install and build server
     log_info "Building server..."
     cd server
-    npm install
-    npm run build
+    npm install || { log_error "Server npm install failed"; exit 1; }
+    npm run build || { log_error "Server build failed"; exit 1; }
     
     # Install and build client
     log_info "Building client..."
     cd ../client
-    npm install
-    npm run build
+    npm install || { log_error "Client npm install failed"; exit 1; }
+    npm run build || { log_error "Client build failed"; exit 1; }
     
     # Setup Nginx if not already configured
     if [ ! -f "/etc/nginx/sites-enabled/$NGINX_CONF" ]; then
@@ -92,19 +98,24 @@ update_deploy() {
     
     # Pull latest code
     log_info "Pulling latest code from git..."
-    git pull
+    if git pull; then
+        log_info "Code updated successfully"
+    else
+        log_warn "Git pull failed, continuing with existing code..."
+        log_warn "To fix this, see: nginx/GIT_SETUP.md"
+    fi
     
     # Build server
     log_info "Building server..."
     cd server
-    npm install
-    npm run build
+    npm install || { log_error "Server npm install failed"; exit 1; }
+    npm run build || { log_error "Server build failed"; exit 1; }
     
     # Build client
     log_info "Building client..."
     cd ../client
-    npm install
-    npm run build
+    npm install || { log_error "Client npm install failed"; exit 1; }
+    npm run build || { log_error "Client build failed"; exit 1; }
     
     # Restart PM2 process
     log_info "Restarting backend service..."
