@@ -159,7 +159,7 @@ router.put('/:id', async (req: Request<{ id: string }, {}, UpdateBotRequest>, re
     }
     
     // Build merged profile with proper types for validation
-    const mergedProfile: Partial<BotProfile> = {
+    const mergedProfile = {
       ...existingBot,
       ...data,
       // Merge modes properly - ensure all boolean fields are defined
@@ -167,7 +167,7 @@ router.put('/:id', async (req: Request<{ id: string }, {}, UpdateBotRequest>, re
         ...existingBot.modes,
         ...data.modes,
       } : existingBot.modes,
-    };
+    } as BotProfile;
     
     const validation = validateBotProfile(mergedProfile);
     
@@ -187,13 +187,13 @@ router.put('/:id', async (req: Request<{ id: string }, {}, UpdateBotRequest>, re
     }
     
     // Build update data with properly merged modes
-    const updateData: Partial<BotProfile> = {
+    const updateData = {
       ...data,
       modes: data.modes ? {
         ...existingBot.modes,
         ...data.modes,
       } : undefined,
-    };
+    } as Partial<BotProfile>;
     
     const bot = await updateBotProfile(id, updateData);
     
