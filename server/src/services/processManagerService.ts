@@ -10,6 +10,7 @@ import { getAPIKeyByProvider, getAllAPIKeys } from './apiKeyService.js';
 import { getEndpointById } from './endpointService.js';
 import { getSettings } from './settingsService.js';
 import { LLM_PROVIDER_INFO } from '../../../shared/types/index.js';
+import * as logStorage from './logStorageService.js';
 
 // Mindcraft main.js path - can be configured via environment variable
 const MINDCRAFT_PATH = process.env.MINDCRAFT_PATH || path.join(process.cwd(), '..');
@@ -174,6 +175,11 @@ function addLogEntry(botId: string, level: LogLevel, message: string, source: st
   if (state.logs.length > 1000) {
     state.logs = state.logs.slice(-1000);
   }
+  
+  // 持久化日志到文件
+  logStorage.writeLogEntry(botId, log).catch(err => {
+    console.error(`[LogStorage] Failed to write log: ${err}`);
+  });
   
   if (onLogMessage) {
     onLogMessage(botId, log);
@@ -467,14 +473,24 @@ async function convertProfileToMindcraft(profile: BotProfile): Promise<{ profile
   const mainModel = await convertModelConfigToMindcraft(profile.model);
   if (mainModel.customApiKey) customApiKeys.push(mainModel.customApiKey);
   
+  // IMPORTANT: Do NOT include conversing, coding, saving_memory here!
+  // These prompts contain critical placeholders like $COMMAND_DOCS, $EXAMPLES, etc.
+  // that are defined in mindcraft's _default.json. If we override them with simple
+  // text, the bot won't know about available commands and won't use !commands.
+  // Let mindcraft use its default prompts from profiles/defaults/_default.json
   const mindcraftProfile: Record<string, unknown> = {
     name: profile.name,
     model: mainModel.config,
-    conversing: profile.conversing,
-    coding: profile.coding,
-    saving_memory: profile.saving_memory,
     modes: profile.modes,
   };
+
+  // Add behavior settings if provided (these override settings.js values per-bot)
+  if (profile.behavior) {
+    // cooldown is a profile-level setting in mindcraft
+    if (profile.behavior.cooldown !== undefined) {
+      mindcraftProfile.cooldown = profile.behavior.cooldown;
+    }
+  }
 
   if (profile.codeModel) {
     const codeModel = await convertModelConfigToMindcraft(profile.codeModel);
@@ -503,6 +519,9 @@ async function convertProfileToMindcraft(profile: BotProfile): Promise<{ profile
         if (endpoint.apiKey && !customApiKeys.includes(endpoint.apiKey)) {
           customApiKeys.push(endpoint.apiKey);
         }
+      } else {
+        // Endpoint not found, skip embedding config
+        console.warn(`[Mindcraft] Embedding endpoint ${profile.embedding.endpointId} not found, skipping embedding config`);
       }
     } else if (profile.embedding.api === 'custom' && profile.embedding.url) {
       mindcraftProfile.embedding = {
@@ -510,6 +529,9 @@ async function convertProfileToMindcraft(profile: BotProfile): Promise<{ profile
         model: profile.embedding.model,
         url: normalizeApiUrl(profile.embedding.url),
       };
+    } else if (profile.embedding.api === 'custom') {
+      // Custom API without endpoint or URL - skip embedding to use default
+      console.warn(`[Mindcraft] Embedding has custom API but no endpoint/url, skipping embedding config`);
     } else {
       mindcraftProfile.embedding = {
         api: profile.embedding.api,
@@ -559,8 +581,33 @@ async function syncKeysToMindcraft(customApiKeys: string[] = []): Promise<Record
   return mindcraftKeys;
 }
 
-async function buildSettingsEnv(): Promise<string> {
+async function buildSettingsEnv(behaviorOverrides?: Record<string, unknown>): Promise<string> {
   const settings = await getSettings();
+  
+  // Default behavior settings
+  const defaultBehavior = {
+    load_memory: true,  // ✅ 默认启用记忆加载
+    allow_vision: false,
+    code_timeout_mins: -1,
+    relevant_docs_count: 5,
+    max_messages: 15,
+    num_examples: 2,
+    max_commands: -1,
+    narrate_behavior: true,
+    chat_bot_messages: true,
+    language: 'zh-CN',
+    init_message: 'Respond with hello world and your name',
+    only_chat_with: [] as string[],
+    speak: false,
+    chat_ingame: true,
+    show_command_syntax: 'full',
+    spawn_timeout: 30,
+    block_place_delay: 0,
+    base_profile: 'assistant',
+  };
+  
+  // Merge with overrides from bot behavior settings
+  const behavior = { ...defaultBehavior, ...behaviorOverrides };
   
   const mindcraftSettings: Record<string, unknown> = {
     minecraft_version: settings.version,
@@ -569,6 +616,35 @@ async function buildSettingsEnv(): Promise<string> {
     auth: settings.auth,
     allow_insecure_coding: settings.allowInsecureCoding,
     auto_open_ui: false,
+    
+    // Critical settings
+    base_profile: behavior.base_profile,
+    load_memory: behavior.load_memory,
+    init_message: behavior.init_message,
+    only_chat_with: behavior.only_chat_with,
+    
+    // Bot behavior settings
+    speak: behavior.speak,
+    chat_ingame: behavior.chat_ingame,
+    language: behavior.language,
+    render_bot_view: false,
+    allow_vision: behavior.allow_vision,
+    blocked_actions: ["!checkBlueprint", "!checkBlueprintLevel", "!getBlueprint", "!getBlueprintLevel"],
+    code_timeout_mins: behavior.code_timeout_mins,
+    relevant_docs_count: behavior.relevant_docs_count,
+    
+    // Message and command settings
+    max_messages: behavior.max_messages,
+    num_examples: behavior.num_examples,
+    max_commands: behavior.max_commands,
+    show_command_syntax: behavior.show_command_syntax,
+    narrate_behavior: behavior.narrate_behavior,
+    chat_bot_messages: behavior.chat_bot_messages,
+    
+    // Spawn and timing settings
+    spawn_timeout: behavior.spawn_timeout,
+    block_place_delay: behavior.block_place_delay,
+    log_all_prompts: false,
   };
   
   return JSON.stringify(mindcraftSettings);
@@ -598,12 +674,37 @@ async function startOrRestartMindcraftProcess(): Promise<{ success: boolean; err
   // Collect all profile paths and custom API keys
   const profilePaths: string[] = [];
   const allCustomApiKeys: string[] = [];
+  let firstBotBehavior: Record<string, unknown> | undefined;
 
   for (const botId of activeBotIds) {
     const profile = await getBotProfileById(botId);
     if (!profile) {
       console.log(`[Mindcraft] Profile not found for bot ${botId}, skipping`);
       continue;
+    }
+
+    // Use the first bot's behavior settings for global settings
+    if (!firstBotBehavior && profile.behavior) {
+      firstBotBehavior = {
+        load_memory: profile.behavior.load_memory,
+        allow_vision: profile.behavior.allow_vision,
+        code_timeout_mins: profile.behavior.code_timeout_mins,
+        relevant_docs_count: profile.behavior.relevant_docs_count,
+        max_messages: profile.behavior.max_messages,
+        num_examples: profile.behavior.num_examples,
+        max_commands: profile.behavior.max_commands,
+        narrate_behavior: profile.behavior.narrate_behavior,
+        chat_bot_messages: profile.behavior.chat_bot_messages,
+        language: profile.behavior.language,
+        init_message: profile.behavior.init_message,
+        only_chat_with: profile.behavior.only_chat_with,
+        speak: profile.behavior.speak,
+        chat_ingame: profile.behavior.chat_ingame,
+        show_command_syntax: profile.behavior.show_command_syntax,
+        spawn_timeout: profile.behavior.spawn_timeout,
+        block_place_delay: profile.behavior.block_place_delay,
+        base_profile: profile.behavior.base_profile,
+      };
     }
 
     const { profilePath, customApiKeys } = await syncProfileToMindcraft(profile);
@@ -628,8 +729,8 @@ async function startOrRestartMindcraftProcess(): Promise<{ success: boolean; err
   // Sync API keys
   const apiKeys = await syncKeysToMindcraft(allCustomApiKeys);
   
-  // Build settings
-  const settingsJson = await buildSettingsEnv();
+  // Build settings with behavior overrides from first bot
+  const settingsJson = await buildSettingsEnv(firstBotBehavior);
   console.log(`[Mindcraft] Using settings: ${settingsJson}`);
 
   // Build command arguments with all profiles
@@ -817,6 +918,11 @@ export async function startBot(botId: string, _taskId?: string): Promise<{ succe
   // Add to active bots
   activeBotIds.add(botId);
   
+  // 开始新的日志会话
+  await logStorage.startLogSession(botId, profile.name).catch(err => {
+    console.error(`[LogStorage] Failed to start log session: ${err}`);
+  });
+  
   addLogEntry(botId, 'info', 'Starting bot...', 'system');
 
   // Start or restart the Mindcraft process with all active bots
@@ -867,6 +973,11 @@ export async function stopBot(botId: string): Promise<{ success: boolean; error?
 
   updateBotStatus(botId, { status: 'offline' });
   addLogEntry(botId, 'info', 'Bot stopped', 'system');
+
+  // 结束日志会话
+  await logStorage.endLogSession(botId).catch(err => {
+    console.error(`[LogStorage] Failed to end log session: ${err}`);
+  });
 
   // Clean up bot state after a delay
   setTimeout(() => {

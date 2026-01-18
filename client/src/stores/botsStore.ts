@@ -22,6 +22,7 @@ interface BotsState {
   removeBot: (id: string) => void;
   setBotStatus: (botId: string, status: BotStatus) => void;
   addBotLog: (botId: string, log: LogEntry) => void;
+  setBotLogs: (botId: string, logs: LogEntry[]) => void;
   clearBotLogs: (botId: string) => void;
   setBotPosition: (botId: string, position: Position) => void;
   setBotInventory: (botId: string, inventory: InventoryItem[]) => void;
@@ -81,6 +82,13 @@ export const useBotsStore = create<BotsState>((set, get) => ({
     botLogs: {
       ...state.botLogs,
       [botId]: [...(state.botLogs[botId] || []), log].slice(-500), // Keep last 500 logs
+    },
+  })),
+
+  setBotLogs: (botId, logs) => set((state) => ({
+    botLogs: {
+      ...state.botLogs,
+      [botId]: logs.slice(-500), // Keep last 500 logs
     },
   })),
 

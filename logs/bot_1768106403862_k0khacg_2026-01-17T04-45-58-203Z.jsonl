@@ -1,0 +1,72 @@
+{"type":"session_start","sessionId":"bot_1768106403862_k0khacg_2026-01-17T04-45-58-203Z","botId":"bot_1768106403862_k0khacg","botName":"Stever01","startTime":"2026-01-17T04:45:58.204Z"}
+{"type":"log","timestamp":"2026-01-17T04:45:58.221Z","level":"info","message":"Starting bot...","source":"system"}
+{"type":"log","timestamp":"2026-01-17T04:45:59.002Z","level":"info","message":"MindServer running on port 8080","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:45:59.032Z","level":"info","message":"MC server found. (Host: localhost, Port: 25565, Version: 1.19.4)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:45:59.560Z","level":"info","message":"Bot started successfully","source":"system"}
+{"type":"log","timestamp":"2026-01-17T04:46:00.038Z","level":"info","message":"Connecting to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:00.076Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:00.081Z","level":"info","message":"Stever01 connected to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:00.083Z","level":"info","message":"Starting agent","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:00.086Z","level":"info","message":"Initializing agent Stever01...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:02.726Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:03.656Z","level":"info","message":"Examples initialized.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:03.658Z","level":"info","message":"No task.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:03.659Z","level":"info","message":"Stever01 logging into minecraft...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:05.206Z","level":"info","message":"Stever01 logged in!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:05.232Z","level":"info","message":"Stever01 updating available agents","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:07.317Z","level":"info","message":"Initializing vision intepreter...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:08.324Z","level":"info","message":"Stever01 spawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:08.765Z","level":"info","message":"received message from system : Respond with hello world and your name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:08.767Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:10.373Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:10.375Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:10.376Z","level":"info","message":"Example: miner_32: Hey! What are you up to?","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:10.376Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.104Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.106Z","level":"info","message":"Generated response: Hello world, I'm Stever01! !stats","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.106Z","level":"info","message":"Stever01 full response to system: \"\"Hello world, I'm Stever01! !stats\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.111Z","level":"info","message":"parsed command: { commandName: '!stats', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.114Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.116Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.114Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.116Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.115Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.116Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.117Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.116Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.119Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.118Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.120Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.120Z","level":"error","message":"at async Agent._setupEventHandlers (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:214:13) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.121Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.127Z","level":"info","message":"Agent executed: !stats and got:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.129Z","level":"info","message":"- Position: x: -36.50, y: 61.00, z: 48.40","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.129Z","level":"info","message":"- Gamemode: survival","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.128Z","level":"info","message":"STATS","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.130Z","level":"info","message":"- Health: 19 / 20","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.130Z","level":"info","message":"- Biome: desert","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.130Z","level":"info","message":"- Weather: Clear","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.131Z","level":"info","message":"- Time: Morning- Current Action: Idle","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.132Z","level":"info","message":"- Nearby Bot Players: None.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.131Z","level":"info","message":"- Nearby Human Players: None.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.130Z","level":"info","message":"- Hunger: 17 / 20","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.133Z","level":"info","message":"- self_preservation(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.135Z","level":"info","message":"- self_defense(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.134Z","level":"info","message":"- unstuck(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.135Z","level":"info","message":"- cowardice(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.133Z","level":"info","message":"Agent Modes:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.135Z","level":"info","message":"- hunting(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.135Z","level":"info","message":"- torch_placing(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.135Z","level":"info","message":"- item_collecting(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.135Z","level":"info","message":"- elbow_room(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.136Z","level":"info","message":"- idle_staring(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.137Z","level":"info","message":"- cheat(OFF)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:12.137Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:13.097Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:13.098Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:13.099Z","level":"info","message":"Example: set a goal to build whatever you want endlessly (context: you are in creative mode)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:13.099Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:14.646Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:14.650Z","level":"info","message":"Generated response:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:46:14.648Z","level":"error","message":"no response","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:46:14.651Z","level":"info","message":"Stever01 full response to system: \"\"\t\"\"","source":"stdout"}

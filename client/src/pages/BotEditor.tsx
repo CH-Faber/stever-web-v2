@@ -3,7 +3,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { 
   Bot, ArrowLeft, Save, X, Trash2, AlertTriangle,
   MessageSquare, Code, Brain, Settings, Volume2,
-  ChevronDown, ChevronUp
+  ChevronDown, ChevronUp, RotateCcw, Sliders, Clock, Eye
 } from 'lucide-react';
 import { ModelSelector, PresetSelector } from '../components/bots';
 import { botsApi } from '../api/bots';
@@ -12,6 +12,7 @@ import type {
   ModelConfig, 
   EmbeddingConfig, 
   BotModes,
+  BotBehaviorSettings,
   CreateBotRequest,
   UpdateBotRequest 
 } from '../../../shared/types';
@@ -19,6 +20,33 @@ import type {
 const DEFAULT_MODEL_CONFIG: ModelConfig = {
   api: '',
   model: '',
+};
+
+// Default prompts from mindcraft's _default.json
+const DEFAULT_PROMPTS = {
+  conversing: `You are an AI Minecraft bot named $NAME that can converse with players, see, move, mine, build, and interact with the world by using commands.
+$SELF_PROMPT Be a friendly, casual, effective, and efficient robot. Be very brief in your responses, don't apologize constantly, don't give instructions or make lists unless asked, and don't refuse requests. Don't pretend to act, use commands immediately when requested. Do NOT say this: 'Sure, I've stopped. *stops*', instead say this: 'Sure, I'll stop. !stop'. Respond only as $NAME, never output '(FROM OTHER BOT)' or pretend to be someone else. If you have nothing to say or do, respond with an just a tab '\\t'. This is extremely important to me, take a deep breath and have fun :)
+Summarized memory:'$MEMORY'
+$STATS
+$INVENTORY
+$COMMAND_DOCS
+$EXAMPLES
+Conversation Begin:`,
+
+  coding: `You are an intelligent mineflayer bot $NAME that plays minecraft by writing javascript codeblocks. Given the conversation, use the provided skills and world functions to write a js codeblock that controls the mineflayer bot \`\`\` // using this syntax \`\`\`. The code will be executed and you will receive it's output. If an error occurs, write another codeblock and try to fix the problem. Be maximally efficient, creative, and correct. Be mindful of previous actions. Do not use commands !likeThis, only use codeblocks. The code is asynchronous and MUST USE AWAIT for all async function calls, and must contain at least one await. You have \`Vec3\`, \`skills\`, and \`world\` imported, and the mineflayer \`bot\` is given. Do not import other libraries. Do not use setTimeout or setInterval. Do not speak conversationally, only use codeblocks. Do any planning in comments. This is extremely important to me, think step-by-step, take a deep breath and good luck! 
+$SELF_PROMPT
+Summarized memory:'$MEMORY'
+$STATS
+$INVENTORY
+$CODE_DOCS
+$EXAMPLES
+Conversation:`,
+
+  saving_memory: `You are a minecraft bot named $NAME that has been talking and playing minecraft by using commands. Update your memory by summarizing the following conversation and your old memory in your next response. Prioritize preserving important facts, things you've learned, useful tips, and long term reminders. Do Not record stats, inventory, or docs! Only save transient information from your chat history. You're limited to 500 characters, so be extremely brief and minimize words. Compress useful information. 
+Old Memory: '$MEMORY'
+Recent conversation: 
+$TO_SUMMARIZE
+Summarize your old memory and recent conversation into a new memory, and respond only with the unwrapped memory text: `,
 };
 
 const DEFAULT_EMBEDDING_CONFIG: EmbeddingConfig = {
@@ -38,6 +66,173 @@ const DEFAULT_BOT_MODES: BotModes = {
   cheat: false,
 };
 
+// Default behavior settings from mindcraft
+const DEFAULT_BEHAVIOR: BotBehaviorSettings = {
+  cooldown: 3000,
+  max_messages: 15,
+  num_examples: 2,
+  max_commands: -1,
+  relevant_docs_count: 5,
+  code_timeout_mins: -1,
+  narrate_behavior: true,
+  chat_bot_messages: true,
+  load_memory: true,  // ✅ 默认启用记忆加载
+  allow_vision: false,
+  language: 'zh-CN',
+  init_message: 'Respond with hello world and your name',
+  only_chat_with: [],
+  speak: false,
+  chat_ingame: true,
+  show_command_syntax: 'full',
+  spawn_timeout: 30,
+  block_place_delay: 0,
+  base_profile: 'assistant',
+};
+
+// Common language options
+const LANGUAGE_OPTIONS = [
+  { value: 'en', label: 'English' },
+  { value: 'zh-CN', label: '中文（简体）' },
+  { value: 'zh-TW', label: '中文（繁體）' },
+  { value: 'ja', label: '日本語' },
+  { value: 'ko', label: '한국어' },
+  { value: 'es', label: 'Español' },
+  { value: 'fr', label: 'Français' },
+  { value: 'de', label: 'Deutsch' },
+  { value: 'ru', label: 'Русский' },
+  { value: 'pt', label: 'Português' },
+];
+
+// Base profile options
+const BASE_PROFILE_OPTIONS = [
+  { value: 'survival', label: '生存模式', description: '标准生存玩法' },
+  { value: 'assistant', label: '助手模式', description: '友好的助手行为（推荐）' },
+  { value: 'creative', label: '创造模式', description: '创造性建造' },
+  { value: 'god_mode', label: '上帝模式', description: '全能力解锁' },
+];
+
+// Command syntax options
+const COMMAND_SYNTAX_OPTIONS = [
+  { value: 'full', label: '完整显示' },
+  { value: 'shortened', label: '简化显示' },
+  { value: 'none', label: '不显示' },
+];
+
+// Behavior setting descriptions
+const BEHAVIOR_DESCRIPTIONS: Record<keyof BotBehaviorSettings, { label: string; description: string; type: 'number' | 'boolean' | 'select' | 'text' | 'array'; min?: number; max?: number }> = {
+  cooldown: {
+    label: '响应冷却 (ms)',
+    description: '两次响应之间的最小间隔时间',
+    type: 'number',
+    min: 0,
+    max: 30000,
+  },
+  max_messages: {
+    label: '最大消息数',
+    description: '上下文中保留的最大消息数量',
+    type: 'number',
+    min: 1,
+    max: 100,
+  },
+  num_examples: {
+    label: '示例数量',
+    description: '提供给模型的示例对话数量',
+    type: 'number',
+    min: 0,
+    max: 10,
+  },
+  max_commands: {
+    label: '最大连续命令',
+    description: '连续响应中可使用的最大命令数 (-1 为无限)',
+    type: 'number',
+    min: -1,
+    max: 100,
+  },
+  relevant_docs_count: {
+    label: '相关文档数',
+    description: '选择的相关代码文档数量 (-1 为全部)',
+    type: 'number',
+    min: -1,
+    max: 20,
+  },
+  code_timeout_mins: {
+    label: '代码超时 (分钟)',
+    description: '代码执行的超时时间 (-1 为无限)',
+    type: 'number',
+    min: -1,
+    max: 60,
+  },
+  spawn_timeout: {
+    label: '生成超时 (秒)',
+    description: '机器人生成的超时时间',
+    type: 'number',
+    min: 10,
+    max: 120,
+  },
+  block_place_delay: {
+    label: '放置延迟 (ms)',
+    description: '放置方块之间的延迟，防止被反作弊踢出',
+    type: 'number',
+    min: 0,
+    max: 1000,
+  },
+  narrate_behavior: {
+    label: '叙述行为',
+    description: '在聊天中显示自动行为（如"正在拾取物品！"）',
+    type: 'boolean',
+  },
+  chat_bot_messages: {
+    label: '机器人消息',
+    description: '公开聊天发送给其他机器人的消息',
+    type: 'boolean',
+  },
+  load_memory: {
+    label: '加载记忆',
+    description: '从上次会话加载记忆',
+    type: 'boolean',
+  },
+  allow_vision: {
+    label: '启用视觉',
+    description: '允许视觉模型分析截图',
+    type: 'boolean',
+  },
+  speak: {
+    label: '语音合成',
+    description: '启用文字转语音功能',
+    type: 'boolean',
+  },
+  chat_ingame: {
+    label: '游戏内聊天',
+    description: '在 Minecraft 聊天中显示机器人回复',
+    type: 'boolean',
+  },
+  language: {
+    label: '语言',
+    description: '机器人对话和翻译使用的语言',
+    type: 'select',
+  },
+  show_command_syntax: {
+    label: '命令语法',
+    description: '命令语法的显示方式',
+    type: 'select',
+  },
+  base_profile: {
+    label: '基础配置',
+    description: '机器人的基础行为配置',
+    type: 'select',
+  },
+  init_message: {
+    label: '初始消息',
+    description: '机器人生成时发送的第一条消息',
+    type: 'text',
+  },
+  only_chat_with: {
+    label: '仅与特定玩家聊天',
+    description: '留空表示公开聊天，填写玩家名用逗号分隔',
+    type: 'array',
+  },
+};
+
 interface FormState {
   name: string;
   model: ModelConfig;
@@ -53,6 +248,7 @@ interface FormState {
   coding: string;
   saving_memory: string;
   modes: BotModes;
+  behavior: BotBehaviorSettings;
 }
 
 // Mode descriptions for UI
@@ -107,11 +303,12 @@ export function BotEditor() {
   const [error, setError] = useState<string | null>(null);
   const [showDeleteConfirm, setShowDeleteConfirm] = useState(false);
   
-  // Collapsible sections state
+  // Collapsible sections state - modes first (most important), prompts second, models last
   const [expandedSections, setExpandedSections] = useState({
-    models: true,
+    modes: true,
+    behavior: false,
     prompts: false,
-    modes: false,
+    models: false,
   });
   
   const toggleSection = (section: keyof typeof expandedSections) => {
@@ -133,6 +330,7 @@ export function BotEditor() {
     coding: '',
     saving_memory: '',
     modes: { ...DEFAULT_BOT_MODES },
+    behavior: { ...DEFAULT_BEHAVIOR },
   });
 
   useEffect(() => {
@@ -161,12 +359,14 @@ export function BotEditor() {
         coding: bot.coding || '',
         saving_memory: bot.saving_memory || '',
         modes: bot.modes || { ...DEFAULT_BOT_MODES },
+        behavior: bot.behavior || { ...DEFAULT_BEHAVIOR },
       });
-      // Expand sections that have content
+      // Expand sections that have content - modes always expanded
       setExpandedSections({
-        models: true,
-        prompts: !!(bot.conversing || bot.coding || bot.saving_memory),
         modes: true,
+        behavior: false,
+        prompts: !!(bot.conversing || bot.coding || bot.saving_memory),
+        models: true,
       });
     } catch (err) {
       setError(err instanceof Error ? err.message : '加载机器人配置失败');
@@ -206,10 +406,12 @@ export function BotEditor() {
         visionModel: form.visionModelEnabled ? form.visionModel : undefined,
         embedding: form.embeddingEnabled ? form.embedding : undefined,
         speakModel: form.speakModelEnabled ? form.speakModel : undefined,
-        conversing: form.conversing || undefined,
-        coding: form.coding || undefined,
-        saving_memory: form.saving_memory || undefined,
+        // Only save prompts if they differ from defaults (empty = use mindcraft defaults)
+        conversing: form.conversing && form.conversing !== DEFAULT_PROMPTS.conversing ? form.conversing : undefined,
+        coding: form.coding && form.coding !== DEFAULT_PROMPTS.coding ? form.coding : undefined,
+        saving_memory: form.saving_memory && form.saving_memory !== DEFAULT_PROMPTS.saving_memory ? form.saving_memory : undefined,
         modes: form.modes,
+        behavior: form.behavior,
       };
 
       if (isNew) {
@@ -300,7 +502,387 @@ export function BotEditor() {
           </div>
         </div>
 
-        {/* Model Configurations */}
+        {/* 1. Modes Configuration - Most Important */}
+        <div className="border border-border rounded-lg overflow-hidden">
+          <button
+            type="button"
+            onClick={() => toggleSection('modes')}
+            className="w-full flex items-center justify-between p-md bg-background-secondary hover:bg-background-tertiary transition-colors"
+          >
+            <div className="flex items-center gap-sm">
+              <Settings size={18} strokeWidth={1.5} className="text-text-secondary" />
+              <h3 className="text-lg font-medium text-text-primary">行为模式</h3>
+              <span className="text-xs text-text-muted">控制机器人的自动行为（最重要）</span>
+            </div>
+            {expandedSections.modes ? (
+              <ChevronUp size={18} strokeWidth={1.5} className="text-text-secondary" />
+            ) : (
+              <ChevronDown size={18} strokeWidth={1.5} className="text-text-secondary" />
+            )}
+          </button>
+          
+          {expandedSections.modes && (
+            <div className="p-md border-t border-border">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-md">
+                {(Object.keys(MODE_DESCRIPTIONS) as Array<keyof BotModes>).map((modeKey) => {
+                  const { label, description } = MODE_DESCRIPTIONS[modeKey];
+                  const isCheat = modeKey === 'cheat';
+                  return (
+                    <div 
+                      key={modeKey}
+                      className={`flex items-start gap-sm p-sm rounded-md border ${
+                        isCheat ? 'border-status-warning/30 bg-status-warning/5' : 'border-border'
+                      }`}
+                    >
+                      <input
+                        type="checkbox"
+                        checked={form.modes[modeKey]}
+                        onChange={(e) => setForm({
+                          ...form,
+                          modes: { ...form.modes, [modeKey]: e.target.checked }
+                        })}
+                        className={`w-4 h-4 mt-0.5 rounded border-border focus:ring-accent ${
+                          isCheat ? 'text-status-warning' : 'text-accent'
+                        }`}
+                      />
+                      <div className="flex-1 min-w-0">
+                        <div className="flex items-center gap-xs">
+                          <span className={`text-sm font-medium ${
+                            isCheat ? 'text-status-warning' : 'text-text-primary'
+                          }`}>
+                            {label}
+                          </span>
+                          {isCheat && (
+                            <AlertTriangle size={12} strokeWidth={1.5} className="text-status-warning" />
+                          )}
+                        </div>
+                        <p className="text-xs text-text-muted">{description}</p>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* 2. Behavior Settings */}
+        <div className="border border-border rounded-lg overflow-hidden">
+          <button
+            type="button"
+            onClick={() => toggleSection('behavior')}
+            className="w-full flex items-center justify-between p-md bg-background-secondary hover:bg-background-tertiary transition-colors"
+          >
+            <div className="flex items-center gap-sm">
+              <Sliders size={18} strokeWidth={1.5} className="text-text-secondary" />
+              <h3 className="text-lg font-medium text-text-primary">行为设置</h3>
+              <span className="text-xs text-text-muted">响应、消息、代码执行等参数</span>
+            </div>
+            {expandedSections.behavior ? (
+              <ChevronUp size={18} strokeWidth={1.5} className="text-text-secondary" />
+            ) : (
+              <ChevronDown size={18} strokeWidth={1.5} className="text-text-secondary" />
+            )}
+          </button>
+          
+          {expandedSections.behavior && (
+            <div className="p-md space-y-md border-t border-border">
+              {/* Number inputs */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-md">
+                {(Object.keys(BEHAVIOR_DESCRIPTIONS) as Array<keyof BotBehaviorSettings>)
+                  .filter(key => BEHAVIOR_DESCRIPTIONS[key].type === 'number')
+                  .map((key) => {
+                    const { label, description, min, max } = BEHAVIOR_DESCRIPTIONS[key];
+                    return (
+                      <div key={key} className="space-y-xs">
+                        <div className="flex items-center gap-sm">
+                          <Clock size={14} strokeWidth={1.5} className="text-text-secondary" />
+                          <label className="text-sm font-medium text-text-secondary">{label}</label>
+                        </div>
+                        <input
+                          type="number"
+                          value={form.behavior[key] as number}
+                          onChange={(e) => setForm({
+                            ...form,
+                            behavior: { ...form.behavior, [key]: parseInt(e.target.value) || 0 }
+                          })}
+                          min={min}
+                          max={max}
+                          className="w-full px-md py-sm bg-background-primary border border-border rounded-md text-text-primary focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+                        />
+                        <p className="text-xs text-text-muted">{description}</p>
+                      </div>
+                    );
+                  })}
+              </div>
+
+              {/* Boolean toggles */}
+              <div className="border-t border-border pt-md">
+                <h4 className="text-sm font-medium text-text-secondary mb-md flex items-center gap-sm">
+                  <Eye size={14} strokeWidth={1.5} />
+                  功能开关
+                </h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-md">
+                  {(Object.keys(BEHAVIOR_DESCRIPTIONS) as Array<keyof BotBehaviorSettings>)
+                    .filter(key => BEHAVIOR_DESCRIPTIONS[key].type === 'boolean')
+                    .map((key) => {
+                      const { label, description } = BEHAVIOR_DESCRIPTIONS[key];
+                      return (
+                        <div key={key} className="flex items-start gap-sm p-sm rounded-md border border-border">
+                          <input
+                            type="checkbox"
+                            checked={form.behavior[key] as boolean}
+                            onChange={(e) => setForm({
+                              ...form,
+                              behavior: { ...form.behavior, [key]: e.target.checked }
+                            })}
+                            className="w-4 h-4 mt-0.5 rounded border-border text-accent focus:ring-accent"
+                          />
+                          <div className="flex-1 min-w-0">
+                            <span className="text-sm font-medium text-text-primary">{label}</span>
+                            <p className="text-xs text-text-muted">{description}</p>
+                          </div>
+                        </div>
+                      );
+                    })}
+                </div>
+              </div>
+
+              {/* Language selector */}
+              <div className="border-t border-border pt-md">
+                <h4 className="text-sm font-medium text-text-secondary mb-md">选项设置</h4>
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-md">
+                  {/* Base Profile */}
+                  <div className="space-y-xs">
+                    <label className="text-sm font-medium text-text-secondary">基础配置</label>
+                    <select
+                      value={form.behavior.base_profile}
+                      onChange={(e) => setForm({
+                        ...form,
+                        behavior: { ...form.behavior, base_profile: e.target.value as 'survival' | 'assistant' | 'creative' | 'god_mode' }
+                      })}
+                      className="w-full px-md py-sm bg-background-primary border border-border rounded-md text-text-primary focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+                    >
+                      {BASE_PROFILE_OPTIONS.map(opt => (
+                        <option key={opt.value} value={opt.value}>{opt.label}</option>
+                      ))}
+                    </select>
+                    <p className="text-xs text-text-muted">机器人的基础行为配置</p>
+                  </div>
+
+                  {/* Language */}
+                  <div className="space-y-xs">
+                    <label className="text-sm font-medium text-text-secondary">语言</label>
+                    <select
+                      value={form.behavior.language}
+                      onChange={(e) => setForm({
+                        ...form,
+                        behavior: { ...form.behavior, language: e.target.value }
+                      })}
+                      className="w-full px-md py-sm bg-background-primary border border-border rounded-md text-text-primary focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+                    >
+                      {LANGUAGE_OPTIONS.map(opt => (
+                        <option key={opt.value} value={opt.value}>{opt.label}</option>
+                      ))}
+                    </select>
+                    <p className="text-xs text-text-muted">机器人对话和翻译使用的语言</p>
+                  </div>
+
+                  {/* Command Syntax */}
+                  <div className="space-y-xs">
+                    <label className="text-sm font-medium text-text-secondary">命令语法显示</label>
+                    <select
+                      value={form.behavior.show_command_syntax}
+                      onChange={(e) => setForm({
+                        ...form,
+                        behavior: { ...form.behavior, show_command_syntax: e.target.value as 'full' | 'shortened' | 'none' }
+                      })}
+                      className="w-full px-md py-sm bg-background-primary border border-border rounded-md text-text-primary focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+                    >
+                      {COMMAND_SYNTAX_OPTIONS.map(opt => (
+                        <option key={opt.value} value={opt.value}>{opt.label}</option>
+                      ))}
+                    </select>
+                    <p className="text-xs text-text-muted">命令语法的显示方式</p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Text inputs */}
+              <div className="border-t border-border pt-md space-y-md">
+                <h4 className="text-sm font-medium text-text-secondary">消息设置</h4>
+                
+                {/* Init Message */}
+                <div className="space-y-xs">
+                  <label className="text-sm font-medium text-text-secondary">初始消息</label>
+                  <input
+                    type="text"
+                    value={form.behavior.init_message}
+                    onChange={(e) => setForm({
+                      ...form,
+                      behavior: { ...form.behavior, init_message: e.target.value }
+                    })}
+                    placeholder="机器人生成时发送的第一条消息"
+                    className="w-full px-md py-sm bg-background-primary border border-border rounded-md text-text-primary placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+                  />
+                  <p className="text-xs text-text-muted">机器人生成时发送的第一条消息</p>
+                </div>
+
+                {/* Only Chat With */}
+                <div className="space-y-xs">
+                  <label className="text-sm font-medium text-text-secondary">仅与特定玩家聊天</label>
+                  <input
+                    type="text"
+                    value={form.behavior.only_chat_with.join(', ')}
+                    onChange={(e) => setForm({
+                      ...form,
+                      behavior: { 
+                        ...form.behavior, 
+                        only_chat_with: e.target.value ? e.target.value.split(',').map(s => s.trim()).filter(Boolean) : []
+                      }
+                    })}
+                    placeholder="留空表示公开聊天，多个玩家用逗号分隔"
+                    className="w-full px-md py-sm bg-background-primary border border-border rounded-md text-text-primary placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent"
+                  />
+                  <p className="text-xs text-text-muted">留空表示公开聊天，填写玩家名用逗号分隔</p>
+                </div>
+              </div>
+
+              {/* Reset to defaults button */}
+              <div className="flex justify-end pt-sm">
+                <button
+                  type="button"
+                  onClick={() => setForm({ ...form, behavior: { ...DEFAULT_BEHAVIOR } })}
+                  className="flex items-center gap-xs px-sm py-xs text-xs text-text-muted hover:text-accent hover:bg-accent/10 rounded transition-colors"
+                >
+                  <RotateCcw size={12} strokeWidth={1.5} />
+                  <span>恢复默认设置</span>
+                </button>
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* 3. Prompts Configuration - Advanced (with warning) */}
+        <div className="border border-border rounded-lg overflow-hidden">
+          <button
+            type="button"
+            onClick={() => toggleSection('prompts')}
+            className="w-full flex items-center justify-between p-md bg-background-secondary hover:bg-background-tertiary transition-colors"
+          >
+            <div className="flex items-center gap-sm">
+              <MessageSquare size={18} strokeWidth={1.5} className="text-text-secondary" />
+              <h3 className="text-lg font-medium text-text-primary">提示词配置</h3>
+              <span className="text-xs px-xs py-0.5 bg-status-warning/20 text-status-warning rounded">高级</span>
+            </div>
+            {expandedSections.prompts ? (
+              <ChevronUp size={18} strokeWidth={1.5} className="text-text-secondary" />
+            ) : (
+              <ChevronDown size={18} strokeWidth={1.5} className="text-text-secondary" />
+            )}
+          </button>
+          
+          {expandedSections.prompts && (
+            <div className="p-md space-y-md border-t border-border">
+              {/* Info Notice */}
+              <div className="bg-accent/10 border border-accent/20 rounded-md p-md">
+                <div className="flex items-start gap-sm">
+                  <MessageSquare size={16} strokeWidth={1.5} className="text-accent mt-0.5 flex-shrink-0" />
+                  <div>
+                    <p className="text-sm text-accent font-medium">提示词说明</p>
+                    <p className="text-xs text-text-muted mt-xs">
+                      以下显示的是 mindcraft 默认提示词，包含关键的 $COMMAND_DOCS、$EXAMPLES 等占位符。
+                      如需自定义，请确保保留这些占位符以保证机器人正常工作。
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              {/* Conversing Prompt */}
+              <div>
+                <div className="flex items-center justify-between mb-xs">
+                  <div className="flex items-center gap-sm">
+                    <MessageSquare size={14} strokeWidth={1.5} className="text-text-secondary" />
+                    <label className="block text-sm font-medium text-text-secondary">
+                      对话提示词 (Conversing)
+                    </label>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setForm({ ...form, conversing: DEFAULT_PROMPTS.conversing })}
+                    className="flex items-center gap-xs px-xs py-0.5 text-xs text-text-muted hover:text-accent hover:bg-accent/10 rounded transition-colors"
+                    title="恢复默认"
+                  >
+                    <RotateCcw size={12} strokeWidth={1.5} />
+                    <span>恢复默认</span>
+                  </button>
+                </div>
+                <textarea
+                  value={form.conversing || DEFAULT_PROMPTS.conversing}
+                  onChange={(e) => setForm({ ...form, conversing: e.target.value })}
+                  rows={6}
+                  className="w-full px-md py-sm bg-background-primary border border-border rounded-md text-text-primary placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-y font-mono text-xs"
+                />
+              </div>
+
+              {/* Coding Prompt */}
+              <div>
+                <div className="flex items-center justify-between mb-xs">
+                  <div className="flex items-center gap-sm">
+                    <Code size={14} strokeWidth={1.5} className="text-text-secondary" />
+                    <label className="block text-sm font-medium text-text-secondary">
+                      编码提示词 (Coding)
+                    </label>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setForm({ ...form, coding: DEFAULT_PROMPTS.coding })}
+                    className="flex items-center gap-xs px-xs py-0.5 text-xs text-text-muted hover:text-accent hover:bg-accent/10 rounded transition-colors"
+                    title="恢复默认"
+                  >
+                    <RotateCcw size={12} strokeWidth={1.5} />
+                    <span>恢复默认</span>
+                  </button>
+                </div>
+                <textarea
+                  value={form.coding || DEFAULT_PROMPTS.coding}
+                  onChange={(e) => setForm({ ...form, coding: e.target.value })}
+                  rows={6}
+                  className="w-full px-md py-sm bg-background-primary border border-border rounded-md text-text-primary placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-y font-mono text-xs"
+                />
+              </div>
+
+              {/* Saving Memory Prompt */}
+              <div>
+                <div className="flex items-center justify-between mb-xs">
+                  <div className="flex items-center gap-sm">
+                    <Brain size={14} strokeWidth={1.5} className="text-text-secondary" />
+                    <label className="block text-sm font-medium text-text-secondary">
+                      记忆保存提示词 (Saving Memory)
+                    </label>
+                  </div>
+                  <button
+                    type="button"
+                    onClick={() => setForm({ ...form, saving_memory: DEFAULT_PROMPTS.saving_memory })}
+                    className="flex items-center gap-xs px-xs py-0.5 text-xs text-text-muted hover:text-accent hover:bg-accent/10 rounded transition-colors"
+                    title="恢复默认"
+                  >
+                    <RotateCcw size={12} strokeWidth={1.5} />
+                    <span>恢复默认</span>
+                  </button>
+                </div>
+                <textarea
+                  value={form.saving_memory || DEFAULT_PROMPTS.saving_memory}
+                  onChange={(e) => setForm({ ...form, saving_memory: e.target.value })}
+                  rows={4}
+                  className="w-full px-md py-sm bg-background-primary border border-border rounded-md text-text-primary placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-y font-mono text-xs"
+                />
+              </div>
+            </div>
+          )}
+        </div>
+
+        {/* 4. Model Configurations - Last */}
         <div className="border border-border rounded-lg overflow-hidden">
           <button
             type="button"
@@ -459,154 +1041,6 @@ export function BotEditor() {
                     支持 OpenAI 和 Google 的语音合成 API
                   </p>
                 </div>
-              </div>
-            </div>
-          )}
-        </div>
-
-        {/* Prompts Configuration */}
-        <div className="border border-border rounded-lg overflow-hidden">
-          <button
-            type="button"
-            onClick={() => toggleSection('prompts')}
-            className="w-full flex items-center justify-between p-md bg-background-secondary hover:bg-background-tertiary transition-colors"
-          >
-            <div className="flex items-center gap-sm">
-              <MessageSquare size={18} strokeWidth={1.5} className="text-text-secondary" />
-              <h3 className="text-lg font-medium text-text-primary">提示词配置</h3>
-              <span className="text-xs text-text-muted">自定义机器人的行为和响应方式</span>
-            </div>
-            {expandedSections.prompts ? (
-              <ChevronUp size={18} strokeWidth={1.5} className="text-text-secondary" />
-            ) : (
-              <ChevronDown size={18} strokeWidth={1.5} className="text-text-secondary" />
-            )}
-          </button>
-          
-          {expandedSections.prompts && (
-            <div className="p-md space-y-md border-t border-border">
-              {/* Conversing Prompt */}
-              <div>
-                <div className="flex items-center gap-sm mb-xs">
-                  <MessageSquare size={14} strokeWidth={1.5} className="text-text-secondary" />
-                  <label className="block text-sm font-medium text-text-secondary">
-                    对话提示词 (Conversing)
-                  </label>
-                </div>
-                <textarea
-                  value={form.conversing}
-                  onChange={(e) => setForm({ ...form, conversing: e.target.value })}
-                  placeholder="定义机器人在对话时的行为和性格，例如：You are a helpful Minecraft assistant who loves building and exploring."
-                  rows={4}
-                  className="w-full px-md py-sm bg-background-primary border border-border rounded-md text-text-primary placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-y"
-                />
-                <p className="text-xs text-text-muted mt-xs">
-                  影响机器人与玩家聊天时的响应风格
-                </p>
-              </div>
-
-              {/* Coding Prompt */}
-              <div>
-                <div className="flex items-center gap-sm mb-xs">
-                  <Code size={14} strokeWidth={1.5} className="text-text-secondary" />
-                  <label className="block text-sm font-medium text-text-secondary">
-                    编码提示词 (Coding)
-                  </label>
-                </div>
-                <textarea
-                  value={form.coding}
-                  onChange={(e) => setForm({ ...form, coding: e.target.value })}
-                  placeholder="定义机器人生成代码时的行为，例如：You are a coding assistant for Minecraft bots. Write efficient and safe code."
-                  rows={4}
-                  className="w-full px-md py-sm bg-background-primary border border-border rounded-md text-text-primary placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-y"
-                />
-                <p className="text-xs text-text-muted mt-xs">
-                  影响机器人使用 newAction 生成代码时的行为
-                </p>
-              </div>
-
-              {/* Saving Memory Prompt */}
-              <div>
-                <div className="flex items-center gap-sm mb-xs">
-                  <Brain size={14} strokeWidth={1.5} className="text-text-secondary" />
-                  <label className="block text-sm font-medium text-text-secondary">
-                    记忆保存提示词 (Saving Memory)
-                  </label>
-                </div>
-                <textarea
-                  value={form.saving_memory}
-                  onChange={(e) => setForm({ ...form, saving_memory: e.target.value })}
-                  placeholder="定义机器人保存记忆时的行为，例如：Save important information about locations, items, and player preferences."
-                  rows={4}
-                  className="w-full px-md py-sm bg-background-primary border border-border rounded-md text-text-primary placeholder:text-text-muted focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent resize-y"
-                />
-                <p className="text-xs text-text-muted mt-xs">
-                  影响机器人决定保存哪些信息到长期记忆
-                </p>
-              </div>
-            </div>
-          )}
-        </div>
-
-        {/* Modes Configuration */}
-        <div className="border border-border rounded-lg overflow-hidden">
-          <button
-            type="button"
-            onClick={() => toggleSection('modes')}
-            className="w-full flex items-center justify-between p-md bg-background-secondary hover:bg-background-tertiary transition-colors"
-          >
-            <div className="flex items-center gap-sm">
-              <Settings size={18} strokeWidth={1.5} className="text-text-secondary" />
-              <h3 className="text-lg font-medium text-text-primary">行为模式</h3>
-              <span className="text-xs text-text-muted">控制机器人的自动行为</span>
-            </div>
-            {expandedSections.modes ? (
-              <ChevronUp size={18} strokeWidth={1.5} className="text-text-secondary" />
-            ) : (
-              <ChevronDown size={18} strokeWidth={1.5} className="text-text-secondary" />
-            )}
-          </button>
-          
-          {expandedSections.modes && (
-            <div className="p-md border-t border-border">
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-md">
-                {(Object.keys(MODE_DESCRIPTIONS) as Array<keyof BotModes>).map((modeKey) => {
-                  const { label, description } = MODE_DESCRIPTIONS[modeKey];
-                  const isCheat = modeKey === 'cheat';
-                  return (
-                    <div 
-                      key={modeKey}
-                      className={`flex items-start gap-sm p-sm rounded-md border ${
-                        isCheat ? 'border-status-warning/30 bg-status-warning/5' : 'border-border'
-                      }`}
-                    >
-                      <input
-                        type="checkbox"
-                        checked={form.modes[modeKey]}
-                        onChange={(e) => setForm({
-                          ...form,
-                          modes: { ...form.modes, [modeKey]: e.target.checked }
-                        })}
-                        className={`w-4 h-4 mt-0.5 rounded border-border focus:ring-accent ${
-                          isCheat ? 'text-status-warning' : 'text-accent'
-                        }`}
-                      />
-                      <div className="flex-1 min-w-0">
-                        <div className="flex items-center gap-xs">
-                          <span className={`text-sm font-medium ${
-                            isCheat ? 'text-status-warning' : 'text-text-primary'
-                          }`}>
-                            {label}
-                          </span>
-                          {isCheat && (
-                            <AlertTriangle size={12} strokeWidth={1.5} className="text-status-warning" />
-                          )}
-                        </div>
-                        <p className="text-xs text-text-muted">{description}</p>
-                      </div>
-                    </div>
-                  );
-                })}
               </div>
             </div>
           )}

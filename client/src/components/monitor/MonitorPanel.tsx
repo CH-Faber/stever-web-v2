@@ -1,4 +1,5 @@
-import { Activity } from 'lucide-react';
+import { Activity, History } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import { LogViewer } from './LogViewer';
 import { PositionDisplay } from './PositionDisplay';
 import { InventoryDisplay } from './InventoryDisplay';
@@ -14,20 +15,33 @@ interface MonitorPanelProps {
 }
 
 export function MonitorPanel({
+  botId,
   botName,
   logs,
   position,
   inventory,
   onClearLogs,
 }: MonitorPanelProps) {
+  const navigate = useNavigate();
+
   return (
     <div className="space-y-lg">
       {/* Header */}
-      <div className="flex items-center gap-sm">
-        <Activity size={20} strokeWidth={1.5} className="text-text-secondary" />
-        <h2 className="text-lg font-medium text-text-primary">
-          {botName} - 实时监控
-        </h2>
+      <div className="flex items-center justify-between">
+        <div className="flex items-center gap-sm">
+          <Activity size={20} strokeWidth={1.5} className="text-text-secondary" />
+          <h2 className="text-lg font-medium text-text-primary">
+            {botName} - 实时监控
+          </h2>
+        </div>
+        
+        <button
+          onClick={() => navigate(`/logs/bot/${botId}`)}
+          className="flex items-center gap-xs px-md py-sm text-sm bg-background-secondary border border-border rounded-md hover:bg-background-tertiary transition-colors"
+        >
+          <History size={16} strokeWidth={1.5} />
+          <span>历史日志</span>
+        </button>
       </div>
 
       {/* Status Grid */}

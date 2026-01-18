@@ -1,0 +1,498 @@
+{"type":"session_start","sessionId":"bot_1768106403862_k0khacg_2026-01-15T18-14-37-268Z","botId":"bot_1768106403862_k0khacg","botName":"Stever01","startTime":"2026-01-15T18:14:37.268Z"}
+{"type":"log","timestamp":"2026-01-15T18:14:37.275Z","level":"info","message":"Starting bot...","source":"system"}
+{"type":"log","timestamp":"2026-01-15T18:14:37.990Z","level":"info","message":"MindServer running on port 8080","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:38.040Z","level":"info","message":"MC server found. (Host: localhost, Port: 25565, Version: 1.19.4)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:38.449Z","level":"info","message":"Bot started successfully","source":"system"}
+{"type":"log","timestamp":"2026-01-15T18:14:39.353Z","level":"info","message":"Connecting to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:39.384Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:39.385Z","level":"info","message":"Stever01 connected to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:39.406Z","level":"info","message":"Starting agent","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:39.408Z","level":"info","message":"Initializing agent Stever01...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:41.306Z","level":"error","message":"Error with embedding model, using word-overlap instead.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:14:41.309Z","level":"error","message":"Error with embedding model, using word-overlap instead.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:14:41.355Z","level":"error","message":"Error with embedding model, using word-overlap instead.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:14:41.357Z","level":"info","message":"Examples initialized.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:41.357Z","level":"info","message":"No task.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:41.361Z","level":"info","message":"Stever01 logging into minecraft...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:41.500Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:43.138Z","level":"info","message":"Stever01 logged in!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:43.175Z","level":"info","message":"Stever01 updating available agents","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:43.922Z","level":"info","message":"Initializing vision intepreter...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:44.932Z","level":"info","message":"Stever01 spawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:44.946Z","level":"info","message":"received message from system : Respond with hello world and your name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:44.954Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:44.960Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:48.483Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:48.484Z","level":"info","message":"Generated response: Hello world, I am your helpful Minecraft assistant.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:48.485Z","level":"info","message":"Stever01 full response to system: \"\"Hello world, I am your helpful Minecraft assistant.\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:20:54.135Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:20:59.320Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:20:59.321Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:20:59.317Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:22:27.103Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:22:39.718Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:22:39.720Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:22:39.719Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:23:52.130Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:24:06.681Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:24:06.680Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:24:06.682Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:24:23.563Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:24:38.044Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:24:38.045Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:24:38.045Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:24:56.875Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:25:13.402Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:25:13.404Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:25:13.404Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:25:25.339Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:25:33.664Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:25:33.666Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:25:33.667Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:26:17.851Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:26:30.205Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:26:30.207Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:26:30.207Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:26:49.271Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:27:06.841Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:27:06.843Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:27:06.843Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:27:24.354Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:27:37.844Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:27:37.846Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:27:37.847Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:27:56.806Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:27:59.166Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:27:59.167Z","level":"info","message":"action \"mode:self_preservation\" trying to interrupt current action \"mode:self_defense\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:27:59.169Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:27:59.474Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:27:59.786Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:00.093Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:00.401Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:00.716Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:01.014Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:01.319Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:01.629Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:01.938Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:02.170Z","level":"info","message":"Mode self_defense finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:02.247Z","level":"info","message":"Unpausing mode cowardice","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:02.249Z","level":"info","message":"Unpausing mode self_defense","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:05.931Z","level":"info","message":"Agent died:  Stever01 was slain by Drowned","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:05.932Z","level":"info","message":"received message from system : You died at position x: -575.51, y: 62.10, z: -575.51 in the overworld dimension with the final message: 'Stever01 was slain by Drowned'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:05.935Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:05.937Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:05.946Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:06.247Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:06.549Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:06.849Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.355Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.822Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.827Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.829Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.828Z","level":"error","message":"at error (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.829Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.829Z","level":"error","message":"at resetPath (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:144:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.829Z","level":"error","message":"at stop (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.830Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.829Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:657:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.830Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.830Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.831Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.834Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.835Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.836Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.836Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.843Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.844Z","level":"error","message":"at error (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.845Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.845Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.845Z","level":"error","message":"at stop (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.846Z","level":"error","message":"at resetPath (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:144:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.846Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:657:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.847Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.846Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.846Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:07.847Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:28:08.125Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:10.884Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:10.887Z","level":"info","message":"Generated response: Oh no! It looks like you had a rough encounter with those Drowned. I'm sorry to hear you didn't make it, but don't worry—you've respawned safely.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:10.888Z","level":"info","message":"Would you like me to help you find the way back to your death position, or should we focus on getting you some new gear first?","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:10.888Z","level":"info","message":"Stever01 full response to system: \"\"Oh no! It looks like you had a rough encounter with those Drowned. I'm sorry to hear you didn't make it, but don't worry—you've respawned safely.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:10.888Z","level":"info","message":"Your items are currently at **x: -575.51, y: 62.10, z: -575.51**. Since you were in the water, be careful when heading back, as the items might float or be guarded by the same Drowned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:10.888Z","level":"info","message":"Your items are currently at **x: -575.51, y: 62.10, z: -575.51**. Since you were in the water, be careful when heading back, as the items might float or be guarded by the same Drowned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:10.888Z","level":"info","message":"Would you like me to help you find the way back to your death position, or should we focus on getting you some new gear first?\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:12.863Z","level":"info","message":"Mode self_preservation finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:12.864Z","level":"info","message":"Found destructive path.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:28:12.864Z","level":"info","message":"Moved away from (7, 64, -4) to (-13, 63, 0).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:42:53.842Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:43:04.180Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:43:04.181Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:43:04.182Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:43:11.052Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:43:25.463Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:43:25.465Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:43:25.466Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:45:09.468Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:45:26.526Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:45:26.527Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:45:26.528Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:45:43.778Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:45:56.641Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:45:56.639Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:45:56.642Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:21.948Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:24.888Z","level":"info","message":"Agent died:  Stever01 drowned","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:24.889Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:24.891Z","level":"info","message":"received message from system : You died at position x: -99.94, y: 58.47, z: -99.94 in the overworld dimension with the final message: 'Stever01 drowned'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:24.893Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:24.894Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.267Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.706Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.707Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.812Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.960Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.961Z","level":"error","message":"at error (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.961Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.962Z","level":"error","message":"at stop (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.962Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.962Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.962Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.962Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.962Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.963Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.963Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.969Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.969Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.970Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.970Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.975Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.977Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.978Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.978Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.978Z","level":"error","message":"at stop (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.978Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.977Z","level":"error","message":"at error (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.978Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.978Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.979Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:25.979Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.006Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.212Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.512Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.672Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.673Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.673Z","level":"error","message":"at error (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.674Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.674Z","level":"error","message":"at stop (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.673Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.674Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.674Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.674Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.674Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.675Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.675Z","level":"error","message":"at error (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.675Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.675Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.676Z","level":"error","message":"at stop (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.676Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.675Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.676Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.676Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.677Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.676Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.682Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.677Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.683Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.682Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.683Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:26.910Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.297Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.298Z","level":"info","message":"Generated response: It looks like things are getting very dangerous out there! You were surrounded by a Skeleton, a Husk, and even more Drowned before finally succumbing to the water.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.298Z","level":"info","message":"You have respawned again. Your latest death position is **x: -99.94, y: 58.47, z: -99.94**.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.299Z","level":"info","message":"Since you are facing so many mobs at once, I highly recommend:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.299Z","level":"info","message":"2. **Crafting a shield** (1 Iron Ingot, 6 Wood Planks) to block those Skeleton arrows and Drowned tridents.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.299Z","level":"info","message":"1. **Waiting for daylight** before heading back to retrieve your items.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.299Z","level":"info","message":"3. **Bringing a door** to place underwater if you need to create a quick air pocket.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.299Z","level":"info","message":"Would you like the coordinates for your previous death site (the one at -575, -575) as well, or should we just focus on getting back to this most recent spot?***","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.304Z","level":"info","message":"You have respawned again. Your latest death position is **x: -99.94, y: 58.47, z: -99.94**.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.303Z","level":"info","message":"Stever01 full response to system: \"\"It looks like things are getting very dangerous out there! You were surrounded by a Skeleton, a Husk, and even more Drowned before finally succumbing to the water.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.304Z","level":"info","message":"Since you are facing so many mobs at once, I highly recommend:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.306Z","level":"info","message":"2. **Crafting a shield** (1 Iron Ingot, 6 Wood Planks) to block those Skeleton arrows and Drowned tridents.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.306Z","level":"info","message":"3. **Bringing a door** to place underwater if you need to create a quick air pocket.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.305Z","level":"info","message":"1. **Waiting for daylight** before heading back to retrieve your items.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:30.306Z","level":"info","message":"Would you like the coordinates for your previous death site (the one at -575, -575) as well, or should we just focus on getting back to this most recent spot?***\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:35.754Z","level":"info","message":"Mode self_preservation finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:35.755Z","level":"info","message":"Path not found, but attempting to navigate anyway using destructive movements.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:46:35.755Z","level":"info","message":"Moved away from (4, 64, -1) to (-16, 61, -4).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:02.278Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:22.654Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:22.655Z","level":"info","message":"action \"mode:unstuck\" trying to interrupt current action \"mode:cowardice\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:22.657Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:22.961Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:23.058Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:23.260Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:23.262Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:23.381Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:23.700Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:24.008Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:24.306Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:24.614Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:24.914Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:25.218Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:25.525Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:25.827Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.129Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.439Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.749Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.935Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.936Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.937Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.936Z","level":"error","message":"at error (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.938Z","level":"error","message":"at resetPath (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:144:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.938Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:657:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.938Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.938Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.938Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.937Z","level":"error","message":"at stop (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.942Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.943Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.943Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.939Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.943Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.947Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.948Z","level":"error","message":"at error (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.949Z","level":"error","message":"at stop (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.948Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.950Z","level":"error","message":"at resetPath (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:144:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.949Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.950Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:657:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.950Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.950Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.950Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.951Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:26.957Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:27.125Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:27.434Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:27.743Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:27.885Z","level":"info","message":"Agent died:  Stever01 was shot by Skeleton","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:27.886Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:27.888Z","level":"info","message":"received message from system : You died at position x: -16.47, y: 62.68, z: -16.47 in the overworld dimension with the final message: 'Stever01 was shot by Skeleton'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:27.894Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:27.895Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:28.435Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:28.886Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:29.314Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:29.765Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.215Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.665Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.674Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.677Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.678Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.678Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.679Z","level":"error","message":"at resetPath (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:144:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.679Z","level":"error","message":"at stop (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.677Z","level":"error","message":"at error (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.679Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:657:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.679Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.679Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.681Z","level":"error","message":"at error (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.680Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.680Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.680Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.681Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.681Z","level":"error","message":"at stop (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.681Z","level":"error","message":"at resetPath (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:144:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.682Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:657:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.681Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.682Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.683Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.683Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.690Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.683Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.690Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.692Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:30.691Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:31.768Z","level":"info","message":"Mode unstuck finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:31.769Z","level":"info","message":"Found non-destructive path.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:31.769Z","level":"info","message":"Moved away from (5, 64, 1) to (1, 65, -2).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:31.773Z","level":"info","message":"received message from system : (AUTO MESSAGE)Your previous action 'mode:cowardice' was interrupted by unstuck.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:31.775Z","level":"info","message":"Your behavior log: I'm free.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:31.776Z","level":"info","message":"Respond accordingly.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:31.776Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:31.779Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:31.900Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:33.521Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:33.522Z","level":"error","message":"Stever01 received new message while generating, discarding old response.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:33.523Z","level":"error","message":"no response","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T19:00:33.525Z","level":"info","message":"You have now died three times in a row in different locations. Here is a summary of your most recent death points so you don't lose track of your loot:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:33.525Z","level":"info","message":"Generated response: It seems you're having a really difficult run! You were stuck and under heavy fire from a Skeleton before being taken down at **x: -16.47, y: 62.68, z: -16.47**.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:33.526Z","level":"info","message":"3. **First Death:** x: -575, y: 62, z: -575 (Slain by Drowned)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:33.525Z","level":"info","message":"2. **Previous Death:** x: -99, y: 58, z: -99 (Drowned)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:33.525Z","level":"info","message":"1. **Latest Death:** x: -16, y: 62, z: -16 (Shot by Skeleton)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:33.526Z","level":"info","message":"**Pro-tip:** Since you keep getting \"stuck\" and overwhelmed by mobs, try to **sprint-jump** to get away or quickly **dig three blocks down and place a block over your head** to create a temporary safe hole where you can recover your health.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:33.526Z","level":"info","message":"Do you want me to give you directions to the nearest death point from where you are now?***","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:33.527Z","level":"info","message":"Stever01 full response to system: \"\"\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.863Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.865Z","level":"info","message":"Generated response: It sounds like things are very chaotic right now! You were stuck and under fire from a Skeleton, but the good news is that you are finally \"free\"—even if it took a respawn to get there.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.866Z","level":"info","message":"Your latest death occurred at **x: -16.47, y: 62.68, z: -16.47**. Since your \"cowardice\" mode was interrupted, now might be the perfect time to reset and stabilize.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.867Z","level":"info","message":"1. **Stay away from the water and dark caves** for a moment until you have basic tools.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.866Z","level":"info","message":"Here is a quick plan to get you back on your feet:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.867Z","level":"info","message":"3. **Set a spawn point** in a safe bed so you don't have to travel far if this happens again.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.867Z","level":"info","message":"2. **Craft a sword and some armor** immediately; you've had a run of bad luck with Skeletons and Drowned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.867Z","level":"info","message":"Are you ready to head back for your gear at those coordinates, or should we find a safe place to hunker down first?***","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.868Z","level":"info","message":"Stever01 full response to system: \"\"It sounds like things are very chaotic right now! You were stuck and under fire from a Skeleton, but the good news is that you are finally \"free\"—even if it took a respawn to get there.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.868Z","level":"info","message":"1. **Stay away from the water and dark caves** for a moment until you have basic tools.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.868Z","level":"info","message":"Your latest death occurred at **x: -16.47, y: 62.68, z: -16.47**. Since your \"cowardice\" mode was interrupted, now might be the perfect time to reset and stabilize.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.868Z","level":"info","message":"Here is a quick plan to get you back on your feet:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.868Z","level":"info","message":"2. **Craft a sword and some armor** immediately; you've had a run of bad luck with Skeletons and Drowned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.869Z","level":"info","message":"3. **Set a spawn point** in a safe bed so you don't have to travel far if this happens again.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:00:37.869Z","level":"info","message":"Are you ready to head back for your gear at those coordinates, or should we find a safe place to hunker down first?***\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:02:03.613Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:02:03.615Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:02:03.615Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:03:33.247Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:03:33.762Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:04:05.134Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:04:05.135Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:04:05.135Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:05:00.189Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:05:13.095Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:05:13.609Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:05:25.331Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:05:26.230Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:05:26.773Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:06:02.837Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:06:02.838Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:06:02.839Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:06:06.832Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:06:24.290Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:06:24.291Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:06:24.292Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:12:09.584Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:12:17.346Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:12:17.347Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:12:17.348Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:33.312Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:37.926Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:37.926Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:37.927Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:42.207Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:51.359Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:52.324Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:52.949Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:53.218Z","level":"info","message":"Agent died:  Stever01 was slain by Husk","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:53.221Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:53.229Z","level":"info","message":"received message from system : You died at position x: 125.44, y: 62.03, z: 125.44 in the overworld dimension with the final message: 'Stever01 was slain by Husk'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:53.231Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:53.234Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:54.124Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:54.122Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:54.124Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:58.708Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:58.710Z","level":"info","message":"It seems like you are having a very difficult time surviving out there! You were completely swarmed by a Skeleton, a Creeper, Drowned, and multiple Husks. That is quite a mob party.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:58.710Z","level":"info","message":"Generated response: Hello world, I am your helpful Minecraft assistant.***","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:58.711Z","level":"info","message":"Since you are facing Husks, keep in mind they do not burn in sunlight and their attacks can give you the **Hunger** effect. I strongly suggest you find some food and build a small dirt shelter immediately to stay safe until you can craft some weapons.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:58.710Z","level":"info","message":"You have respawned once again. Your latest death position is **x: 125.44, y: 62.03, z: 125.44**.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:58.711Z","level":"info","message":"Should I keep track of this new location for you, or do you want to try to recover your items from one of your previous death sites?***","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:58.711Z","level":"info","message":"Stever01 full response to system: \"\"Hello world, I am your helpful Minecraft assistant.***","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:58.711Z","level":"info","message":"It seems like you are having a very difficult time surviving out there! You were completely swarmed by a Skeleton, a Creeper, Drowned, and multiple Husks. That is quite a mob party.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:58.712Z","level":"info","message":"You have respawned once again. Your latest death position is **x: 125.44, y: 62.03, z: 125.44**.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:58.712Z","level":"info","message":"Since you are facing Husks, keep in mind they do not burn in sunlight and their attacks can give you the **Hunger** effect. I strongly suggest you find some food and build a small dirt shelter immediately to stay safe until you can craft some weapons.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:58.712Z","level":"info","message":"Should I keep track of this new location for you, or do you want to try to recover your items from one of your previous death sites?***\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:58.716Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:58.712Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:59.715Z","level":"info","message":"Mode self_preservation finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:59.716Z","level":"info","message":"Moved away from (8, 64, 3) to (15, 64, -16).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:20:59.716Z","level":"info","message":"Path not found, but attempting to navigate anyway using destructive movements.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:21:00.801Z","level":"info","message":"Memory updated to:  I have updated my system instructions to ensure that important information shared during our conversation is retained for future context.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:21:00.802Z","level":"info","message":"Please feel free to share the specific information you would like me to save.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:21:00.800Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:21:06.163Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:21:09.261Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:21:09.262Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:21:09.262Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:21:13.207Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:21:29.913Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:21:29.915Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:21:29.916Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:21:34.422Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:22:02.952Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:22:05.757Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:22:06.458Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:22:19.735Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:22:19.737Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:22:19.737Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:22:25.244Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:23:23.324Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:23:23.325Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:23:23.326Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:24:52.613Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:25:14.777Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:25:14.778Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:25:14.779Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:25:34.055Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:25:49.456Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:25:49.456Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:25:49.454Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:26:10.301Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:26:26.253Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:26:26.251Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:26:26.253Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:26:44.179Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:27:00.110Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:27:00.111Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:27:00.112Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:27:19.428Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:27:33.867Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:27:33.868Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:27:33.869Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:27:52.806Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:28:06.738Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:28:06.739Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:28:06.740Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:28:25.587Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:28:55.251Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:28:55.253Z","level":"info","message":"action \"mode:self_preservation\" trying to interrupt current action \"mode:self_defense\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:28:55.253Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:28:55.551Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:28:55.861Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:28:56.169Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:28:56.414Z","level":"info","message":"Mode self_defense finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:28:56.471Z","level":"info","message":"Unpausing mode cowardice","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:28:56.471Z","level":"info","message":"Unpausing mode self_defense","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.763Z","level":"info","message":"Mode self_preservation finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.764Z","level":"info","message":"Path not found, but attempting to navigate anyway using destructive movements.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.764Z","level":"info","message":"Moved away from (207, 62, 34) to (192, 62, 49).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.766Z","level":"info","message":"received message from system : (AUTO MESSAGE)Your previous action 'mode:self_defense' was interrupted by self_preservation.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.767Z","level":"info","message":"Aaa! A husk!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.766Z","level":"info","message":"Your behavior log: I'm dying!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.767Z","level":"info","message":"Aaa! A husk!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.767Z","level":"info","message":"Aaa! A drowned!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.767Z","level":"info","message":"Aaa! A husk!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.767Z","level":"info","message":"Aaa! A husk!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.767Z","level":"info","message":"Aaa! A drowned!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.768Z","level":"info","message":"Aaa! A drowned!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.768Z","level":"info","message":"Aaa! A drowned!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.768Z","level":"info","message":"Aaa! A drowned!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.769Z","level":"info","message":"Aaa! A drowned!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.770Z","level":"info","message":"Fighting drowned!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.770Z","level":"info","message":"I'm dying!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.770Z","level":"info","message":"Respond accordingly.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.775Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:05.777Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:11.410Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.316Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.317Z","level":"info","message":"Generated response: It sounds like you are stuck in a nightmare! You were trying to defend yourself, but the sheer number of Husks and Drowned completely overwhelmed you. It's almost impossible to fight off that many mobs at once without heavy armor and a shield.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.317Z","level":"info","message":"Since your `self_defense` mode was forced into `self_preservation`, it’s clear that **running away** is the right call right now.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.317Z","level":"info","message":"**Immediate Survival Tips:**","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.317Z","level":"info","message":"1. **Get to High Ground:** Neither Husks nor Drowned can climb vertical walls. Build a 3-block high pillar of dirt or stone under your feet to get out of their reach.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.317Z","level":"info","message":"2. **Avoid the Water:** Drowned have the advantage in the river. Stay on land where you can outrun them.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.318Z","level":"info","message":"3. **Sprint and Leap:** If you have enough hunger bars, sprint and jump to put distance between you and the Husks. Husks are slow, but they are relentless!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.318Z","level":"info","message":"You are currently in a cycle of respawning and immediately getting jumped. **Do you want the coordinates to your last death again, or should we focus on just getting you to a safe, well-lit area far away from those mobs?**","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.318Z","level":"info","message":"Stever01 full response to system: \"\"It sounds like you are stuck in a nightmare! You were trying to defend yourself, but the sheer number of Husks and Drowned completely overwhelmed you. It's almost impossible to fight off that many mobs at once without heavy armor and a shield.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.318Z","level":"info","message":"Since your `self_defense` mode was forced into `self_preservation`, it’s clear that **running away** is the right call right now.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.318Z","level":"info","message":"**Immediate Survival Tips:**","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.318Z","level":"info","message":"1. **Get to High Ground:** Neither Husks nor Drowned can climb vertical walls. Build a 3-block high pillar of dirt or stone under your feet to get out of their reach.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.318Z","level":"info","message":"2. **Avoid the Water:** Drowned have the advantage in the river. Stay on land where you can outrun them.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.319Z","level":"info","message":"3. **Sprint and Leap:** If you have enough hunger bars, sprint and jump to put distance between you and the Husks. Husks are slow, but they are relentless!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T19:29:12.319Z","level":"info","message":"You are currently in a cycle of respawning and immediately getting jumped. **Do you want the coordinates to your last death again, or should we focus on just getting you to a safe, well-lit area far away from those mobs?**\"\"","source":"stdout"}

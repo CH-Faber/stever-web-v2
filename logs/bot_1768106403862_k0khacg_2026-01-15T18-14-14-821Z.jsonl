@@ -1,0 +1,27 @@
+{"type":"session_start","sessionId":"bot_1768106403862_k0khacg_2026-01-15T18-14-14-821Z","botId":"bot_1768106403862_k0khacg","botName":"Stever01","startTime":"2026-01-15T18:14:14.822Z"}
+{"type":"log","timestamp":"2026-01-15T18:14:14.830Z","level":"info","message":"Starting bot...","source":"system"}
+{"type":"log","timestamp":"2026-01-15T18:14:15.571Z","level":"info","message":"MindServer running on port 8080","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:15.617Z","level":"info","message":"MC server found. (Host: localhost, Port: 25565, Version: 1.19.4)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:16.013Z","level":"info","message":"Bot started successfully","source":"system"}
+{"type":"log","timestamp":"2026-01-15T18:14:16.891Z","level":"info","message":"Connecting to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:16.925Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:16.932Z","level":"info","message":"Stever01 connected to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:16.934Z","level":"info","message":"Starting agent","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:16.936Z","level":"info","message":"Initializing agent Stever01...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:18.855Z","level":"error","message":"Error with embedding model, using word-overlap instead.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:14:18.865Z","level":"error","message":"Error with embedding model, using word-overlap instead.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:14:18.870Z","level":"error","message":"Error with embedding model, using word-overlap instead.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-15T18:14:18.872Z","level":"info","message":"Examples initialized.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:18.872Z","level":"info","message":"No task.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:18.875Z","level":"info","message":"Stever01 logging into minecraft...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:19.163Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:25.531Z","level":"info","message":"Stever01 logged in!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:25.556Z","level":"info","message":"Stever01 updating available agents","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:25.678Z","level":"info","message":"Initializing vision intepreter...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:26.681Z","level":"info","message":"Stever01 spawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:26.690Z","level":"info","message":"received message from system : Respond with hello world and your name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:26.693Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:26.696Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-15T18:14:29.705Z","level":"info","message":"Stopping bot...","source":"system"}
+{"type":"log","timestamp":"2026-01-15T18:14:34.130Z","level":"info","message":"Bot stopped","source":"system"}
+{"type":"session_end","sessionId":"bot_1768106403862_k0khacg_2026-01-15T18-14-14-821Z","endTime":"2026-01-15T18:14:34.130Z"}

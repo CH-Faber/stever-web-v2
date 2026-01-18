@@ -13,6 +13,8 @@ import {
   ImportExport,
   ModelPresets,
 } from './pages';
+import { LogHistory } from './pages/LogHistory';
+import { LogSessionViewer } from './pages/LogSessionViewer';
 
 function AppContent() {
   const { toasts, onClose } = useToasts();
@@ -29,6 +31,9 @@ function AppContent() {
             <Route path="bots/new" element={<BotEditor />} />
             <Route path="bots/:id" element={<BotDetail />} />
             <Route path="bots/:id/edit" element={<BotEditor />} />
+            <Route path="logs" element={<LogHistory />} />
+            <Route path="logs/bot/:botId" element={<LogHistory />} />
+            <Route path="logs/session/:sessionId" element={<LogSessionViewer />} />
             <Route path="tasks" element={<Tasks />} />
             <Route path="keys" element={<Keys />} />
             <Route path="settings" element={<Settings />} />

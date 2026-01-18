@@ -1,0 +1,454 @@
+{"type":"session_start","sessionId":"bot_1768106403862_k0khacg_2026-01-16T13-22-58-464Z","botId":"bot_1768106403862_k0khacg","botName":"Stever01","startTime":"2026-01-16T13:22:58.464Z"}
+{"type":"log","timestamp":"2026-01-16T13:22:58.478Z","level":"info","message":"Starting bot...","source":"system"}
+{"type":"log","timestamp":"2026-01-16T13:22:59.356Z","level":"info","message":"MindServer running on port 8080","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:22:59.395Z","level":"info","message":"MC server found. (Host: localhost, Port: 25565, Version: 1.19.4)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:22:59.716Z","level":"info","message":"Bot started successfully","source":"system"}
+{"type":"log","timestamp":"2026-01-16T13:23:00.465Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:00.829Z","level":"info","message":"Connecting to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:00.848Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:00.851Z","level":"info","message":"Stever01 connected to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:00.853Z","level":"info","message":"Starting agent","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:00.855Z","level":"info","message":"Initializing agent Stever01...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:02.872Z","level":"error","message":"Error with embedding model, using word-overlap instead.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:23:02.875Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:02.899Z","level":"error","message":"Error with embedding model, using word-overlap instead.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:23:02.915Z","level":"error","message":"Error with embedding model, using word-overlap instead.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:23:02.916Z","level":"info","message":"Examples initialized.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:02.917Z","level":"info","message":"No task.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:02.919Z","level":"info","message":"Stever01 logging into minecraft...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:04.910Z","level":"info","message":"Stever01 logged in!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:04.927Z","level":"info","message":"Stever01 updating available agents","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:05.976Z","level":"info","message":"Initializing vision intepreter...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:06.979Z","level":"info","message":"Stever01 spawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:06.991Z","level":"info","message":"received message from system : Respond with hello world and your name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:06.996Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:07.227Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:07.228Z","level":"info","message":"Example: You are self-prompting with the goal: 'Build a house'. Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:07.229Z","level":"info","message":"Example: trade something with zorro_34","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:07.230Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.282Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.282Z","level":"info","message":"Generated response: Hello world, I'm Stever01! !stats","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.283Z","level":"info","message":"Stever01 full response to system: \"\"Hello world, I'm Stever01! !stats\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.286Z","level":"info","message":"parsed command: { commandName: '!stats', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.288Z","level":"info","message":"Agent executed: !stats and got:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.289Z","level":"info","message":"STATS","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.289Z","level":"info","message":"- Position: x: -193.53, y: 63.00, z: 238.52","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.289Z","level":"info","message":"- Gamemode: survival","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.289Z","level":"info","message":"- Hunger: 17 / 20","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.289Z","level":"info","message":"- Health: 7 / 20","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.289Z","level":"info","message":"- Biome: desert","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.290Z","level":"info","message":"- Weather: Clear","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.290Z","level":"info","message":"- Time: Night- Current Action: Idle","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.290Z","level":"info","message":"- Nearby Human Players: None.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.291Z","level":"info","message":"- self_preservation(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.291Z","level":"info","message":"- unstuck(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.291Z","level":"info","message":"Agent Modes:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.291Z","level":"info","message":"- self_defense(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.290Z","level":"info","message":"- Nearby Bot Players: None.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.291Z","level":"info","message":"- cowardice(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.291Z","level":"info","message":"- hunting(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.291Z","level":"info","message":"- item_collecting(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.291Z","level":"info","message":"- torch_placing(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.292Z","level":"info","message":"- elbow_room(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.292Z","level":"info","message":"- idle_staring(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.292Z","level":"info","message":"- cheat(OFF)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.296Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.422Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.422Z","level":"info","message":"Example: Code output: Placed oak_planks at (-154, 96, -228).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.421Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:11.423Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:13.750Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:13.751Z","level":"info","message":"Generated response: I'm low on health and it's night. I'll look for a bed. !goToBed","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:13.752Z","level":"info","message":"Stever01 full response to system: \"\"I'm low on health and it's night. I'll look for a bed. !goToBed\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:13.752Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:13.752Z","level":"info","message":"parsed command: { commandName: '!goToBed', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:13.911Z","level":"info","message":"Agent executed: !goToBed and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:13.911Z","level":"info","message":"Could not find a bed to sleep in.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:23:13.913Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:09.455Z","level":"info","message":"Stever01 received message from CH_Faber : !!whereis Stever01","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:24.495Z","level":"info","message":"received message from CH_Faber : 跟着我","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:24.494Z","level":"info","message":"Stever01 received message from CH_Faber : 跟着我","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:24.495Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:24.660Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:24.661Z","level":"info","message":"Example: Code output: Could not find any oak_log in 20 blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:24.663Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:24.661Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:29.835Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:29.836Z","level":"info","message":"Generated response: Sure, I'll follow you. !followPlayer(\"CH_Faber\", 2)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:29.837Z","level":"info","message":"Stever01 full response to CH_Faber: \"\"Sure, I'll follow you. !followPlayer(\"CH_Faber\", 2)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:29.837Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:29.839Z","level":"info","message":"parsed command: { commandName: '!followPlayer', args: [ 'CH_Faber', 2 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:29.840Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:39.845Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:39.847Z","level":"info","message":"action \"mode:hunting\" trying to interrupt current action \"action:followPlayer\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:39.848Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:40.051Z","level":"info","message":"Agent executed: !followPlayer and got: undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:40.113Z","level":"info","message":"Unpausing mode unstuck","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:40.114Z","level":"info","message":"Unpausing mode elbow_room","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:46.105Z","level":"info","message":"Mode hunting finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:46.106Z","level":"info","message":"Successfully killed rabbit.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:46.106Z","level":"info","message":"Found non-destructive path.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:46.106Z","level":"info","message":"Picked up 1 items.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:47.110Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:52.483Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:52.484Z","level":"info","message":"action \"mode:hunting\" trying to interrupt current action \"action:followPlayer\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:52.485Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:54.343Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:54.345Z","level":"info","message":"action \"mode:cowardice\" trying to interrupt current action \"mode:hunting\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:54.345Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:54.649Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:54.802Z","level":"info","message":"Mode hunting finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:58.562Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:58.563Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:58.564Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:24:59.580Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:39.897Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:39.899Z","level":"info","message":"action \"mode:cowardice\" trying to interrupt current action \"action:followPlayer\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:39.899Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:40.188Z","level":"info","message":"Unpausing mode hunting","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:40.189Z","level":"info","message":"Unpausing mode item_collecting","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:40.191Z","level":"info","message":"Unpausing mode torch_placing","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:40.192Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:40.307Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:40.664Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:40.974Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.282Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.545Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.546Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.546Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.547Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.547Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.547Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.547Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.548Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.548Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.548Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.553Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.548Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.554Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.553Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.554Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.558Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.559Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.559Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.560Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.560Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.561Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.561Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.561Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.562Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.561Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:41.563Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:42.108Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:58.208Z","level":"info","message":"Agent died:  Stever01 was shot by Skeleton","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:58.209Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:58.211Z","level":"info","message":"received message from system : You died at position x: -137.15, y: 63.53, z: -137.15 in the overworld dimension with the final message: 'Stever01 was shot by Skeleton'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:58.214Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:58.422Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:58.423Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:58.424Z","level":"info","message":"Example: d7297: look 0 70 12 and describe what is there","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:58.425Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:58.624Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:58.626Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:58.925Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:58.930Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:58.955Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.258Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.558Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.794Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.795Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.795Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.795Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.795Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.795Z","level":"error","message":"at resetPath (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:144:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.796Z","level":"error","message":"at EventEmitter.<anonymous> (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:429:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.796Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.796Z","level":"error","message":"at WorldSync.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.796Z","level":"error","message":"at WorldSync.<anonymous> (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\blocks.js:577:44)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.796Z","level":"error","message":"at WorldSync.setColumn (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\prismarine-world\\src\\worldsync.js:93:10)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.800Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.799Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.800Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.802Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.808Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.807Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.808Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.808Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.810Z","level":"error","message":"at resetPath (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:144:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.810Z","level":"error","message":"at EventEmitter.<anonymous> (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:429:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.809Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.810Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.810Z","level":"error","message":"at WorldSync.<anonymous> (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\blocks.js:577:44)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.811Z","level":"error","message":"at WorldSync.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.811Z","level":"error","message":"at WorldSync.setColumn (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\prismarine-world\\src\\worldsync.js:93:10)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:25:59.832Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.000Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.115Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.116Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.116Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.116Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.116Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.116Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.116Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.117Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.117Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.117Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.117Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.117Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.118Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.118Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.118Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.118Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.118Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.118Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.119Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.118Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.119Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.119Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.123Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.124Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.125Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.125Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.132Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.300Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.354Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.354Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.355Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.355Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.355Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.355Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.356Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.356Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.355Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.356Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.355Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.358Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.359Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.359Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.359Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.366Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.367Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.368Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.368Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.368Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.369Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.369Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.371Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.374Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.375Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.370Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.433Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.604Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.716Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.718Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.717Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.718Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.717Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.718Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.718Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.718Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.718Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.718Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.722Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.719Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.721Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.723Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.723Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.727Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.728Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.728Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.728Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.728Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.729Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.729Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.729Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.730Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.730Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.731Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.737Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:00.951Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.112Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.112Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.112Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.113Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.113Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.113Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.113Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.113Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.113Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.114Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.117Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.114Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.116Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.117Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.118Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.121Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.120Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.122Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.123Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.123Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.123Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.124Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.124Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.124Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.123Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:01.124Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:26:03.322Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:03.322Z","level":"info","message":"Generated response: I died! I'm going back for my things. !goToRememberedPlace(\"last_death_position\")","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:03.324Z","level":"info","message":"Stever01 full response to system: \"\"I died! I'm going back for my things. !goToRememberedPlace(\"last_death_position\")\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:03.330Z","level":"info","message":"parsed command: {","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:03.331Z","level":"info","message":"commandName: '!goToRememberedPlace',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:03.332Z","level":"info","message":"args: [ 'last_death_position' ]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:03.332Z","level":"info","message":"}","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:26:03.340Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:19.675Z","level":"info","message":"Agent executed: !goToRememberedPlace and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:19.676Z","level":"info","message":"You have reached at -137.14782851574915, 63.534736491354934, 149.49383251864379.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:19.676Z","level":"info","message":"Path not found, but attempting to navigate anyway using destructive movements.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:19.678Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:19.918Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:19.918Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:19.919Z","level":"info","message":"Example: d7297: look 0 70 12 and describe what is there","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:19.920Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.166Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.166Z","level":"info","message":"Generated response: I'm here. Let's see what's nearby. !nearbyBlocks","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.168Z","level":"info","message":"parsed command: { commandName: '!nearbyBlocks', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.168Z","level":"info","message":"Stever01 full response to system: \"\"I'm here. Let's see what's nearby. !nearbyBlocks\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.363Z","level":"info","message":"Agent executed: !nearbyBlocks and got:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.364Z","level":"info","message":"NEARBY_BLOCKS","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.364Z","level":"info","message":"- sand","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.364Z","level":"info","message":"- water (source)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.365Z","level":"info","message":"- Block Below: sand","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.364Z","level":"info","message":"- sandstone","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.365Z","level":"info","message":"- Block at Legs: air","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.365Z","level":"info","message":"- Block at Head: air","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.365Z","level":"info","message":"- First Solid Block Above Head: none","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.377Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.568Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.570Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.571Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:24.571Z","level":"info","message":"Example: d7297: look 0 70 12 and describe what is there","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:26.844Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:26.845Z","level":"info","message":"Generated response: Nothing here. I'll check for entities. !entities","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:26.846Z","level":"info","message":"Stever01 full response to system: \"\"Nothing here. I'll check for entities. !entities\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:26.847Z","level":"info","message":"parsed command: { commandName: '!entities', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:26.847Z","level":"info","message":"Agent executed: !entities and got:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:26.848Z","level":"info","message":"NEARBY_ENTITIES","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:26.848Z","level":"info","message":"- entities: 2 drowned(s)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:26.851Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:26.854Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:27.574Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:27.576Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:27.577Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:27.577Z","level":"info","message":"Example: d7297: look 0 70 12 and describe what is there","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:27.579Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:29.852Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:29.853Z","level":"info","message":"Generated response: Stay away from those drowned! !moveAway(20)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:29.854Z","level":"info","message":"Stever01 full response to system: \"\"Stay away from those drowned! !moveAway(20)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:29.855Z","level":"info","message":"parsed command: { commandName: '!moveAway', args: [ 20 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:29.856Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:32.502Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:32.502Z","level":"info","message":"Memory updated to:  I'm Stever01. Currently night in a desert biome. Health is low (7/20). Attempted to find a bed using !goToBed but none were found nearby. Need to prioritize safety or healing due to low health and nighttime threats. Survival modes (self_preservation, cowardice, self_defense) are active. Memory: low health, no bed found, night, desert.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:35.085Z","level":"info","message":"Agent executed: !moveAway and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:35.086Z","level":"info","message":"Path not found, but attempting to navigate anyway using destructive movements.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:35.086Z","level":"info","message":"Moved away from (-137, 63, 149) to (-130, 64, 168).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:35.091Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:35.315Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:35.316Z","level":"info","message":"Example: d7297: look 0 70 12 and describe what is there","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:35.315Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:35.316Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:37.346Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:37.347Z","level":"error","message":"no response","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:27:37.348Z","level":"info","message":"Generated response:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:27:37.349Z","level":"info","message":"Stever01 full response to system: \"\"\t\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:37.964Z","level":"info","message":"Stever01 received message from CH_Faber : come here","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:37.965Z","level":"info","message":"received message from CH_Faber : come here","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:37.967Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:38.224Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:38.225Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:38.226Z","level":"info","message":"Example: d7297: look 0 70 12 and describe what is there","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:38.226Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:42.641Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:42.642Z","level":"info","message":"Stever01 full response to CH_Faber: \"\"Coming! !goToPlayer(\"CH_Faber\", 2)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:42.641Z","level":"info","message":"Generated response: Coming! !goToPlayer(\"CH_Faber\", 2)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:42.642Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:42.643Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:42.643Z","level":"info","message":"parsed command: { commandName: '!goToPlayer', args: [ 'CH_Faber', 2 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:42.643Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:42.710Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:45.853Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:31:45.855Z","level":"info","message":"Memory updated to:  I'm Stever01. Previously in a desert at night with low health. Followed CH_Faber but was killed by a Skeleton after encounters with Rabbits, Husks, and Drowned. I died at x:-137, y:63, z:-137. Currently respawned and heading back to 'last_death_position' to recover items. Survival modes active. Learned: deserts are high-risk at night due to mobs. Prioritize item recovery.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:07.120Z","level":"info","message":"Unpausing mode cowardice","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:07.121Z","level":"info","message":"Unpausing mode self_defense","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:07.121Z","level":"info","message":"Agent executed: !goToPlayer and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:07.122Z","level":"info","message":"Path not found, but attempting to navigate anyway using destructive movements.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:07.122Z","level":"info","message":"You have reached CH_Faber.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:07.123Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:07.336Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:07.337Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:07.338Z","level":"info","message":"Example: Code output: Placed oak_planks at (-154, 96, -228).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:07.338Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:11.381Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:11.384Z","level":"info","message":"Generated response: I'm here. !lookAtPlayer(\"CH_Faber\", \"at\")","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:11.384Z","level":"info","message":"Stever01 full response to CH_Faber: \"\"I'm here. !lookAtPlayer(\"CH_Faber\", \"at\")\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:11.384Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:11.384Z","level":"info","message":"parsed command: { commandName: '!lookAtPlayer', args: [ 'CH_Faber', 'at' ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:11.384Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:11.386Z","level":"info","message":"Agent executed: !lookAtPlayer and got: Vision is disabled. Use other methods to describe the environment.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:11.389Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:11.580Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:11.580Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:11.581Z","level":"info","message":"Example: d7297: look 0 70 12 and describe what is there","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:11.581Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:13.560Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:13.560Z","level":"info","message":"Generated response:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:13.561Z","level":"error","message":"no response","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:32:13.562Z","level":"info","message":"Stever01 full response to CH_Faber: \"\"\t\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:25.297Z","level":"info","message":"Stever01 received message from CH_Faber : agamn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:25.298Z","level":"info","message":"received message from CH_Faber : agamn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:25.299Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:25.503Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:25.502Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:25.504Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:25.503Z","level":"info","message":"Example: d7297: look 0 70 12 and describe what is there","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:30.025Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:30.026Z","level":"info","message":"Generated response: I'm here. !lookAtPlayer(\"CH_Faber\", \"at\")","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:30.026Z","level":"info","message":"Stever01 full response to CH_Faber: \"\"I'm here. !lookAtPlayer(\"CH_Faber\", \"at\")\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:30.027Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:30.027Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:30.028Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:30.027Z","level":"info","message":"parsed command: { commandName: '!lookAtPlayer', args: [ 'CH_Faber', 'at' ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:30.029Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:30.030Z","level":"info","message":"Agent executed: !lookAtPlayer and got: Vision is disabled. Use other methods to describe the environment.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:30.032Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:33.209Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:33.208Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:33.210Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:33.209Z","level":"info","message":"Example: rupert: (FROM OTHER BOT)Let's collaborate to build a house!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:37.738Z","level":"info","message":"Stever01 received message from CH_Faber : lai1","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:37.739Z","level":"info","message":"received message from CH_Faber : lai1","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:37.740Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:37.950Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:37.949Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:37.950Z","level":"info","message":"Example: rupert: (FROM OTHER BOT)Let's collaborate to build a house!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:37.951Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:40.202Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:40.203Z","level":"info","message":"Memory updated to:  I'm Stever01. Died at x:-137, y:63, z:-137 in a desert. Respawned and returned to death site to recover items. Current area contains sand, sandstone, and water. Encountered 2 Drowned upon arrival; moving 20 blocks away to maintain safety. Items not yet found. Reminder: Deserts at night are high-risk; prioritize evasion of Drowned and Husks while scavenging. Continue recovery mission cautiously.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:42.142Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:42.143Z","level":"error","message":"Stever01 received new message while generating, discarding old response.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:32:42.143Z","level":"error","message":"no response","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T13:32:42.145Z","level":"info","message":"Stever01 full response to CH_Faber: \"\"\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:42.144Z","level":"info","message":"Generated response: \t***","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:43.570Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:43.571Z","level":"info","message":"Stever01 full response to CH_Faber: \"\"I'm ready. !followPlayer(\"CH_Faber\", 2)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:43.570Z","level":"info","message":"Generated response: I'm ready. !followPlayer(\"CH_Faber\", 2)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:43.572Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:43.572Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:32:43.572Z","level":"info","message":"parsed command: { commandName: '!followPlayer', args: [ 'CH_Faber', 2 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:35:29.883Z","level":"info","message":"action \"mode:unstuck\" trying to interrupt current action \"action:followPlayer\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:35:29.883Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:35:29.883Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:35:30.034Z","level":"info","message":"Agent executed: !followPlayer and got: undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:35:31.581Z","level":"info","message":"Found non-destructive path.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:35:31.581Z","level":"info","message":"Mode unstuck finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:35:31.581Z","level":"info","message":"Moved away from (101, 64, 102) to (96, 64, 99).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T13:35:32.589Z","level":"info","message":"executing code...","source":"stdout"}

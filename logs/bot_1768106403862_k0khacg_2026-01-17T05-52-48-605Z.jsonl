@@ -1,0 +1,690 @@
+{"type":"session_start","sessionId":"bot_1768106403862_k0khacg_2026-01-17T05-52-48-605Z","botId":"bot_1768106403862_k0khacg","botName":"Stever01","startTime":"2026-01-17T05:52:48.605Z"}
+{"type":"log","timestamp":"2026-01-17T05:52:48.614Z","level":"info","message":"Starting bot...","source":"system"}
+{"type":"log","timestamp":"2026-01-17T05:52:49.451Z","level":"info","message":"MindServer running on port 8080","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:49.488Z","level":"info","message":"MC server found. (Host: localhost, Port: 25565, Version: 1.19.4)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:49.986Z","level":"info","message":"Bot started successfully","source":"system"}
+{"type":"log","timestamp":"2026-01-17T05:52:50.567Z","level":"info","message":"Connecting to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:50.593Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:50.599Z","level":"info","message":"Stever01 connected to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:50.600Z","level":"info","message":"Starting agent","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:50.602Z","level":"info","message":"Initializing agent Stever01...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:52.906Z","level":"info","message":"Examples initialized.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:52.908Z","level":"info","message":"No task.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:52.909Z","level":"info","message":"Stever01 logging into minecraft...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:53.153Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:54.678Z","level":"info","message":"Stever01 logged in!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:54.695Z","level":"info","message":"Stever01 updating available agents","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:57.027Z","level":"info","message":"Initializing vision intepreter...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:58.029Z","level":"info","message":"Stever01 spawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:58.596Z","level":"info","message":"received message from system : Respond with hello world and your name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:52:58.599Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:00.236Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:00.238Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:00.238Z","level":"info","message":"Example: miner_32: Hey! What are you up to?","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:00.244Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.062Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.065Z","level":"info","message":"Generated response: Hello world, I'm Stever01!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.066Z","level":"info","message":"Stever01 full response to system: \"\"Hello world, I'm Stever01!\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.070Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.070Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.071Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.071Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.072Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.073Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.074Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.075Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.075Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:374:22)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.075Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.077Z","level":"error","message":"at async Agent._setupEventHandlers (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:214:13) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.077Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:02.077Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:23.777Z","level":"info","message":"Stever01 received message from Server : 你说中文","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:24.737Z","level":"info","message":"received message from Server : you speak chinese","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:24.738Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:27.580Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:27.580Z","level":"info","message":"Example: miner_32: Hey! What are you up to?","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:27.581Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:27.578Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.918Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.919Z","level":"info","message":"Generated response: 你好，我是 Stever01！需要我帮忙吗？","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.920Z","level":"info","message":"Stever01 full response to Server: \"\"你好，我是 Stever01！需要我帮忙吗？\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.923Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.924Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.924Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.925Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.924Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.925Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.925Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.926Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.927Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:374:22)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.927Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.927Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T05:53:34.927Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:29:59.276Z","level":"info","message":"Stever01 received message from Server : 你在哪里","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:04.977Z","level":"info","message":"received message from Server : Where are you","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:04.982Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:07.644Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:07.644Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:07.646Z","level":"info","message":"Example: zZZn98: come here","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:07.647Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.867Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.869Z","level":"info","message":"Generated response: I'm in a desert! !stats","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.870Z","level":"info","message":"Stever01 full response to Server: \"\"I'm in a desert! !stats\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.879Z","level":"info","message":"parsed command: { commandName: '!stats', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.883Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.883Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.884Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.884Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.884Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.884Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.884Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.885Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.885Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.885Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.885Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.885Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.897Z","level":"info","message":"Agent executed: !stats and got:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.898Z","level":"info","message":"STATS","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.899Z","level":"info","message":"- Position: x: -36.50, y: 61.00, z: 48.40","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.900Z","level":"info","message":"- Gamemode: survival","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.900Z","level":"info","message":"- Health: 19 / 20","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.900Z","level":"info","message":"- Hunger: 17 / 20","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.901Z","level":"info","message":"- Biome: desert","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.901Z","level":"info","message":"- Time: Afternoon- Current Action: Idle","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.901Z","level":"info","message":"- Weather: Clear","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.901Z","level":"info","message":"- Nearby Human Players: None.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.901Z","level":"info","message":"- Nearby Bot Players: None.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.902Z","level":"info","message":"Agent Modes:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.902Z","level":"info","message":"- self_preservation(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.902Z","level":"info","message":"- unstuck(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.902Z","level":"info","message":"- cowardice(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.902Z","level":"info","message":"- self_defense(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.902Z","level":"info","message":"- hunting(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.903Z","level":"info","message":"- item_collecting(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.904Z","level":"info","message":"- elbow_room(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.905Z","level":"info","message":"- idle_staring(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.904Z","level":"info","message":"- torch_placing(ON)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.905Z","level":"info","message":"- cheat(OFF)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:55.917Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:57.062Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:57.063Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:57.066Z","level":"info","message":"Example: zZZn98: come here","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:30:57.066Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:31:01.281Z","level":"info","message":"Generated response:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:31:01.280Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T06:31:01.283Z","level":"error","message":"no response","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T06:31:01.284Z","level":"info","message":"Stever01 full response to Server: \"\"\t\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:33:56.925Z","level":"info","message":"Stever01 received message from Server : 能不能造个房子","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:33:58.791Z","level":"info","message":"received message from Server : Can you build a house?","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:33:58.793Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:00.511Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:00.512Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:00.513Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:00.514Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.846Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.848Z","level":"info","message":"Stever01 full response to Server: \"\"I can! I'll need materials first. !searchForBlock(\"oak_log\", 64)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.847Z","level":"info","message":"Generated response: I can! I'll need materials first. !searchForBlock(\"oak_log\", 64)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.849Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.855Z","level":"info","message":"parsed command: { commandName: '!searchForBlock', args: [ 'oak_log', 64 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.856Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.860Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.861Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.862Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.862Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.862Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.862Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.863Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.863Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.863Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.863Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.863Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:08.863Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:09.698Z","level":"info","message":"Agent executed: !searchForBlock and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:09.699Z","level":"info","message":"Could not find any oak_log in 64 blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:09.701Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:10.396Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:10.398Z","level":"info","message":"Example: work together with the other bot to build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:10.399Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:10.399Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.488Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.491Z","level":"info","message":"Stever01 full response to Server: \"\"No trees nearby. I'll search for something else to build with. !nearbyBlocks\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.491Z","level":"info","message":"parsed command: { commandName: '!nearbyBlocks', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.489Z","level":"info","message":"Generated response: No trees nearby. I'll search for something else to build with. !nearbyBlocks","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.634Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.634Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.635Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.635Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.636Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.635Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.636Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.636Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.636Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.636Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.636Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.637Z","level":"info","message":"Agent executed: !nearbyBlocks and got:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.636Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.638Z","level":"info","message":"NEARBY_BLOCKS","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.638Z","level":"info","message":"- sand","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.639Z","level":"info","message":"- water (source)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.638Z","level":"info","message":"- sandstone","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.639Z","level":"info","message":"- Block Below: sandstone","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.639Z","level":"info","message":"- Block at Head: air","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.639Z","level":"info","message":"- Block at Legs: air","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.640Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:12.640Z","level":"info","message":"- First Solid Block Above Head: none","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:13.498Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:13.499Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:13.499Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:13.500Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.904Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.905Z","level":"info","message":"Generated response: I'll use sandstone. !collectBlocks(\"sandstone\", 64)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.905Z","level":"info","message":"Stever01 full response to Server: \"\"I'll use sandstone. !collectBlocks(\"sandstone\", 64)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.908Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.908Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.908Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.909Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.908Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.909Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.909Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.909Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.909Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.909Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.910Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.910Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.913Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.914Z","level":"info","message":"parsed command: { commandName: '!collectBlocks', args: [ 'sandstone', 64 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.915Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.981Z","level":"info","message":"Agent executed: !collectBlocks and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.982Z","level":"info","message":"Don't have right tools to harvest sandstone.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:15.985Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:16.914Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:16.915Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:16.917Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:16.916Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.852Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.854Z","level":"info","message":"Generated response: I'll collect some sand instead. !collectBlocks(\"sand\", 64)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.854Z","level":"info","message":"Stever01 full response to Server: \"\"I'll collect some sand instead. !collectBlocks(\"sand\", 64)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.855Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.855Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.858Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.857Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.858Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.859Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.859Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.859Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.860Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.859Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.860Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.860Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.861Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.860Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.863Z","level":"info","message":"parsed command: { commandName: '!collectBlocks', args: [ 'sand', 64 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.863Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:18.998Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.169Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.169Z","level":"info","message":"action \"mode:cowardice\" trying to interrupt current action \"action:collectBlocks\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.171Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.174Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.175Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.175Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.175Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.175Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.176Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.177Z","level":"error","message":"at say (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/modes.js:10:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.176Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.177Z","level":"error","message":"at async ModeController.update (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/modes.js:406:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.177Z","level":"error","message":"at Object.update (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/modes.js:149:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.178Z","level":"error","message":"at async Agent.update (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:521:9) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.178Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.178Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.474Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.784Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.813Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:20.814Z","level":"info","message":"Memory updated to:  Name: Stever01. Can speak English & Chinese (你好，我是 Stever01！). Currently located in a desert biome. Responds to system prompts and server status queries. Uses !stats to check condition. Consistently identifies self by name when greeting.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:21.092Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:21.405Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:21.715Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:21.720Z","level":"info","message":"Agent executed: !collectBlocks and got: undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:25.629Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:25.630Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:25.631Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:27.076Z","level":"info","message":"received message from system : (AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by cowardice.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:27.076Z","level":"info","message":"Your behavior log: Aaa! A creeper!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:27.076Z","level":"info","message":"Respond accordingly.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:27.077Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:29.690Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:29.694Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:29.691Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:29.690Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.322Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.323Z","level":"info","message":"Generated response: A creeper! Staying back for now. !moveAway(10)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.323Z","level":"info","message":"Stever01 full response to system: \"\"A creeper! Staying back for now. !moveAway(10)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.324Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.325Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.324Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.325Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.325Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.325Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.325Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.325Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.325Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.325Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.327Z","level":"info","message":"parsed command: { commandName: '!moveAway', args: [ 10 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.326Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.326Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:31.328Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:35.421Z","level":"info","message":"Agent executed: !moveAway and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:35.422Z","level":"info","message":"Found non-destructive path.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:35.422Z","level":"info","message":"Moved away from (-42, 62, 44) to (-32, 64, 47).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:35.423Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:37.122Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:37.123Z","level":"info","message":"Example: Code output: Placed oak_planks at (-154, 96, -228).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:37.122Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:37.123Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.841Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.843Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.842Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.843Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.843Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.844Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.844Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.844Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.844Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.844Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.845Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.844Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.844Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.847Z","level":"info","message":"Generated response: Safe for now. I'll get that sand. !collectBlocks(\"sand\", 64)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.848Z","level":"info","message":"parsed command: { commandName: '!collectBlocks', args: [ 'sand', 64 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.848Z","level":"info","message":"Stever01 full response to system: \"\"Safe for now. I'll get that sand. !collectBlocks(\"sand\", 64)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:34:38.848Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.061Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.062Z","level":"info","message":"action \"mode:cowardice\" trying to interrupt current action \"action:collectBlocks\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.063Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.063Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.063Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.064Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.064Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.064Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.064Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.064Z","level":"error","message":"at say (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/modes.js:10:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.064Z","level":"error","message":"at Object.update (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/modes.js:149:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.065Z","level":"error","message":"at async Agent.update (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:521:9) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.065Z","level":"error","message":"at async ModeController.update (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/modes.js:406:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.065Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.065Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.067Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.368Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:13.426Z","level":"info","message":"Agent executed: !collectBlocks and got: undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:32.239Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:32.241Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:32.241Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:32.816Z","level":"info","message":"received message from system : (AUTO MESSAGE)Your previous action 'action:collectBlocks' was interrupted by cowardice.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:32.817Z","level":"info","message":"Respond accordingly.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:32.816Z","level":"info","message":"Your behavior log: Aaa! A husk!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:32.819Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:34.798Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:34.800Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:34.801Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:34.801Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.009Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.009Z","level":"info","message":"Generated response: Too many mobs here! Staying safe. !moveAway(15)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.011Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.011Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.012Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.012Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.013Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.011Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.013Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.014Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.015Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.015Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.014Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.019Z","level":"info","message":"Stever01 full response to system: \"\"Too many mobs here! Staying safe. !moveAway(15)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.015Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.020Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.020Z","level":"info","message":"parsed command: { commandName: '!moveAway', args: [ 15 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.020Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:37.074Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:39.916Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:39.918Z","level":"error","message":"Memory updated to:  Name: Stever01. Bilingual (EN/ZH). Desert biome. Self-preservation, hunting, & auto-collecting active. Tried building a house but failed to find oak_log within 64 blocks due to terrain. Shifting strategy to search for alternative local materials using !nearbyBlocks. Prioritizes safety & resource gathering in survival. Needs materials before construction. Stay alert for mobs.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:41.375Z","level":"info","message":"Agent executed: !moveAway and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:41.376Z","level":"info","message":"Found non-destructive path.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:41.376Z","level":"info","message":"Moved away from (-38, 63, 45) to (-24, 62, 51).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:41.378Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:42.487Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:42.488Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:42.489Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:42.488Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.276Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.277Z","level":"info","message":"Generated response: I'll wait for morning to be safe. !stay(60)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.278Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.279Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.280Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.279Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.279Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.280Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.279Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.280Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.280Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.280Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.280Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.280Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.283Z","level":"info","message":"Stever01 full response to system: \"\"I'll wait for morning to be safe. !stay(60)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.284Z","level":"info","message":"parsed command: { commandName: '!stay', args: [ 60 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:35:44.284Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:05.771Z","level":"info","message":"Stever01 received message from Server : 请你造房子","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:12.372Z","level":"info","message":"received message from Server : Please build a house","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:12.376Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:14.329Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:14.331Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:14.331Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:14.331Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.525Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.526Z","level":"info","message":"Generated response: I need wood for a house, looking for trees. !searchForBlock(\"oak_log\", 64)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.527Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.528Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.528Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.529Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.529Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.529Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.529Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.530Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.530Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.531Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.531Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.533Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.537Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.538Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.537Z","level":"info","message":"parsed command: { commandName: '!searchForBlock', args: [ 'oak_log', 64 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.537Z","level":"info","message":"Stever01 full response to Server: \"\"I need wood for a house, looking for trees. !searchForBlock(\"oak_log\", 64)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.539Z","level":"info","message":"action \"action:searchForBlock\" trying to interrupt current action \"action:stay\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.540Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:16.704Z","level":"info","message":"Agent executed: !stay and got: undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:17.682Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:17.683Z","level":"info","message":"Unpausing mode unstuck","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:17.685Z","level":"info","message":"Unpausing mode self_defense","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:17.685Z","level":"info","message":"Unpausing mode cowardice","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:17.685Z","level":"info","message":"Unpausing mode hunting","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:17.686Z","level":"info","message":"Unpausing mode item_collecting","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:17.686Z","level":"info","message":"Unpausing mode torch_placing","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:17.686Z","level":"info","message":"Agent executed: !searchForBlock and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:17.686Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:17.686Z","level":"info","message":"Could not find any oak_log in 64 blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:17.688Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:17.689Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:20.607Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:20.609Z","level":"info","message":"Memory updated to:  Name: Stever01. EN/ZH. Desert. Oak logs unavailable; pivoting to sandstone but lacked tools. Attempting sand collection. Action interrupted by creeper encounter; initiated evasion. Priority: Survive mob threats, then gather sand for basic shelter. Safety over building. Current goal: Evade creeper, re-evaluate tool needs for sandstone, or proceed with sand once clear. Alert for hostiles.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:21.552Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:21.552Z","level":"info","message":"Example: Code output: Could not find any oak_log in 20 blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:21.552Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:21.553Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.476Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.477Z","level":"info","message":"Generated response: No trees. I'll gather sandstone for a desert house instead. !collectBlocks(\"sandstone\", 32)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.478Z","level":"info","message":"Stever01 full response to Server: \"\"No trees. I'll gather sandstone for a desert house instead. !collectBlocks(\"sandstone\", 32)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.479Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.480Z","level":"info","message":"parsed command: { commandName: '!collectBlocks', args: [ 'sandstone', 32 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.480Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.482Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.483Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.482Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.483Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.483Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.483Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.484Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.484Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.484Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.484Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.485Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.485Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.563Z","level":"info","message":"Agent executed: !collectBlocks and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.563Z","level":"info","message":"Don't have right tools to harvest sandstone.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:24.565Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:25.292Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:25.293Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:25.294Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:25.294Z","level":"info","message":"Example: Code output: Could not find any oak_log in 20 blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.687Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.688Z","level":"info","message":"Generated response: I'll gather more sand to make sandstone. !collectBlocks(\"sand\", 64)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.690Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.691Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.690Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.690Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.691Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.691Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.691Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.691Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.692Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.691Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.692Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.692Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.696Z","level":"info","message":"Stever01 full response to Server: \"\"I'll gather more sand to make sandstone. !collectBlocks(\"sand\", 64)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.697Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.697Z","level":"info","message":"parsed command: { commandName: '!collectBlocks', args: [ 'sand', 64 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:36:26.698Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:38:57.850Z","level":"info","message":"Agent executed: !collectBlocks and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:38:57.851Z","level":"info","message":"Collected 64 sand.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:38:57.854Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:39:00.254Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:39:00.255Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:39:00.255Z","level":"info","message":"Example: Code output: Could not find any oak_log in 20 blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:39:00.255Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.503Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.504Z","level":"info","message":"Generated response: I'll turn this sand into sandstone now. !craftRecipe(\"sandstone\", 16)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.506Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.508Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.507Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.508Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.508Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.510Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.510Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.510Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.509Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.508Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.510Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.510Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.516Z","level":"info","message":"Stever01 full response to Server: \"\"I'll turn this sand into sandstone now. !craftRecipe(\"sandstone\", 16)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.517Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.517Z","level":"info","message":"parsed command: { commandName: '!craftRecipe', args: [ 'sandstone', 16 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.518Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.518Z","level":"info","message":"crafting...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.633Z","level":"info","message":"Agent executed: !craftRecipe and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.634Z","level":"info","message":"Successfully crafted sandstone, you now have 15 sandstone.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.636Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.639Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:08.639Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:13.510Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:13.512Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:13.513Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:13.512Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.241Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.242Z","level":"info","message":"Generated response: I'll craft more sandstone to have enough for the house. !craftRecipe(\"sandstone\", 12)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.244Z","level":"info","message":"parsed command: { commandName: '!craftRecipe', args: [ 'sandstone', 12 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.243Z","level":"info","message":"Stever01 full response to Server: \"\"I'll craft more sandstone to have enough for the house. !craftRecipe(\"sandstone\", 12)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.244Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.244Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.246Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.246Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.247Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.247Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.248Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.248Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.248Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.249Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.249Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.249Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.250Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.250Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.255Z","level":"info","message":"crafting...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.294Z","level":"info","message":"Agent executed: !craftRecipe and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.295Z","level":"info","message":"Not enough sand to craft 12, crafted 8. You now have 23 sandstone.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:19.297Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:20.383Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:20.381Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:20.383Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:20.384Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.223Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.225Z","level":"info","message":"Generated response: I'll gather more sand to finish the walls. !collectBlocks(\"sand\", 64)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.226Z","level":"info","message":"Stever01 full response to Server: \"\"I'll gather more sand to finish the walls. !collectBlocks(\"sand\", 64)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.226Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.228Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.229Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.229Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.230Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.229Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.230Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.230Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.231Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.230Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.232Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.231Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.237Z","level":"info","message":"parsed command: { commandName: '!collectBlocks', args: [ 'sand', 64 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.229Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:40:23.237Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:29.865Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:40:29.866Z","level":"error","message":"Memory updated to:  Stever01. Desert. Oak scarce; using sandstone/sand. Tools needed. Constant hostile interference (creeper, husk). Priority: survival over building. Attempted sand collection failed due to mobs. Strategy: evasive maneuvers, safety-first. Currently hunkered down, waiting for daylight to minimize risk before resuming gathering. Avoid night activity. Safety priority remains high. Goal: Gather sand at dawn for shelter. Stay alert.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:42:58.583Z","level":"info","message":"Agent executed: !collectBlocks and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:42:58.584Z","level":"info","message":"Collected 64 sand.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:42:58.588Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:00.304Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:00.305Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:00.307Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:00.306Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.508Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.510Z","level":"info","message":"Stever01 full response to Server: \"\"Crafting more sandstone blocks. !craftRecipe(\"sandstone\", 16)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.508Z","level":"info","message":"Generated response: Crafting more sandstone blocks. !craftRecipe(\"sandstone\", 16)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.511Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.511Z","level":"info","message":"parsed command: { commandName: '!craftRecipe', args: [ 'sandstone', 16 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.511Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.515Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.516Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.517Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.519Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.520Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.520Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.521Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.521Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.523Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.522Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.523Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.524Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.533Z","level":"info","message":"crafting...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.641Z","level":"info","message":"Agent executed: !craftRecipe and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.641Z","level":"info","message":"Successfully crafted sandstone, you now have 39 sandstone.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.642Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.644Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:04.645Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:06.706Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:06.706Z","level":"info","message":"Memory updated to:  Stever01. Desert. Wood/Oak unavailable. Sandstone requires tools I lack. Strategy: Gather sand to craft sandstone manually. Constant hostile mobs (creepers, husks) make night gathering lethal. Priority: Survive night, gather 64 sand at dawn for shelter construction. Focus on sandstone house. Safety first; avoid mobs. Task: Build house. Memory: No tools for stone, use sand. Current goal: Sand collection.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:08.676Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:08.677Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:08.677Z","level":"info","message":"Example: trixy88: craft some sticks","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:08.679Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.864Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.866Z","level":"info","message":"Stever01 full response to Server: \"\"Time to build the shelter. !newAction(\"Build a simple 5x5 square house with sandstone at my current position, leaving a hole for the door.\")\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.865Z","level":"info","message":"Generated response: Time to build the shelter. !newAction(\"Build a simple 5x5 square house with sandstone at my current position, leaving a hole for the door.\")","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.866Z","level":"info","message":"parsed command: {","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.866Z","level":"info","message":"commandName: '!newAction',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.866Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.866Z","level":"info","message":"args: [","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.868Z","level":"info","message":"]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.867Z","level":"info","message":"'Build a simple 5x5 square house with sandstone at my current position, leaving a hole for the door.'","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.868Z","level":"info","message":"}","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.872Z","level":"error","message":"Error translating message: Error: To language zh-cn unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.872Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.872Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.873Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.873Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.873Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.874Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.874Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.875Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:345:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.877Z","level":"error","message":"}","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.876Z","level":"error","message":"[cause]: { options: { to: 'zh-cn' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.876Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T07:43:10.878Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:11.875Z","level":"info","message":"Selected skill docs: [","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:11.876Z","level":"info","message":"'skills.useDoor',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:11.876Z","level":"info","message":"'skills.goToGoal',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:11.876Z","level":"info","message":"'skills.goToSurface',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:11.877Z","level":"info","message":"'skills.goToBed',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:11.876Z","level":"info","message":"'skills.placeBlock',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:11.877Z","level":"info","message":"'skills.breakBlockAt'","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:11.877Z","level":"info","message":"'skills.wait',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:11.877Z","level":"info","message":"]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:12.664Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:12.665Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:12.666Z","level":"info","message":"Example: 234jeb: build a little tower with a torch on the side","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:12.666Z","level":"info","message":"Awaiting openai api response from model claude-opus-4-5-20251101","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.507Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.510Z","level":"info","message":"Generated code: \"\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.511Z","level":"info","message":"// Current position will be the starting corner","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.510Z","level":"info","message":"// Building a 5x5 sandstone house with a door gap","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.511Z","level":"info","message":"const baseX = Math.floor(pos.x);","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.511Z","level":"info","message":"const pos = bot.entity.position;","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.511Z","level":"info","message":"const baseY = Math.floor(pos.y);","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.513Z","level":"info","message":"// Leave a 1-block gap at the front for the door","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.513Z","level":"info","message":"// Only place blocks on the perimeter (walls)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.513Z","level":"info","message":"for (let x = 0; x < 5; x++) {","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.513Z","level":"info","message":"for (let z = 0; z < 5; z++) {","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.514Z","level":"info","message":"const isWall = x === 0 || x === 4 || z === 0 || z === 4;","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.514Z","level":"info","message":"// Door gap at front center (x=2, z=0) for first two levels","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.512Z","level":"info","message":"// Build 5x5 walls, 3 blocks high","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.515Z","level":"info","message":"if (isWall && !isDoorGap) {","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.513Z","level":"info","message":"for (let y = 0; y < 3; y++) {","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.514Z","level":"info","message":"const isDoorGap = (x === 2 && z === 0 && y < 2);","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.512Z","level":"info","message":"const baseZ = Math.floor(pos.z);","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.518Z","level":"info","message":"await skills.placeBlock(bot, 'sandstone', baseX + x, baseY + y, baseZ + z);","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.519Z","level":"info","message":"}","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.520Z","level":"info","message":"}","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.521Z","level":"info","message":"// Build flat roof on top (y=3)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.521Z","level":"info","message":"}","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.521Z","level":"info","message":"}","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.522Z","level":"info","message":"for (let z = 0; z < 5; z++) {","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.521Z","level":"info","message":"for (let x = 0; x < 5; x++) {","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.523Z","level":"info","message":"await skills.placeBlock(bot, 'sandstone', baseX + x, baseY + 3, baseZ + z);","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.523Z","level":"info","message":"}","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:19.523Z","level":"info","message":"}\"\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T07:43:20.055Z","level":"info","message":"Executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:00.879Z","level":"error","message":"[LoginGuard] Disconnected: multiplayer.disconnect.server_shutdown","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T12:18:01.105Z","level":"info","message":"Agent Stever01 disconnected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:01.107Z","level":"info","message":"Agent process exited with code 1 and signal null","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:01.108Z","level":"info","message":"Restarting agent...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:02.282Z","level":"info","message":"Connecting to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:02.320Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:02.328Z","level":"info","message":"Stever01 connected to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:02.330Z","level":"info","message":"Starting agent","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:02.332Z","level":"info","message":"Initializing agent Stever01...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:08.978Z","level":"info","message":"Examples initialized.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:08.980Z","level":"error","message":"Loaded memory: Stever01. Desert. Oak scarce; using sandstone/sand. Tools needed. Constant hostile interference (creeper, husk). Priority: survival over building. Attempted sand collection failed due to mobs. Strategy: evasive maneuvers, safety-first. Currently hunkered down, waiting for daylight to minimize risk before resuming gathering. Avoid night activity. Safety priority remains high. Goal: Gather sand at dawn for shelter. Stay alert.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:08.981Z","level":"info","message":"No task.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:08.982Z","level":"info","message":"Stever01 logging into minecraft...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.440Z","level":"info","message":"AggregateError [ECONNREFUSED]:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.440Z","level":"info","message":"at internalConnectMultiple (node:net:1134:18)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.441Z","level":"info","message":"code: 'ECONNREFUSED',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.441Z","level":"info","message":"at afterConnectMultiple (node:net:1715:7) {","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.441Z","level":"info","message":"[errors]: [","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.441Z","level":"error","message":"Error: connect ECONNREFUSED ::1:25565","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.441Z","level":"info","message":"at createConnectionError (node:net:1678:14)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.442Z","level":"info","message":"errno: -4078,","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.441Z","level":"info","message":"at afterConnectMultiple (node:net:1708:16) {","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.442Z","level":"info","message":"syscall: 'connect',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.442Z","level":"info","message":"code: 'ECONNREFUSED',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.442Z","level":"info","message":"address: '::1',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.442Z","level":"info","message":"port: 25565","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.442Z","level":"info","message":"},","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.442Z","level":"error","message":"Error: connect ECONNREFUSED 127.0.0.1:25565","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.443Z","level":"info","message":"errno: -4078,","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.443Z","level":"info","message":"at afterConnectMultiple (node:net:1708:16) {","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.443Z","level":"info","message":"at createConnectionError (node:net:1678:14)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.443Z","level":"info","message":"code: 'ECONNREFUSED',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.443Z","level":"info","message":"syscall: 'connect',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.444Z","level":"info","message":"port: 25565","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.444Z","level":"info","message":"]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.443Z","level":"info","message":"address: '127.0.0.1',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.444Z","level":"info","message":"}","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.444Z","level":"info","message":"}","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.448Z","level":"error","message":"[LoginGuard] Connection Error: AggregateError","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.449Z","level":"error","message":"[LoginGuard] Connection Failed: Server is under maintenance or restarting.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.681Z","level":"info","message":"Agent process exited with code 1 and signal null","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T12:18:09.684Z","level":"error","message":"Agent process exited too quickly and will not be restarted.","source":"stderr"}

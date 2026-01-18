@@ -1,0 +1,1149 @@
+{"type":"session_start","sessionId":"bot_1768106403862_k0khacg_2026-01-16T18-03-23-101Z","botId":"bot_1768106403862_k0khacg","botName":"Stever01","startTime":"2026-01-16T18:03:23.101Z"}
+{"type":"log","timestamp":"2026-01-16T18:03:23.109Z","level":"info","message":"Starting bot...","source":"system"}
+{"type":"log","timestamp":"2026-01-16T18:03:23.976Z","level":"info","message":"MindServer running on port 8080","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:24.048Z","level":"info","message":"MC server found. (Host: localhost, Port: 25565, Version: 1.19.4)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:24.353Z","level":"info","message":"Bot started successfully","source":"system"}
+{"type":"log","timestamp":"2026-01-16T18:03:25.370Z","level":"info","message":"Connecting to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:25.392Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:25.396Z","level":"info","message":"Stever01 connected to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:25.414Z","level":"info","message":"Starting agent","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:25.417Z","level":"info","message":"Initializing agent Stever01...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:27.578Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:28.381Z","level":"info","message":"Examples initialized.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:28.383Z","level":"info","message":"No task.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:28.386Z","level":"info","message":"Stever01 logging into minecraft...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:30.404Z","level":"info","message":"Stever01 logged in!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:30.425Z","level":"info","message":"Stever01 updating available agents","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:33.183Z","level":"info","message":"Initializing vision intepreter...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:34.185Z","level":"info","message":"Stever01 spawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:34.204Z","level":"info","message":"received message from system : Respond with hello world and your name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:34.207Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:35.828Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:35.827Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:35.829Z","level":"info","message":"Example: miner_32: Hey! What are you up to?","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:35.831Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:37.631Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:37.632Z","level":"info","message":"Generated response: Hello world, I'm Stever01!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:37.633Z","level":"info","message":"Stever01 full response to system: \"\"Hello world, I'm Stever01!\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:40.155Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:42.222Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:42.224Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:42.224Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:45.687Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:55.952Z","level":"info","message":"Stever01 received message from CH_Faber : sleep","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:55.954Z","level":"info","message":"received message from CH_Faber : sleep","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:55.955Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:57.655Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:57.656Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:57.657Z","level":"info","message":"Example: miner_32: Hey! What are you up to?","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:57.657Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:59.685Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:59.686Z","level":"info","message":"Generated response: I'll find a bed. !goToBed()","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:59.687Z","level":"info","message":"Stever01 full response to CH_Faber: \"\"I'll find a bed. !goToBed()\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:59.688Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:59.690Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:59.689Z","level":"info","message":"parsed command: { commandName: '!goToBed', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:59.690Z","level":"info","message":"action \"action:goToBed\" trying to interrupt current action \"mode:cowardice\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:59.693Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:03:59.996Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:00.059Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:00.168Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:02.919Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:02.921Z","level":"info","message":"action \"mode:cowardice\" trying to interrupt current action \"action:goToBed\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:02.922Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:03.233Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:03.541Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:03.840Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:04.148Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:04.457Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:04.772Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.081Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.391Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.612Z","level":"error","message":"Code execution triggered catch: Error: the bed is occupied","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.612Z","level":"error","message":"at EventEmitter.sleep (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\bed.js:93:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.613Z","level":"error","message":"at Module.goToBed (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/library/skills.js:1565:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.614Z","level":"error","message":"at async file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:335:13","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.614Z","level":"error","message":"at async actionFnWithAgent (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:17:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.614Z","level":"error","message":"at async ActionManager._executeAction (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/action_manager.js:105:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.615Z","level":"error","message":"at async Object.wrappedAction [as perform] (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:19:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.617Z","level":"error","message":"at async executeCommand (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/index.js:226:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.617Z","level":"error","message":"at async Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:362:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.620Z","level":"info","message":"Agent executed: !goToBed and got: undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.625Z","level":"error","message":"Error: the bed is occupied","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.626Z","level":"error","message":"at EventEmitter.sleep (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\bed.js:93:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.626Z","level":"error","message":"at Module.goToBed (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/library/skills.js:1565:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.627Z","level":"error","message":"at async ActionManager._executeAction (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/action_manager.js:105:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.626Z","level":"error","message":"at async file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:335:13","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.627Z","level":"error","message":"at async actionFnWithAgent (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:17:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.627Z","level":"error","message":"at async Object.wrappedAction [as perform] (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:19:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.627Z","level":"error","message":"at async executeCommand (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/index.js:226:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:05.628Z","level":"error","message":"at async Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:362:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:11.378Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:11.889Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:17.062Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:22.198Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:22.201Z","level":"info","message":"received message from system : (AUTO MESSAGE)Your previous action 'action:goToBed' was interrupted by cowardice.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:22.201Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:22.200Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:22.201Z","level":"info","message":"Respond accordingly.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:22.201Z","level":"info","message":"Your behavior log: Aaa! A phantom!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:22.204Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:24.572Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:24.642Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:24.643Z","level":"info","message":"Example: miner_32: Hey! What are you up to?","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:24.644Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:24.643Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.084Z","level":"info","message":"action \"mode:self_preservation\" trying to interrupt current action \"mode:item_collecting\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.083Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.085Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.238Z","level":"info","message":"Mode item_collecting finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.584Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.585Z","level":"info","message":"Generated response: I'm scared! I'll try to find a bed again once it's safe. !goToBed","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.586Z","level":"info","message":"Stever01 full response to system: \"\"I'm scared! I'll try to find a bed again once it's safe. !goToBed\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.587Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.587Z","level":"info","message":"parsed command: { commandName: '!goToBed', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.587Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.587Z","level":"info","message":"action \"action:goToBed\" trying to interrupt current action \"mode:self_preservation\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.729Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.729Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.730Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.730Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.730Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.730Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.730Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.730Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.731Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.731Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.731Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.734Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.735Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.736Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.737Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.742Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.741Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.740Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.741Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.742Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.743Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.743Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.743Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.743Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.744Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:26.744Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.072Z","level":"info","message":"action \"mode:self_preservation\" trying to interrupt current action \"action:goToBed\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.072Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.073Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.076Z","level":"info","message":"Agent died:  Stever01 was slain by Phantom","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.077Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.080Z","level":"info","message":"received message from system : You died at position x: 123.98, y: 63.00, z: 123.98 in the overworld dimension with the final message: 'Stever01 was slain by Phantom'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.083Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.371Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.377Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.674Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.677Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.911Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.912Z","level":"info","message":"Example: hanky: kill that zombie!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.914Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.914Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.977Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:27.978Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:28.493Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:28.494Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:29.202Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:29.204Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:29.737Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:29.738Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.238Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.239Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.565Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.567Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.569Z","level":"error","message":"Code execution triggered catch: TypeError: Cannot read properties of null (reading 'name')","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.569Z","level":"error","message":"at isABed (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\bed.js:14:27)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.570Z","level":"error","message":"at EventEmitter.sleep (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\bed.js:85:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.570Z","level":"error","message":"at Module.goToBed (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/library/skills.js:1565:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.570Z","level":"error","message":"at async file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:335:13","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.570Z","level":"error","message":"at async actionFnWithAgent (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:17:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.570Z","level":"error","message":"at async ActionManager._executeAction (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/action_manager.js:105:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.571Z","level":"error","message":"at async Object.wrappedAction [as perform] (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:19:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.571Z","level":"error","message":"at async executeCommand (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/index.js:226:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.571Z","level":"error","message":"at async Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:362:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.571Z","level":"error","message":"TypeError: Cannot read properties of null (reading 'name')","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.571Z","level":"error","message":"at isABed (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\bed.js:14:27)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.571Z","level":"error","message":"at EventEmitter.sleep (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\bed.js:85:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.571Z","level":"error","message":"at Module.goToBed (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/library/skills.js:1565:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.572Z","level":"error","message":"at async actionFnWithAgent (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:17:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.571Z","level":"error","message":"at async file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:335:13","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.572Z","level":"error","message":"at async ActionManager._executeAction (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/action_manager.js:105:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.572Z","level":"error","message":"at async Object.wrappedAction [as perform] (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:19:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.572Z","level":"error","message":"at async executeCommand (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/index.js:226:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.572Z","level":"error","message":"at async Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:362:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.575Z","level":"info","message":"Agent executed: !goToBed and got: undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:30.978Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.140Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.142Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.141Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.141Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.142Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.142Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.142Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.142Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.143Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.142Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.143Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.143Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.143Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.143Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.143Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.143Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.144Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.144Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.144Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.144Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.142Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.151Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.144Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.152Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.153Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:31.153Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:32.227Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:32.227Z","level":"info","message":"Generated response: I died! Heading back to my stuff. !goToRememberedPlace(\"last_death_position\")","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:32.230Z","level":"info","message":"parsed command: {","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:32.228Z","level":"info","message":"Stever01 full response to system: \"\"I died! Heading back to my stuff. !goToRememberedPlace(\"last_death_position\")\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:32.230Z","level":"info","message":"commandName: '!goToRememberedPlace',","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:32.230Z","level":"info","message":"args: [ 'last_death_position' ]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:32.231Z","level":"info","message":"}","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:32.231Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:38.180Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:38.182Z","level":"info","message":"action \"mode:cowardice\" trying to interrupt current action \"action:goToRememberedPlace\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:38.182Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:38.306Z","level":"info","message":"Agent executed: !goToRememberedPlace and got: undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:41.045Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:41.047Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:41.047Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:41.047Z","level":"info","message":"received message from system : (AUTO MESSAGE)Your previous action 'action:goToRememberedPlace' was interrupted by cowardice.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:41.048Z","level":"info","message":"Your behavior log: Aaa! A spider!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:41.048Z","level":"info","message":"Respond accordingly.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:41.050Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:42.572Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:42.573Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:42.575Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:42.574Z","level":"info","message":"Example: hanky: kill that zombie!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:44.580Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:44.581Z","level":"info","message":"Generated response: Too many monsters! !moveAway(20)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:44.582Z","level":"info","message":"Stever01 full response to system: \"\"Too many monsters! !moveAway(20)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:44.583Z","level":"info","message":"parsed command: { commandName: '!moveAway', args: [ 20 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:44.584Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.574Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.576Z","level":"info","message":"action \"mode:cowardice\" trying to interrupt current action \"action:moveAway\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.576Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.877Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.936Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.937Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.937Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.938Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.937Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.938Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.938Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.938Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.938Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.938Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.941Z","level":"info","message":"Agent executed: !moveAway and got: undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.943Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.944Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.938Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.945Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.947Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.945Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.947Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.947Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.946Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.947Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.947Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:46.947Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:04:55.087Z","level":"info","message":"Stever01 received message from CH_Faber : sleep","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:55.089Z","level":"info","message":"received message from CH_Faber : sleep","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:55.092Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:56.789Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:56.790Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:56.790Z","level":"info","message":"Example: hanky: kill that zombie!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:56.794Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:58.637Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:58.638Z","level":"info","message":"Generated response: I'll try to sleep. !goToBed","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:58.638Z","level":"info","message":"Stever01 full response to CH_Faber: \"\"I'll try to sleep. !goToBed\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:58.639Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:58.639Z","level":"info","message":"stopping self-prompt loop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:58.639Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:58.639Z","level":"info","message":"parsed command: { commandName: '!goToBed', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:58.639Z","level":"info","message":"action \"action:goToBed\" trying to interrupt current action \"mode:cowardice\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:58.641Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:58.641Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:58.939Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:04:59.137Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:00.077Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:00.077Z","level":"info","message":"action \"mode:cowardice\" trying to interrupt current action \"action:goToBed\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:00.079Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:00.380Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:00.690Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:00.992Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:01.294Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:01.603Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:01.911Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.223Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.533Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.787Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.788Z","level":"info","message":"Memory updated to:  I'm Stever01. I recently encountered phantoms, which are hostile. When CH_Faber tells me to sleep, I must use the !goToBed command to find a bed and skip the night. I respond to \"hello world\" greetings. Priority: Use !goToBed when prompted to sleep or when phantoms attack to reset the spawn cycle.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.884Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.941Z","level":"error","message":"at EventEmitter.sleep (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\bed.js:93:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.941Z","level":"error","message":"at Module.goToBed (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/library/skills.js:1565:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.941Z","level":"error","message":"Code execution triggered catch: Error: the bed is occupied","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.941Z","level":"error","message":"at async actionFnWithAgent (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:17:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.942Z","level":"error","message":"at async Object.wrappedAction [as perform] (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:19:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.942Z","level":"error","message":"at async executeCommand (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/index.js:226:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.942Z","level":"error","message":"at async Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:362:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.943Z","level":"info","message":"Agent executed: !goToBed and got: undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.946Z","level":"error","message":"Error: the bed is occupied","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.946Z","level":"error","message":"at EventEmitter.sleep (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\bed.js:93:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.946Z","level":"error","message":"at Module.goToBed (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/library/skills.js:1565:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.946Z","level":"error","message":"at async file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:335:13","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.946Z","level":"error","message":"at async actionFnWithAgent (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:17:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.941Z","level":"error","message":"at async file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:335:13","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.941Z","level":"error","message":"at async ActionManager._executeAction (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/action_manager.js:105:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.947Z","level":"error","message":"at async executeCommand (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/index.js:226:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.946Z","level":"error","message":"at async ActionManager._executeAction (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/action_manager.js:105:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.947Z","level":"error","message":"at async Object.wrappedAction [as perform] (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:19:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:02.947Z","level":"error","message":"at async Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:362:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:03.185Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:09.879Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:18.099Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:22.211Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:22.212Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:22.213Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:22.213Z","level":"info","message":"received message from system : (AUTO MESSAGE)Your previous action 'action:goToBed' was interrupted by cowardice.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:22.213Z","level":"info","message":"Respond accordingly.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:22.216Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:22.213Z","level":"info","message":"Your behavior log: Aaa! A phantom!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:23.850Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:23.851Z","level":"info","message":"Example: hanky: kill that zombie!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:23.853Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:23.853Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:25.734Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:25.734Z","level":"info","message":"Generated response: Phantoms again! Trying to sleep. !goToBed","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:25.736Z","level":"info","message":"parsed command: { commandName: '!goToBed', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:25.735Z","level":"info","message":"Stever01 full response to system: \"\"Phantoms again! Trying to sleep. !goToBed\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:25.736Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.252Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.254Z","level":"info","message":"action \"mode:cowardice\" trying to interrupt current action \"action:goToBed\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.255Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.340Z","level":"error","message":"Code execution triggered catch: Error: the bed is occupied","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.341Z","level":"error","message":"at EventEmitter.sleep (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\bed.js:93:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.341Z","level":"error","message":"at Module.goToBed (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/library/skills.js:1565:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.342Z","level":"error","message":"at async ActionManager._executeAction (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/action_manager.js:105:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.341Z","level":"error","message":"at async actionFnWithAgent (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:17:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.341Z","level":"error","message":"at async file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:335:13","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.342Z","level":"error","message":"at async Object.wrappedAction [as perform] (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:19:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.342Z","level":"error","message":"at async executeCommand (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/index.js:226:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.342Z","level":"error","message":"at async Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:362:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.348Z","level":"error","message":"Error: the bed is occupied","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.344Z","level":"info","message":"Agent executed: !goToBed and got: undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.349Z","level":"error","message":"at Module.goToBed (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/library/skills.js:1565:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.349Z","level":"error","message":"at EventEmitter.sleep (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\bed.js:93:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.350Z","level":"error","message":"at async ActionManager._executeAction (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/action_manager.js:105:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.350Z","level":"error","message":"at async actionFnWithAgent (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:17:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.350Z","level":"error","message":"at async file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:335:13","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.350Z","level":"error","message":"at async Object.wrappedAction [as perform] (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:19:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.350Z","level":"error","message":"at async executeCommand (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/index.js:226:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:26.351Z","level":"error","message":"at async Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:362:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:05:36.318Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:38.901Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:38.903Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:38.903Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:38.904Z","level":"info","message":"Your behavior log: Aaa! A phantom!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:38.904Z","level":"info","message":"Respond accordingly.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:38.904Z","level":"info","message":"received message from system : (AUTO MESSAGE)Your previous action 'action:goToBed' was interrupted by cowardice.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:38.907Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:40.285Z","level":"info","message":"Example: hanky: kill that zombie!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:40.284Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:40.286Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:40.286Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:42.590Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:42.591Z","level":"info","message":"Generated response: I'll try to reach the bed! !goToBed","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:42.592Z","level":"info","message":"Stever01 full response to system: \"\"I'll try to reach the bed! !goToBed\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:42.592Z","level":"info","message":"parsed command: { commandName: '!goToBed', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:42.592Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:46.233Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:46.234Z","level":"info","message":"action \"mode:cowardice\" trying to interrupt current action \"action:goToBed\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:46.236Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:46.535Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:46.841Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:47.144Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:47.460Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:47.770Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:48.078Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:48.381Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:48.686Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:48.987Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:49.291Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:49.606Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:49.915Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:50.225Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:50.527Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:50.831Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:51.132Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:51.432Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:51.736Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:52.038Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:52.347Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:52.658Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:52.974Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:53.282Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:53.586Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:53.890Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:54.190Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:54.490Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:54.794Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:55.105Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:55.415Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:55.726Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:56.030Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:56.235Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:56.238Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:56.501Z","level":"info","message":"Agent Stever01 disconnected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:56.517Z","level":"info","message":"Agent process exited with code 1 and signal null","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:56.519Z","level":"info","message":"Restarting agent...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:57.604Z","level":"info","message":"Connecting to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:57.626Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:57.632Z","level":"info","message":"Stever01 connected to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:57.633Z","level":"info","message":"Starting agent","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:05:57.636Z","level":"info","message":"Initializing agent Stever01...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:00.646Z","level":"info","message":"Examples initialized.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:00.648Z","level":"info","message":"Loaded memory: I'm Stever01. I recently encountered phantoms, which are hostile. When CH_Faber tells me to sleep, I must use the !goToBed command to find a bed and skip the night. I respond to \"hello world\" greetings. Priority: Use !goToBed when prompted to sleep or when phantoms attack to reset the spawn cycle.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:00.651Z","level":"info","message":"No task.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:00.652Z","level":"info","message":"Stever01 logging into minecraft...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:02.048Z","level":"info","message":"Stever01 logged in!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:02.066Z","level":"info","message":"Stever01 updating available agents","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:03.856Z","level":"info","message":"Initializing vision intepreter...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:04.859Z","level":"info","message":"Stever01 spawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:04.869Z","level":"info","message":"received message from system : Agent process restarted.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:04.873Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:07.128Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:07.130Z","level":"info","message":"Example: zZZn98: come here","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:07.130Z","level":"info","message":"Example: hanky: kill that zombie!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:07.131Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:08.890Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:08.893Z","level":"info","message":"Generated response: I'm on it. !goToBed","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:08.894Z","level":"info","message":"Stever01 full response to system: \"\"I'm on it. !goToBed\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:08.897Z","level":"info","message":"parsed command: { commandName: '!goToBed', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:08.899Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.793Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.794Z","level":"info","message":"action \"mode:cowardice\" trying to interrupt current action \"action:goToBed\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.795Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.870Z","level":"error","message":"Code execution triggered catch: Error: the bed is occupied","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.871Z","level":"error","message":"at EventEmitter.sleep (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\bed.js:93:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.873Z","level":"error","message":"at async ActionManager._executeAction (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/action_manager.js:105:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.872Z","level":"error","message":"at Module.goToBed (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/library/skills.js:1565:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.873Z","level":"error","message":"at async actionFnWithAgent (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:17:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.872Z","level":"error","message":"at async file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:335:13","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.873Z","level":"error","message":"at async Object.wrappedAction [as perform] (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:19:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.873Z","level":"error","message":"at async executeCommand (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/index.js:226:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.874Z","level":"error","message":"Error: the bed is occupied","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.874Z","level":"error","message":"at async file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:335:13","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.874Z","level":"error","message":"at async Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:362:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.874Z","level":"error","message":"at async Agent._setupEventHandlers (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:214:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.874Z","level":"error","message":"at Module.goToBed (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/library/skills.js:1565:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.874Z","level":"error","message":"at EventEmitter.sleep (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\bed.js:93:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.874Z","level":"error","message":"at async actionFnWithAgent (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:17:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.875Z","level":"error","message":"at async Object.wrappedAction [as perform] (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/actions.js:19:29)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.875Z","level":"error","message":"at async ActionManager._executeAction (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/action_manager.js:105:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.875Z","level":"error","message":"at async executeCommand (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/commands/index.js:226:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.875Z","level":"error","message":"at async Agent._setupEventHandlers (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:214:13)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.875Z","level":"error","message":"at async Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:362:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:09.885Z","level":"info","message":"Agent executed: !goToBed and got: undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:20.910Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:20.912Z","level":"info","message":"Mode cowardice finished executing, code_return: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:20.913Z","level":"info","message":"Moved 24 away from enemies.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:20.913Z","level":"info","message":"Your behavior log: Aaa! A drowned!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:20.913Z","level":"info","message":"received message from system : (AUTO MESSAGE)Your previous action 'action:goToBed' was interrupted by cowardice.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:20.913Z","level":"info","message":"Respond accordingly.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:20.915Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:22.260Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:22.262Z","level":"info","message":"Example: hanky: kill that zombie!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:22.262Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:22.262Z","level":"info","message":"Example: zZZn98: come here","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:23.573Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:24.595Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:24.595Z","level":"info","message":"Generated response: I'm trying to sleep! !goToBed","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:24.598Z","level":"info","message":"Stever01 full response to system: \"\"I'm trying to sleep! !goToBed\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:24.599Z","level":"info","message":"parsed command: { commandName: '!goToBed', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:24.600Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:24.600Z","level":"info","message":"action \"action:goToBed\" trying to interrupt current action \"mode:cowardice\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:24.601Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:24.601Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:24.777Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:24.826Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:24.898Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:25.206Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:25.337Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:25.391Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:25.415Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:25.515Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:25.829Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:25.929Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:26.015Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:26.038Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:26.129Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:26.437Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:26.562Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:26.623Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:26.647Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:26.739Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:27.041Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:27.167Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:27.236Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:27.258Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:27.353Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:27.666Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:27.774Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:27.853Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:27.872Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:28.019Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:28.331Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:28.386Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:28.474Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:28.498Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:28.635Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:28.939Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:29.018Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:29.087Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:29.103Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:29.253Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:29.564Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:29.626Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:29.703Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:29.719Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:29.874Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:30.185Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:30.234Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:30.308Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:30.323Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:30.495Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:30.807Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:30.838Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:30.932Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:30.946Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:31.117Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:31.427Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:31.457Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:31.535Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:31.547Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:31.734Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:32.040Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:32.070Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:32.147Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:32.157Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:32.345Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:32.658Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:32.674Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:32.767Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:32.782Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:32.970Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:33.279Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:33.296Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:33.378Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:33.401Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:33.580Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:33.885Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:33.918Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:33.987Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:34.001Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:34.186Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:34.487Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:34.518Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:34.597Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:34.599Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:34.900Z","level":"info","message":"Agent Stever01 disconnected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:34.915Z","level":"info","message":"Agent process exited with code 1 and signal null","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:34.917Z","level":"info","message":"Restarting agent...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:36.021Z","level":"info","message":"Connecting to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:36.049Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:36.053Z","level":"info","message":"Stever01 connected to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:36.055Z","level":"info","message":"Starting agent","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:36.057Z","level":"info","message":"Initializing agent Stever01...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:38.272Z","level":"info","message":"Examples initialized.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:38.276Z","level":"info","message":"No task.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:38.275Z","level":"info","message":"Loaded memory: I'm Stever01. I recently encountered phantoms, which are hostile. When CH_Faber tells me to sleep, I must use the !goToBed command to find a bed and skip the night. I respond to \"hello world\" greetings. Priority: Use !goToBed when prompted to sleep or when phantoms attack to reset the spawn cycle.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:38.277Z","level":"info","message":"Stever01 logging into minecraft...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:39.720Z","level":"info","message":"Stever01 logged in!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:39.736Z","level":"info","message":"Stever01 updating available agents","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:42.029Z","level":"info","message":"Initializing vision intepreter...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:43.031Z","level":"info","message":"Stever01 spawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:43.039Z","level":"info","message":"received message from system : Agent process restarted.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:43.043Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:43.392Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:44.429Z","level":"info","message":"attacking mob...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:44.449Z","level":"info","message":"Agent died:  Stever01 was slain by Phantom","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:44.449Z","level":"info","message":"received message from system : You died at position x: 96.96, y: 63.00, z: 96.96 in the overworld dimension with the final message: 'Stever01 was slain by Phantom'. Your place of death is saved as 'last_death_position' if you want to return. Previous actions were stopped and you have respawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:44.453Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:44.454Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:44.754Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:44.942Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:44.944Z","level":"info","message":"Example: zZZn98: come here","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:44.942Z","level":"info","message":"Example: abc: stop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:44.945Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:44.947Z","level":"info","message":"Mode cowardice finished executing, code_return:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:45.183Z","level":"info","message":"Unpausing mode self_preservation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:45.185Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:46.551Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:46.553Z","level":"error","message":"no response","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:46.552Z","level":"error","message":"Stever01 received new message while generating, discarding old response.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:46.554Z","level":"info","message":"Generated response:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:46.555Z","level":"info","message":"Stever01 full response to system: \"\"\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:47.395Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:47.397Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:47.397Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:47.397Z","level":"info","message":"Example: abc: stop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.100Z","level":"info","message":"Generated response: I died! I need to skip the night. !goToBed","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.099Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.101Z","level":"info","message":"Stever01 full response to system: \"\"I died! I need to skip the night. !goToBed\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.103Z","level":"info","message":"parsed command: { commandName: '!goToBed', args: [] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.104Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.105Z","level":"info","message":"action \"action:goToBed\" trying to interrupt current action \"mode:self_preservation\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.105Z","level":"info","message":"waiting for code to finish executing...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.129Z","level":"error","message":"Code execution triggered catch: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.130Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.130Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.130Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.130Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.131Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.131Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.131Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.131Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.134Z","level":"error","message":"Mode self_preservation finished executing, code_return: !!Code threw exception!!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.131Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.130Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.136Z","level":"info","message":"undefined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.135Z","level":"error","message":"Error: PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.136Z","level":"info","message":"Stack trace:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.141Z","level":"error","message":"at error (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:2:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.140Z","level":"error","message":"PathStopped: Path was stopped before it could be completed! Thus, the desired goal was not reached.","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.142Z","level":"error","message":"at stop (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:409:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.142Z","level":"error","message":"at EventEmitter.monitorMovement (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\index.js:603:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.141Z","level":"error","message":"at EventEmitter.emit (node:events:519:28)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.141Z","level":"error","message":"at EventEmitter.pathStopped (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer-pathfinder\\lib\\goto.js:39:15)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.142Z","level":"error","message":"at EventEmitter.emit (node:events:531:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.142Z","level":"error","message":"at tickPhysics (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:82:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.143Z","level":"error","message":"at Timeout.doPhysics [as _onTimeout] (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\mineflayer\\lib\\plugins\\physics.js:71:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.143Z","level":"error","message":"at listOnTimeout (node:internal/timers:588:17)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.143Z","level":"error","message":"at process.processTimers (node:internal/timers:523:7)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.703Z","level":"info","message":"Agent executed: !goToBed and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.704Z","level":"info","message":"Could not find a bed to sleep in.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.705Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.707Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:49.708Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:52.318Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:52.319Z","level":"info","message":"Memory updated to:  I'm Stever01. Phantoms are hostile and interrupt the !goToBed command due to fear. When CH_Faber says sleep or phantoms attack, I must persist with !goToBed to skip night and reset spawns. Recent attempts to sleep were blocked by phantom proximity and script timeouts. Priority: Keep trying !goToBed despite interruptions or \"cowardice\" logs to successfully reach safety. Respond to \"hello world.\" Avoid phantom combat by prioritizing bed access.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:53.644Z","level":"info","message":"Example: abc: stop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:53.643Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:53.645Z","level":"info","message":"Example: Code output: Placed oak_planks at (-154, 96, -228).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:53.646Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:55.649Z","level":"info","message":"Generated response: I need a bed. !searchForBlock(\"white_bed\", 64)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:55.648Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:55.650Z","level":"info","message":"Stever01 full response to system: \"\"I need a bed. !searchForBlock(\"white_bed\", 64)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:55.651Z","level":"info","message":"parsed command: { commandName: '!searchForBlock', args: [ 'white_bed', 64 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:55.652Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:57.096Z","level":"info","message":"Agent executed: !searchForBlock and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:57.096Z","level":"info","message":"Could not find any white_bed in 64 blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:57.098Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:57.879Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:57.881Z","level":"info","message":"Example: Code output: Could not find any oak_log in 20 blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:57.879Z","level":"info","message":"Example: abc: stop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:06:57.881Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:12.314Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:12.315Z","level":"info","message":"Generated response: I'll look for wood to make a bed. !searchForBlock(\"oak_log\", 64)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:12.316Z","level":"info","message":"parsed command: { commandName: '!searchForBlock', args: [ 'oak_log', 64 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:12.316Z","level":"info","message":"Stever01 full response to system: \"\"I'll look for wood to make a bed. !searchForBlock(\"oak_log\", 64)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:12.316Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:13.704Z","level":"info","message":"Agent executed: !searchForBlock and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:13.704Z","level":"info","message":"Could not find any oak_log in 64 blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:13.706Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:14.579Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:14.580Z","level":"info","message":"Example: abc: stop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:14.581Z","level":"info","message":"Example: Code output: Could not find any oak_log in 20 blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:14.582Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:16.455Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:16.455Z","level":"info","message":"Generated response: I'll look for any logs nearby. !searchForBlock(\"acacia_log\", 64)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:16.456Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:16.456Z","level":"info","message":"parsed command: { commandName: '!searchForBlock', args: [ 'acacia_log', 64 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:16.455Z","level":"info","message":"Stever01 full response to system: \"\"I'll look for any logs nearby. !searchForBlock(\"acacia_log\", 64)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:16.457Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:17.746Z","level":"info","message":"Agent executed: !searchForBlock and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:17.746Z","level":"info","message":"Could not find any acacia_log in 64 blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:17.748Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:17.982Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:18.480Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:18.480Z","level":"info","message":"Example: Code output: Placed oak_planks at (-154, 96, -228).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:18.480Z","level":"info","message":"Example: abc: stop","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:18.481Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:20.973Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:20.973Z","level":"error","message":"Memory updated to:  I'm Stever01. Phantoms and Drowned interrupt !goToBed via \"cowardice\" logs. Must persist with !goToBed when CH_Faber says sleep or when attacked to skip night/reset spawns. Recent attempts failed due to Drowned proximity and 10s script timeouts. Priority: Ignore interruptions and keep retrying !goToBed until successful. Avoid combat; prioritize bed access. Respond to \"hello world.\" Memory: persistence is key to overcoming fear-based interruptions and timeouts.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:24.375Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:24.375Z","level":"info","message":"Generated response: I'll look for any type of wood. !searchWiki(\"wood\")","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:24.376Z","level":"info","message":"Stever01 full response to system: \"\"I'll look for any type of wood. !searchWiki(\"wood\")\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:24.377Z","level":"info","message":"parsed command: { commandName: '!searchWiki', args: [ 'wood' ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.996Z","level":"info","message":"Agent executed: !searchWiki and got: This article is about the bark block.  For the block found in trees, see Log.  For the stripped variant, see Stripped Wood.  For other uses, see Wood (disambiguation).","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.997Z","level":"info","message":"Wood/Hyphae","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.997Z","level":"info","message":"Renewable","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.997Z","level":"info","message":"Yes","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.998Z","level":"info","message":"Yes (64); same type only","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.998Z","level":"info","message":"Stackable","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.998Z","level":"info","message":"Tool","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.998Z","level":"info","message":"2","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.998Z","level":"info","message":"Blast resistance","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.998Z","level":"info","message":"Hardness","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.998Z","level":"info","message":"Luminous","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.998Z","level":"info","message":"2","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.999Z","level":"info","message":"No","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.999Z","level":"info","message":"Transparent","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.999Z","level":"info","message":"No","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.999Z","level":"info","message":"Yes (5)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.999Z","level":"info","message":"No","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.999Z","level":"info","message":"Catches firefrom lava","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.999Z","level":"info","message":"Flammable","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.000Z","level":"info","message":"\"title\": \"Wood/Hyphae\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:25.999Z","level":"info","message":"Yes","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.000Z","level":"info","message":"JE: NoBE: Yes","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.000Z","level":"info","message":"\"rows\": [","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.000Z","level":"info","message":"{","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.000Z","level":"info","message":"\"field\": \"Yes\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.000Z","level":"info","message":"\"label\": \"(link to Renewable resource article, displayed as Renewable)\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.000Z","level":"info","message":"{","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.001Z","level":"info","message":"\"field\": \"Yes (64); same type only\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.001Z","level":"info","message":"{","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.000Z","level":"info","message":"},","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.001Z","level":"info","message":"\"label\": \"Stackable\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.001Z","level":"info","message":"},","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.002Z","level":"info","message":"{","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.002Z","level":"info","message":"\"label\": \"Tool\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.002Z","level":"info","message":"\"field\": \"<span class=\\\"sprite-file\\\" style=\\\"height:32px;width:32px;--vertical-align:middle\\\">(link to File:SlotSprite Axe Required.png article, displayed as 32x32px|link=Axe|alt=|class=pixel-image|This block can be broken with any tool, but an axe is the quickest)</span>\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.003Z","level":"info","message":"},","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.003Z","level":"info","message":"{","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.003Z","level":"info","message":"\"field\": \"2\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.003Z","level":"info","message":"\"field\": \"2\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.003Z","level":"info","message":"\"label\": \"(link to Explosion#Blast resistance article, displayed as Blast resistance)\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.003Z","level":"info","message":"{","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.003Z","level":"info","message":"},","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.004Z","level":"info","message":"\"label\": \"(link to Breaking#Blocks by hardness article, displayed as Hardness)\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.004Z","level":"info","message":"},","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.004Z","level":"info","message":"\"label\": \"(link to Light article, displayed as Luminous)\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.004Z","level":"info","message":"\"field\": \"No\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.004Z","level":"info","message":"{","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.004Z","level":"info","message":"},","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.004Z","level":"info","message":"{","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.004Z","level":"info","message":"\"field\": \"No\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.005Z","level":"info","message":"},","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.004Z","level":"info","message":"\"label\": \"(link to Opacity article, displayed as Transparent)\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.007Z","level":"info","message":"\"label\": \"(link to Flammable article, displayed as Flammable)\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.005Z","level":"info","message":"{","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.007Z","level":"info","message":"\"field\": \"(values exceeds 1000 characters...)\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.007Z","level":"info","message":"{","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.007Z","level":"info","message":"},","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.008Z","level":"info","message":"\"label\": \"Catches fire<br>from (link to lava article, displayed as lava)\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.008Z","level":"info","message":"}","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.007Z","level":"info","message":"\"field\": \"(values exceeds 1000 characters...)\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.008Z","level":"info","message":"],","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.009Z","level":"info","message":"\"invimages\": [","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.009Z","level":"info","message":"\"Oak Wood\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.009Z","level":"info","message":"\"Spruce Wood\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.009Z","level":"info","message":"\"Acacia Wood\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.009Z","level":"info","message":"\"Birch Wood\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.009Z","level":"info","message":"\"Dark Oak Wood\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.010Z","level":"info","message":"\"Mangrove Wood\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.009Z","level":"info","message":"\"Jungle Wood\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.010Z","level":"info","message":"\"Cherry Wood\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.010Z","level":"info","message":"\"Warped Hyphae\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.010Z","level":"info","message":"\"Pale Oak Wood\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.010Z","level":"info","message":"],","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.010Z","level":"info","message":"\"Crimson Hyphae\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.011Z","level":"info","message":"\"Oak Wood.png\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.011Z","level":"info","message":"\"Birch Wood.png\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.011Z","level":"info","message":"\"images\": [","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.012Z","level":"info","message":"\"Jungle Wood.png\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.012Z","level":"info","message":"\"Acacia Wood.png\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.011Z","level":"info","message":"\"Spruce Wood.png\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.012Z","level":"info","message":"\"Dark Oak Wood.png\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.012Z","level":"info","message":"\"Mangrove Wood.png\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.012Z","level":"info","message":"\"Cherry Wood.png\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.012Z","level":"info","message":"\"Pale Oak Wood.png\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.012Z","level":"info","message":"\"Crimson Hyphae.gif\",","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.013Z","level":"info","message":"\"Warped Hyphae.gif\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.013Z","level":"info","message":"]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.013Z","level":"info","message":"Wood or hyphae is a block that has the log's \"bark\" texture on all six sides. It comes in 11 types: oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, crimson, warped, and pale oak.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.013Z","level":"info","message":"}","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.013Z","level":"info","message":"1.1 Breaking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.014Z","level":"info","message":"1.2 Natural generation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.013Z","level":"info","message":"Contents","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.013Z","level":"info","message":"1 Obtaining","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.014Z","level":"info","message":"1.3 Crafting","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.014Z","level":"info","message":"2 Usage","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.014Z","level":"info","message":"2.2 Smelting ingredient","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.014Z","level":"info","message":"2.1 Crafting ingredient","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.014Z","level":"info","message":"2.4 Axes","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.014Z","level":"info","message":"2.3 Fuel","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.015Z","level":"info","message":"2.5 Cocoa beans","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.015Z","level":"info","message":"2.6 Note blocks","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.015Z","level":"info","message":"3.1 Other wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.017Z","level":"info","message":"3.2 Cherry wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.017Z","level":"info","message":"4 Data values","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.015Z","level":"info","message":"3 Sounds","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.017Z","level":"info","message":"3.3 Hyphae","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.018Z","level":"info","message":"4.2 Block states","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.018Z","level":"info","message":"4.1 ID","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.018Z","level":"info","message":"5 Videos","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.018Z","level":"info","message":"6.1 Java Edition","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.018Z","level":"info","message":"6 History","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.019Z","level":"info","message":"6.2 Bedrock Edition","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.019Z","level":"info","message":"6.3 Legacy Console Edition","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.019Z","level":"info","message":"6.4 New Nintendo 3DS Edition","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.019Z","level":"info","message":"6.5 Data history","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.020Z","level":"info","message":"6.5.1 Java Edition","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.021Z","level":"info","message":"6.5.3 Legacy Console Edition","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.020Z","level":"info","message":"6.5.2 Bedrock Edition","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.021Z","level":"info","message":"7 Issues","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.021Z","level":"info","message":"9 Gallery","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.021Z","level":"info","message":"9.1 Screenshots","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.021Z","level":"info","message":"8 Trivia","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.022Z","level":"info","message":"11 References","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.022Z","level":"info","message":"12 External links","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.021Z","level":"info","message":"10 See also","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.022Z","level":"info","message":"13 Navigation","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.022Z","level":"info","message":"Obtaining[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.022Z","level":"info","message":"Breaking[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.023Z","level":"info","message":"Wood and hyphae can be broken by hand, but using an axe is the fastest.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.024Z","level":"info","message":".mw-parser-output .breakingrow-breakingtime-value[data-calculator-field-value=\"0.05000\"]{font-style:italic}.mw-parser-output .breakingrow-container{display:flex;flex-wrap:wrap;align-items:flex-end;gap:6px 18px;min-width:min-content}","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.024Z","level":"info","message":"Block","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.024Z","level":"info","message":"Tool","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.024Z","level":"info","message":"WoodHyphae","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.024Z","level":"info","message":"Hardness","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.024Z","level":"info","message":"Breaking time (sec)[A]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.024Z","level":"info","message":"2","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.024Z","level":"info","message":"Default","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.025Z","level":"info","message":"3","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.025Z","level":"info","message":"1.5","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.025Z","level":"info","message":"Wooden","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.025Z","level":"info","message":"Copper","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.025Z","level":"info","message":"Stone","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.025Z","level":"info","message":"Iron","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.025Z","level":"info","message":"0.6","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.025Z","level":"info","message":"0.75","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.025Z","level":"info","message":"Diamond","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.025Z","level":"info","message":"0.5","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.026Z","level":"info","message":"0.4","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.027Z","level":"info","message":"0.25","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.027Z","level":"info","message":"Golden","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.026Z","level":"info","message":"Netherite","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.026Z","level":"info","message":"0.35","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.027Z","level":"info","message":"OptionsEfficiency000Haste0011JEBE","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.028Z","level":"info","message":"incorrect tool, drops nothing","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.028Z","level":"info","message":"Legend","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.028Z","level":"info","message":"correct tool, drops nothing or something other than the block itself","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.028Z","level":"info","message":"↑ These durations ignore other influential factors (e.g., Mining Fatigue) and are measured in seconds. For more information, see Breaking § Speed.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.028Z","level":"info","message":"correct tool, drops the block itself","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.028Z","level":"info","message":"italicized can be instant mined","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.028Z","level":"info","message":"Natural generation[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.029Z","level":"info","message":"Acacia wood can generate in savanna villages.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.029Z","level":"info","message":"Mangrove wood can generate in some entrance rooms of trial chambers.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.029Z","level":"info","message":"Spruce wood can generate in snowy taiga and taiga villages.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.029Z","level":"info","message":"Wood or hyphae can be crafted out of four matching logs or stems, yielding three wood or hyphae as a result.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.029Z","level":"info","message":"Ingredients","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.029Z","level":"info","message":"Crafting recipe","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.029Z","level":"info","message":"Crafting[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.030Z","level":"info","message":"Usage[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.030Z","level":"info","message":"33333333333","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.030Z","level":"info","message":"Matching Log or Matching Stem","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.031Z","level":"info","message":"Crafting ingredient[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.031Z","level":"info","message":"Wood and hyphae can be placed in three orientations, similarly to normal logs.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.031Z","level":"info","message":"Ingredients","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.031Z","level":"info","message":"Name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.032Z","level":"info","message":"Crafting recipe","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.032Z","level":"info","message":"Stick +Coal or Charcoal +Any Wood or Hyphae","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.032Z","level":"info","message":"Planks (except Bamboo)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.032Z","level":"info","message":"Matching Wood or Matching Hyphae","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.032Z","level":"info","message":"44444444444","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.032Z","level":"info","message":"Smoker","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.032Z","level":"info","message":"Campfire","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.032Z","level":"info","message":"Any Wood or Hyphae +Furnace","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.033Z","level":"info","message":"Stick +Soul Sand or Soul Soil +Any Wood or Hyphae","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.033Z","level":"info","message":"Name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.033Z","level":"info","message":"Soul Campfire","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.033Z","level":"info","message":"Smelting recipe","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.033Z","level":"info","message":"Ingredients","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.033Z","level":"info","message":"Smelting ingredient[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.033Z","level":"info","message":"Charcoal","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.034Z","level":"info","message":"Wood can be used as a fuel in furnaces, smelting 1.5 items per block.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.034Z","level":"info","message":"Fuel[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.034Z","level":"info","message":"Hyphae cannot be used as a fuel in furnaces.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.034Z","level":"info","message":"Axes[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.034Z","level":"info","message":"Using an axe on wood or hyphae turns it into stripped wood or hyphae, which acts the same as regular wood or hyphae.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.035Z","level":"info","message":"Cocoa beans[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.035Z","level":"info","message":"Cocoa beans can be placed on the side of jungle wood to grow new cocoa pods.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.035Z","level":"info","message":"Note blocks[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.035Z","level":"info","message":"Wood and hyphae can be placed under note blocks to produce \"bass\" sounds.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.035Z","level":"info","message":"Sounds[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.035Z","level":"info","message":"Other wood[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.034Z","level":"info","message":"0.15","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.033Z","level":"info","message":"Any Wood +Any fuel","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.036Z","level":"info","message":"v","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.035Z","level":"info","message":"Java Edition:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.036Z","level":"info","message":"e wood sound typeSoundClosed captionsSourceDescriptionIdentifierTranslation keyVolumePitchAttenuationdistance​Block brokenBlocksOnce the block has brokenblock.wood.breaksubtitles.block.generic.break​1.00.816​Block placedBlocksWhen the block is placedblock.wood.placesubtitles.block.generic.place​1.00.816​Block breakingBlocksWhile the block is in the process of being brokenblock.wood.hitsubtitles.block.generic.hit​0.250.516​Something falls on a blockEntity-DependentFalling on the block with fall damageblock.wood.fallsubtitles.block.generic.fall​0.50.7516​FootstepsEntity-DependentWalking on the blockblock.wood.stepsubtitles.block.generic.footsteps​0.151.016","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.036Z","level":"info","message":"t","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.036Z","level":"info","message":"Bedrock Edition:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.036Z","level":"info","message":"v","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.036Z","level":"info","message":"t","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.037Z","level":"info","message":"v","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.037Z","level":"info","message":"Java Edition:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.037Z","level":"info","message":"Cherry wood[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.037Z","level":"info","message":"e wood sound typeSoundClosed captions[upcoming: BE 26.0]SourceDescriptionIdentifierTranslation key[upcoming: BE 26.0]VolumePitch​Block brokenBlocksOnce the block has brokendig.woodsubtitles.block.generic.break​1.00.8-1.0​Block brokenBlocksWhen the block is placeddig.woodsubtitles.block.generic.break​1.00.8​Block breakingBlocksWhile the block is in the process of being brokenhit.woodsubtitles.block.generic.hit​0.230.5​FootstepsPlayersFalling on the block with fall damagefall.woodsubtitles.block.generic.footsteps​0.41.0​FootstepsPlayersWalking on the blockstep.woodsubtitles.block.generic.footsteps​0.31.0​FootstepsBlocksJumping from the blockjump.woodsubtitles.block.generic.footsteps​0.121.0​FootstepsBlocksFalling on the block without fall damageland.woodsubtitles.block.generic.footsteps​0.181.0","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.037Z","level":"info","message":"t","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.037Z","level":"info","message":"e cherry_wood sound typeSoundClosed captionsSourceDescriptionIdentifierTranslation keyVolumePitchAttenuationdistance​Block brokenBlocksOnce the block has brokenblock.cherry_wood.breaksubtitles.block.generic.break​1.00.816​Block placedBlocksWhen the block is placedblock.cherry_wood.placesubtitles.block.generic.place​1.00.816​Block breakingBlocksWhile the block is in the process of being brokenblock.cherry_wood.hitsubtitles.block.generic.hit​0.250.516​Something falls on a blockEntity-DependentFalling on the block with fall damageblock.cherry_wood.fallsubtitles.block.generic.fall​0.50.7516​FootstepsEntity-DependentWalking on the blockblock.cherry_wood.stepsubtitles.block.generic.footsteps​0.151.016","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.037Z","level":"info","message":"v","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.037Z","level":"info","message":"Bedrock Edition:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.038Z","level":"info","message":"t","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.038Z","level":"info","message":"e cherry_wood sound typeSoundClosed captions[upcoming: BE 26.0]SourceDescriptionIdentifierTranslation key[upcoming: BE 26.0]VolumePitch​ ?BlocksOnce the block has brokenbreak.cherry_wood​ ?1.00.8-1.0​ ?BlocksWhen the block is placedplace.cherry_wood​ ?1.00.8​ ?BlocksWhile the block is in the process of being brokenhit.cherry_wood​ ?0.230.5​ ?PlayersFalling on the block with fall damagefall.cherry_wood​ ?0.41.0​ ?PlayersWalking on the blockstep.cherry_wood​ ?0.21.0​ ?PlayersJumping from the blockstep.cherry_wood​ ?0.121.0​ ?PlayersFalling on the block without fall damagestep.cherry_wood​ ?0.181.0","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.038Z","level":"info","message":"Hyphae[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.039Z","level":"info","message":"Java Edition:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.039Z","level":"info","message":"v","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.039Z","level":"info","message":"e stem sound typeSoundClosed captionsSourceDescriptionIdentifierTranslation keyVolumePitchAttenuationdistance​Block brokenBlocksOnce the block has brokenblock.stem.breaksubtitles.block.generic.break​1.00.816​Block placedBlocksWhen the block is placedblock.stem.placesubtitles.block.generic.place​0.80.8816​Block breakingBlocksWhile the block is in the process of being brokenblock.stem.hitsubtitles.block.generic.hit​0.20.516​Something falls on a blockEntity-DependentFalling on the block with fall damageblock.stem.fallsubtitles.block.generic.fall​0.50.7516​FootstepsEntity-DependentWalking on the blockblock.stem.stepsubtitles.block.generic.footsteps​0.151.016","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.039Z","level":"info","message":"Bedrock Edition:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.039Z","level":"info","message":"v","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.040Z","level":"info","message":"Data values[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.039Z","level":"info","message":"e stem sound typeSoundClosed captions[upcoming: BE 26.0]SourceDescriptionIdentifierTranslation key[upcoming: BE 26.0]VolumePitch​ ?BlocksOnce the block has brokendig.stem​ ?1.00.8-1.0​ ?BlocksWhen the block is placeddig.stem​ ?1.00.8-1.0​ ?BlocksWhile the block is in the process of being brokenhit.stem​ ?0.340.5​ ?PlayersFalling on the block with fall damagefall.stem​ ?0.41.0​ ?PlayersWalking on the blockstep.stem​ ?0.141.0​ ?BlocksJumping from the blockjump.stem​ ?0.121.0​ ?BlocksFalling on the block without fall damageland.stem​ ?0.141.0","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.040Z","level":"info","message":"ID[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.040Z","level":"info","message":"Java Edition:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.040Z","level":"info","message":"Translation key Oak Woodoak_woodBlock & Itemlogslogs_that_burnoak_logsmineable/axelogslogs_that_burnoak_logs","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.039Z","level":"info","message":"t","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.040Z","level":"info","message":".mw-parser-output .id-table code{overflow-wrap:normal}NameIdentifierFormBlock tagsItem tags","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.040Z","level":"info","message":"block.minecraft.oak_wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.040Z","level":"info","message":"block.minecraft.spruce_wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.040Z","level":"info","message":"Spruce Woodspruce_woodBlock & Itemlogslogs_that_burnspruce_logsmineable/axelogslogs_that_burnspruce_logs","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.039Z","level":"info","message":"t","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.043Z","level":"info","message":"Birch Woodbirch_woodBlock & Itembirch_logslogslogs_that_burnmineable/axebirch_logslogslogs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.043Z","level":"info","message":"block.minecraft.birch_wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.044Z","level":"info","message":"block.minecraft.acacia_wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.043Z","level":"info","message":"Jungle Woodjungle_woodBlock & Itemjungle_logslogslogs_that_burnmineable/axejungle_logslogslogs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.043Z","level":"info","message":"Acacia Woodacacia_woodBlock & Itemacacia_logslogslogs_that_burnmineable/axeacacia_logslogslogs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.044Z","level":"info","message":"Dark Oak Wooddark_oak_woodBlock & Itemdark_oak_logslogslogs_that_burnmineable/axedark_oak_logslogslogs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.043Z","level":"info","message":"block.minecraft.jungle_wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.044Z","level":"info","message":"block.minecraft.dark_oak_wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.044Z","level":"info","message":"Mangrove Woodmangrove_woodBlock & Itemmangrove_logslogslogs_that_burnmineable/axemangrove_logslogslogs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.044Z","level":"info","message":"block.minecraft.cherry_wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.044Z","level":"info","message":"block.minecraft.mangrove_wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.044Z","level":"info","message":"Cherry Woodcherry_woodBlock & Itemcherry_logslogslogs_that_burnmineable/axecherry_logslogslogs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.044Z","level":"info","message":"Pale Oak Woodpale_oak_woodBlock & Itempale_oak_logslogslogs_that_burnmineable/axepale_oak_logslogslogs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.045Z","level":"info","message":"Crimson Hyphaecrimson_hyphaeBlock & Itemcrimson_stemslogsnon_flammable_woodmineable/axecrimson_stemslogsnon_flammable_wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.045Z","level":"info","message":"Warped Hyphaewarped_hyphaeBlock & Itemwarped_stemslogsnon_flammable_woodmineable/axewarped_stemslogsnon_flammable_wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.044Z","level":"info","message":"block.minecraft.pale_oak_wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.045Z","level":"info","message":"block.minecraft.crimson_hyphae","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.045Z","level":"info","message":"block.minecraft.warped_hyphae","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.045Z","level":"info","message":"NameIdentifierAlias ID Numeric ID FormItem ID[i 1]Item tags","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.045Z","level":"info","message":"Bedrock Edition:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.046Z","level":"info","message":"tile.wood.oak.name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.045Z","level":"info","message":"Translation key Oak Woodoak_woodwood / 0467Block & Giveable Item[i 2]Identical[i 3](Numeric: -212)minecraft:logsminecraft:logs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.046Z","level":"info","message":"tile.wood.spruce.name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.046Z","level":"info","message":"Spruce Woodspruce_woodwood / 11069Block & Giveable Item[i 2]Identical[i 3](Numeric: -814)minecraft:logsminecraft:logs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.046Z","level":"info","message":"Birch Woodbirch_woodwood / 21070Block & Giveable Item[i 2]Identical[i 3](Numeric: -815)minecraft:logsminecraft:logs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.046Z","level":"info","message":"Jungle Woodjungle_woodwood / 31071Block & Giveable Item[i 2]Identical[i 3](Numeric: -816)minecraft:logsminecraft:logs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.046Z","level":"info","message":"tile.wood.jungle.name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.046Z","level":"info","message":"Acacia Woodacacia_woodwood / 41072Block & Giveable Item[i 2]Identical[i 3](Numeric: -817)minecraft:logsminecraft:logs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.047Z","level":"info","message":"Dark Oak Wooddark_oak_woodwood / 51073Block & Giveable Item[i 2]Identical[i 3](Numeric: -818)minecraft:logsminecraft:logs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.046Z","level":"info","message":"tile.wood.birch.name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.047Z","level":"info","message":"tile.wood.acacia.name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.047Z","level":"info","message":"tile.wood.dark_oak.name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.047Z","level":"info","message":"Mangrove Woodmangrove_woodNone752Block & Giveable Item[i 2]Identical[i 3](Numeric: -497)minecraft:mangrove_logsminecraft:logsminecraft:logs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.048Z","level":"info","message":"tile.cherry_wood.name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.048Z","level":"info","message":"Cherry Woodcherry_woodNone801Block & Giveable Item[i 2]Identical[i 3](Numeric: -546)minecraft:logsminecraft:logs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.048Z","level":"info","message":"Pale Oak Woodpale_oak_woodNone1260Block & Giveable Item[i 2]Identical[i 3](Numeric: -1005)minecraft:logsminecraft:logs_that_burn","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.048Z","level":"info","message":"tile.pale_oak_wood.name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.048Z","level":"info","message":"tile.crimson_hyphae.name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.048Z","level":"info","message":"Crimson Hyphaecrimson_hyphaeNone554Block & Giveable Item[i 2]Identical[i 3](Numeric: -299)minecraft:crimson_stemsminecraft:logs","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.048Z","level":"info","message":"tile.warped_hyphae.name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.047Z","level":"info","message":"tile.mangrove_wood.name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.049Z","level":"info","message":"↑ a b c d e f g h i j k Available with /give command.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.048Z","level":"info","message":"Warped Hyphaewarped_hyphaeNone553Block & Giveable Item[i 2]Identical[i 3](Numeric: -298)minecraft:warped_stemsminecraft:logs","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.049Z","level":"info","message":"Block states[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.049Z","level":"info","message":"↑ ID of block's direct item form, which is used in savegame files and addons.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.049Z","level":"info","message":"↑ a b c d e f g h i j k The block's direct item form has the same ID as the block.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.050Z","level":"info","message":"See also: Block states","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.050Z","level":"info","message":"Name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.050Z","level":"info","message":"Java Edition:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.051Z","level":"info","message":"Allowed values","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.051Z","level":"info","message":"Description","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.051Z","level":"info","message":"Default value","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.051Z","level":"info","message":"xThe wood or hyphae is oriented east–west.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.051Z","level":"info","message":"axisy","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.051Z","level":"info","message":"yThe wood or hyphae is oriented vertically.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.051Z","level":"info","message":"zThe wood or hyphae is oriented north–south.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.051Z","level":"info","message":"Bedrock Edition:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.052Z","level":"info","message":"NameMetadata Bits","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.052Z","level":"info","message":"Default value","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.052Z","level":"info","message":"xUnsupportedThe wood or hyphae is oriented east–west.yUnsupportedThe wood or hyphae is oriented vertically.zUnsupportedThe wood or hyphae is oriented north–south.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.052Z","level":"info","message":"pillar_axisNot Supportedy","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.052Z","level":"info","message":"Allowed valuesValues forMetadata Bits","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.053Z","level":"info","message":"History[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.052Z","level":"info","message":"Videos[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.053Z","level":"info","message":"Java Edition[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.052Z","level":"info","message":"Description","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.053Z","level":"info","message":"There is an associated page listing all historical changes related to the appearance and/or sounds associated with this block in further detail than below; see /Asset history.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.054Z","level":"info","message":"Wood's implementation was likely an accidental result of the addition of logs which could be rotated; see #Data history.1.3Wood now drops logs when broken with Silk Touch; previously they would drop an item that looked like wood but behaved as a log; refer to #Data history.1.7.213w43a  Added two new types of wood: acacia and dark oak.1.7  The texture of acacia wood has been drastically changed, and dark oak has a unique texture.1.814w10a      Wood blocks no longer have models.14w10b      Wood blocks now have models again.1.1317w47aA proper item form for wood blocks has been added.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.054Z","level":"info","message":"Java Edition1.3.112w30d    Added six-sided wood blocks, which look similar to logs, but have the wood's \"bark\" texture (side texture when placed vertically) on all 6 sides.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.054Z","level":"info","message":"Wood can now be obtained in the inventory, including within the Creative inventory.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.054Z","level":"info","message":"The name of \"Wood\" has been changed to \"Bark\".17w47bA crafting recipe for bark has been added.18w22bBark blocks can now be rotated.pre1       Added top textures of the bark blocks.pre2      The textures of bark have been changed back to how they were before 1.13-pre1.pre5Bark blocks have been changed back to \"<type> Wood\".1.1418w43a      The textures of wood have been changed.18w47a     The textures of wood except jungle wood have been changed.19w02aWood can now be used to craft campfires.1.1620w10a  Added crimson and warped hyphae.1.1721w06aCorridors in mineshafts now generate with wooden pillars for support if needed.21w07aOak wood can no longer generate in mineshafts.1.1922w11a Added mangrove wood.22w14aDue to the addition of the mangrove tree and mangrove swamp, mangrove wood is now obtainable and renewable.1.19.4ExperimentUpdate 1.2023w07a Added cherry wood behind the \"Update 1.20\" experimental data pack.1.2023w12aCherry wood is now available without using the \"Update 1.20\" experimental datapack.1.2124w18aMangrove wood can now generate in the entrances of trial chambers.1.21.2ExperimentWinter Drop24w40a Added pale oak wood.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.054Z","level":"info","message":"Bedrock Edition[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.054Z","level":"info","message":"Pocket Edition Alphav0.8.0build 1    Added bark blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.054Z","level":"info","message":"Bark blocks can be obtained only by using world editing.v0.9.0build 1  Added acacia and dark oak bark blocks.Pocket Edition1.0.0alpha 0.17.0.1Due to the addition of commands, bark blocks can now be placed using /setblock ~ ~ ~ log 12, without the need for an inventory editor.Bedrock Edition1.10.0beta 1.10.0.3      The textures of wood have been changed.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.055Z","level":"info","message":"Wood now generates in the new villages.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.055Z","level":"info","message":"A crafting recipe for wood has been added.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.055Z","level":"info","message":"Wood blocks have been added to the Creative inventory.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.055Z","level":"info","message":"Legacy Console Edition[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.055Z","level":"info","message":"Wood is now used to craft campfires and smokers.1.13.0beta 1.13.0.1Wood can now be placed directionally.1.16.0beta 1.16.0.57  Added crimson and warped hyphae.1.19.0Preview 1.19.0.21 Added mangrove wood.1.19.80ExperimentNext Major UpdatePreview 1.19.80.20 Added cherry wood behind the \"Next Major Update\" experimental toggle.1.20.0Preview 1.20.0.21Cherry wood is now available without using the \"Next Major Update\" experimental toggle.1.20.30Preview 1.20.20.21Increased the hardness and blast resistance of crimson and warped hyphae from 0.3 to 2.1.21.50Preview 1.21.50.20 Added pale oak wood.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.058Z","level":"info","message":"New Nintendo 3DS Edition[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.057Z","level":"info","message":"The textures of wood have been changed.1.95Wood can now be used to craft planks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.055Z","level":"info","message":"Legacy Console EditionXbox 360Xbox OnePS3PS4PS VitaWii USwitchTU12CU11.001.001.00Patch 11.0.1    Added oak, spruce, birch, and jungle oak six-sided wood blocks. They can be obtained only by world editing.TU25CU141.171.171.17  Added acacia and dark oak six-sided wood blocks. They can be obtained only by world editing.   1.90   Wood can now be obtained in the Creative inventory or through crafting.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.058Z","level":"info","message":"New Nintendo 3DS Edition0.1.0      Added bark blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.058Z","level":"info","message":"Bark blocks cannot be obtained in the Creative inventory.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.058Z","level":"info","message":"Data history[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.058Z","level":"info","message":"Java Edition1.3.112w30dWood exists as a metadata variant of the usual log block, likely implemented unintentionally as these values were never initially intended to be used. Specificially, metadata values 12-15 are used, which exceed the values use for rotation.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.058Z","level":"info","message":"The item form of \"wood blocks\" visually appear to be wood blocks, but when placed act as normal logs. More information on this item can be found at Invalid Data Value Log.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.059Z","level":"info","message":"Wood drops normal logs when broken normally, however Silk Touch results in the wood \"item\" version being dropped instead.[verify]1.814w10aminecraft:log2 blocks with numerical metadata variants 2-3, 6-7, 10-11 and 14-15, which are inaccessible through normal gameplay, now have no model  rather than appearing identical to either acacia or dark oak logs.14w25aLogs are now defined via block states rather than by numerical metadata. Prior to this version, the numerical metadata variants of minecraft:log were as follows:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.059Z","level":"info","message":"Description","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.058Z","level":"info","message":"Java Edition[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.059Z","level":"info","message":"0","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.059Z","level":"info","message":"Oak Log (up-down)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.059Z","level":"info","message":"Spruce Log (up-down)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.059Z","level":"info","message":"DV","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.059Z","level":"info","message":"1","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.060Z","level":"info","message":"Birch Log (up-down)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.060Z","level":"info","message":"2","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.060Z","level":"info","message":"Oak Log (east-west)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.060Z","level":"info","message":"Jungle Log (up-down)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.060Z","level":"info","message":"5","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.060Z","level":"info","message":"3","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.060Z","level":"info","message":"Spruce Log (east-west)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.061Z","level":"info","message":"Birch Log (east-west)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.060Z","level":"info","message":"6","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.061Z","level":"info","message":"7","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.061Z","level":"info","message":"Jungle Log (east-west)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.063Z","level":"info","message":"Oak Log (north-south)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.063Z","level":"info","message":"9","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.063Z","level":"info","message":"Spruce Log (north-south)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.063Z","level":"info","message":"8","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.063Z","level":"info","message":"10","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.060Z","level":"info","message":"4","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.064Z","level":"info","message":"12","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.063Z","level":"info","message":"Birch Log (north-south)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.064Z","level":"info","message":"Jungle Log (north-south)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.063Z","level":"info","message":"11","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.064Z","level":"info","message":"13","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.064Z","level":"info","message":"Oak Wood (up-down)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.064Z","level":"info","message":"Spruce Wood (up-down)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.064Z","level":"info","message":"Birch Wood (up-down)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.064Z","level":"info","message":"14","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.065Z","level":"info","message":"Jungle Wood (up-down)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.065Z","level":"info","message":"The data values for minecraft:log2 were as follows:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.064Z","level":"info","message":"15","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.065Z","level":"info","message":"Description","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.065Z","level":"info","message":"0","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.065Z","level":"info","message":"DV","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.065Z","level":"info","message":"Acacia Log (up-down)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.066Z","level":"info","message":"Dark Oak Log (up-down)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.066Z","level":"info","message":"Inaccessible \"boring\" log blocks","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.065Z","level":"info","message":"1","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.066Z","level":"info","message":"2-3","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.066Z","level":"info","message":"Acacia Log (east-west)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.066Z","level":"info","message":"Dark Oak Log (east-west)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.066Z","level":"info","message":"5","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.066Z","level":"info","message":"4","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.067Z","level":"info","message":"Acacia Log (north-south)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.067Z","level":"info","message":"8","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.067Z","level":"info","message":"Inaccessible \"boring\" log blocks","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.068Z","level":"info","message":"Dark Oak Log (north-south)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.067Z","level":"info","message":"6-7","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.068Z","level":"info","message":"9","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.068Z","level":"info","message":"Inaccessible \"boring\" log blocks","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.068Z","level":"info","message":"10-11","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.069Z","level":"info","message":"12","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.069Z","level":"info","message":"Acacia Wood (up-down)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.069Z","level":"info","message":"Dark Oak Wood (up-down)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.069Z","level":"info","message":"14-15","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.070Z","level":"info","message":"Inaccessible \"boring\" wood blocks","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.070Z","level":"info","message":"14w26aminecraft:log2 with metadata values 2-3, 6-7, 10-11 and 14-15 have now been completely removed from the game.1.1317w47aThe different variant block states and the axis=none block state for both the log and log2 IDs have now been split up into their own IDs.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.070Z","level":"info","message":"Bedrock Edition[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.069Z","level":"info","message":"13","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.070Z","level":"info","message":"Prior to The Flattening, these blocks' numeral IDs were 17 and 162.pre5Bark IDs have been changed to <type>_wood.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.070Z","level":"info","message":"Bedrock Edition1.10.0beta 1.10.0.3The item IDs for wood blocks have changed from positive to negative.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.071Z","level":"info","message":"Legacy Console EditionXbox 360Xbox OnePS3PS4PS VitaWii USwitch?A dedicated block ID has been added for wood;[1] previously it existed as a metadata variant of logs.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.071Z","level":"info","message":"Legacy Console Edition[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.071Z","level":"info","message":"Oak wood: 17:12 -> -212Birch wood: 17:14 -> -212:2Spruce wood: 17:13 -> -212:1Jungle wood: 17:15 -> -212:3Acacia wood: 162:12 -> -212:4Dark oak wood: 162:13 -> -212:51.20.70Preview 1.20.70.22The different wood type block states for the wood ID have now been split up into their own IDs.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.071Z","level":"info","message":"Issues relating to \"Wood\" are maintained on the bug tracker. Issues should be reported and viewed there.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.071Z","level":"info","message":"Birch wood: -815Spruce wood: -814Jungle wood: -816Acacia wood: -817Dark oak wood: -818","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.071Z","level":"info","message":"Issues[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.072Z","level":"info","message":"In real life, hyphae are branching filaments that collectively make real-life mycelium.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.072Z","level":"info","message":"The word \"hyphae\" is actually plural, the singular form is \"hypha\".","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.072Z","level":"info","message":"Trivia[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.072Z","level":"info","message":"Gallery[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.072Z","level":"info","message":"The ten types of wood blocks in 1.20","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.072Z","level":"info","message":"Screenshots[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.072Z","level":"info","message":"The top face of wood blocks in 1.13-pre1.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.072Z","level":"info","message":"All the facings and types of logs with the wood blocks. From left to right: oak, spruce, birch, jungle, acacia, dark oak, mangrove, cherry, pale oak, crimson, warped.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.073Z","level":"info","message":"A render of hyphae used on Minecraft.net.[2]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.073Z","level":"info","message":"Stripped Wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.073Z","level":"info","message":"See also[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.074Z","level":"info","message":"Planks","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.074Z","level":"info","message":"Stripped Logs","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.075Z","level":"info","message":"References[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.074Z","level":"info","message":"Charcoal","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.075Z","level":"info","message":"↑ \"Block of the Month: Hyphae\"     by Duncan Geere  – Minecraft.net, October 7, 2022.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.073Z","level":"info","message":"Logs","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.075Z","level":"info","message":"↑ https://youtube.com/watch?v=IscH0rUw_20","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.075Z","level":"info","message":"Block of the Week: Oak Wood – Minecraft.net on June 16, 2017","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.075Z","level":"info","message":"Block of the Week: Birch Wood – Minecraft.net on October 27, 2017","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.076Z","level":"info","message":"Block of the Week: Spruce Wood – Minecraft.net on December 22, 2017","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.076Z","level":"info","message":"Block of the Week: Acacia Wood – Minecraft.net on January 26, 2018","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.075Z","level":"info","message":"External links[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.076Z","level":"info","message":"Block of the Week: Dark Oak Wood – Minecraft.net on May 11, 2018","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.077Z","level":"info","message":"Block of the Month: Hyphae – Minecraft.net on October 7, 2022","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.077Z","level":"info","message":"Navigation[edit | edit source]","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.084Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.924Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.926Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.927Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:26.927Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:29.430Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:29.431Z","level":"info","message":"Generated response: I'm in a desert with no trees. I'll search for a village for a bed or wood. !searchForEntity(\"villager\", 64)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:29.431Z","level":"info","message":"Stever01 full response to system: \"\"I'm in a desert with no trees. I'll search for a village for a bed or wood. !searchForEntity(\"villager\", 64)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:29.431Z","level":"info","message":"parsed command: { commandName: '!searchForEntity', args: [ 'villager', 64 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:29.431Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:29.432Z","level":"info","message":"Agent executed: !searchForEntity and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:29.432Z","level":"info","message":"Could not find any villager in 64 blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:29.432Z","level":"info","message":"Storing memories...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:29.432Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:29.433Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:32.328Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:32.329Z","level":"error","message":"Memory updated to:  I'm Stever01. Phantoms/Drowned cause \"cowardice\" failures; must persist with !goToBed when CH_Faber says or if attacked. Died to Phantom at (97, 63, 97). Recent !goToBed failed (no bed found). Current task: !searchForBlock white_bed (range 64). Priority: Find bed ASAP to skip night and reset spawns. Ignore interruptions, avoid combat, and retry bed actions until successful. Respond to \"hello world.\" Memory: persistence overcomes fear/timeouts; location of death saved.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:33.260Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:33.261Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:33.261Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:33.262Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:35.547Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:35.548Z","level":"info","message":"Generated response: I'll search further for a village to find wood or a bed. !searchForBlock(\"sandstone_stairs\", 128)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:35.548Z","level":"info","message":"Stever01 full response to system: \"\"I'll search further for a village to find wood or a bed. !searchForBlock(\"sandstone_stairs\", 128)\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:35.548Z","level":"info","message":"parsed command: { commandName: '!searchForBlock', args: [ 'sandstone_stairs', 128 ] }","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:35.548Z","level":"info","message":"executing code...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:45.144Z","level":"info","message":"Agent executed: !searchForBlock and got: Action output:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:45.144Z","level":"info","message":"Could not find any sandstone_stairs in 128 blocks.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:45.148Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:46.196Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:46.196Z","level":"info","message":"Example: You are self-prompting with the goal: \"Get a wooden pickaxe\". Respond:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:46.197Z","level":"info","message":"Example: greg: Collect 10 wood","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:46.199Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-16T18:07:47.790Z","level":"info","message":"Stopping bot...","source":"system"}
+{"type":"session_end","sessionId":"bot_1768106403862_k0khacg_2026-01-16T18-03-23-101Z","endTime":"2026-01-16T18:07:51.559Z"}
+{"type":"log","timestamp":"2026-01-16T18:07:51.558Z","level":"info","message":"Bot stopped","source":"system"}

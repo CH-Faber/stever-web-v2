@@ -11,6 +11,7 @@ import importExportRouter from './routes/importExport.js';
 import modelsRouter from './routes/models.js';
 import endpointsRouter from './routes/endpoints.js';
 import modelPresetsRouter from './routes/modelPresets.js';
+import logsRouter from './routes/logs.js';
 import {
   initializeWebSocket,
   broadcastBotStatus,
@@ -25,6 +26,7 @@ import {
   setPositionCallback,
   setInventoryCallback,
 } from './services/processManagerService.js';
+import { initializeLogStorage } from './services/logStorageService.js';
 import { BotStatus, LogEntry, Position, InventoryItem } from '../../shared/types/index.js';
 
 const app = express();
@@ -98,10 +100,24 @@ app.use('/api/endpoints', endpointsRouter);
 // Model presets routes
 app.use('/api/model-presets', modelPresetsRouter);
 
+// Logs routes
+app.use('/api/logs', logsRouter);
+
 const PORT = process.env.PORT || 3001;
 
-httpServer.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+// Initialize services before starting server
+async function startServer() {
+  // Initialize log storage
+  await initializeLogStorage();
+  
+  httpServer.listen(PORT, () => {
+    console.log(`Server running on http://localhost:${PORT}`);
+  });
+}
+
+startServer().catch(err => {
+  console.error('Failed to start server:', err);
+  process.exit(1);
 });
 
 export { app, io, httpServer };

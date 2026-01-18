@@ -1,0 +1,40 @@
+{"type":"session_start","sessionId":"bot_1768106403862_k0khacg_2026-01-17T04-42-58-529Z","botId":"bot_1768106403862_k0khacg","botName":"Stever01","startTime":"2026-01-17T04:42:58.529Z"}
+{"type":"log","timestamp":"2026-01-17T04:42:58.545Z","level":"info","message":"Starting bot...","source":"system"}
+{"type":"log","timestamp":"2026-01-17T04:42:59.262Z","level":"info","message":"MindServer running on port 8080","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:42:59.296Z","level":"info","message":"MC server found. (Host: localhost, Port: 25565, Version: 1.19.4)","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:42:59.845Z","level":"info","message":"Bot started successfully","source":"system"}
+{"type":"log","timestamp":"2026-01-17T04:43:00.255Z","level":"info","message":"Connecting to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:00.280Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:00.284Z","level":"info","message":"Stever01 connected to MindServer","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:00.286Z","level":"info","message":"Starting agent","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:00.288Z","level":"info","message":"Initializing agent Stever01...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:03.034Z","level":"info","message":"Client connected","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:04.872Z","level":"info","message":"Examples initialized.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:04.876Z","level":"info","message":"No task.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:04.877Z","level":"info","message":"Stever01 logging into minecraft...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:06.954Z","level":"info","message":"Stever01 logged in!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:06.970Z","level":"info","message":"Stever01 updating available agents","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:09.201Z","level":"info","message":"Initializing vision intepreter...","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:10.214Z","level":"info","message":"Stever01 spawned.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:10.748Z","level":"info","message":"received message from system : Respond with hello world and your name","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:10.752Z","level":"info","message":"Saved memory to: ./bots/Stever01/memory.json","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:12.438Z","level":"info","message":"Example: miner_32: Hey! What are you up to?","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:12.437Z","level":"info","message":"selected examples:","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:12.438Z","level":"info","message":"Example: say hi to john_goodman","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:12.446Z","level":"info","message":"Awaiting openai api response from model gemini-3-flash-preview-nothinking","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.160Z","level":"info","message":"Received.","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.162Z","level":"info","message":"Generated response: Hello world, I'm Stever01!","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.164Z","level":"info","message":"Stever01 full response to system: \"\"Hello world, I'm Stever01!\"\"","source":"stdout"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.166Z","level":"error","message":"Error translating message: Error: To language zh unsupported, bypass this with setting forceTo to true if you're certain the iso is correct","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.166Z","level":"error","message":"at autoCorrect (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:53:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.167Z","level":"error","message":"at new Promise (<anonymous>)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.167Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\translate.cjs:16:9)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.167Z","level":"error","message":"at module.exports (E:\\code\\Minecraft\\stever-web-v2\\mindcraft\\node_modules\\google-translate-api-x\\lib\\translation\\batchTranslate.cjs:52:11)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.168Z","level":"error","message":"at Agent.openChat (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:413:26)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.167Z","level":"error","message":"at handleTranslation (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/utils/translator.js:11:35)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.168Z","level":"error","message":"at Agent.routeResponse (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:399:18)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.168Z","level":"error","message":"at Agent.handleMessage (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:374:22)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.168Z","level":"error","message":"at process.processTicksAndRejections (node:internal/process/task_queues:105:5)","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.169Z","level":"error","message":"at async Agent._setupEventHandlers (file:///E:/code/Minecraft/stever-web-v2/mindcraft/src/agent/agent.js:214:13) {","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.169Z","level":"error","message":"[cause]: { options: { to: 'zh' } }","source":"stderr"}
+{"type":"log","timestamp":"2026-01-17T04:43:14.169Z","level":"error","message":"}","source":"stderr"}

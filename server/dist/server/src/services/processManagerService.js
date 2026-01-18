@@ -9,6 +9,7 @@ import { getAPIKeyByProvider, getAllAPIKeys } from './apiKeyService.js';
 import { getEndpointById } from './endpointService.js';
 import { getSettings } from './settingsService.js';
 import { LLM_PROVIDER_INFO } from '../../../shared/types/index.js';
+import * as logStorage from './logStorageService.js';
 // Mindcraft main.js path - can be configured via environment variable
 const MINDCRAFT_PATH = process.env.MINDCRAFT_PATH || path.join(process.cwd(), '..');
 const MINDCRAFT_PROFILES_DIR = path.join(MINDCRAFT_PATH, 'profiles');
@@ -139,6 +140,10 @@ function addLogEntry(botId, level, message, source = 'bot') {
     if (state.logs.length > 1000) {
         state.logs = state.logs.slice(-1000);
     }
+    // 持久化日志到文件
+    logStorage.writeLogEntry(botId, log).catch(err => {
+        console.error(`[LogStorage] Failed to write log: ${err}`);
+    });
     if (onLogMessage) {
         onLogMessage(botId, log);
     }
@@ -691,6 +696,10 @@ export async function startBot(botId, _taskId) {
     });
     // Add to active bots
     activeBotIds.add(botId);
+    // 开始新的日志会话
+    await logStorage.startLogSession(botId, profile.name).catch(err => {
+        console.error(`[LogStorage] Failed to start log session: ${err}`);
+    });
     addLogEntry(botId, 'info', 'Starting bot...', 'system');
     // Start or restart the Mindcraft process with all active bots
     const result = await startOrRestartMindcraftProcess();
@@ -731,6 +740,10 @@ export async function stopBot(botId) {
     }
     updateBotStatus(botId, { status: 'offline' });
     addLogEntry(botId, 'info', 'Bot stopped', 'system');
+    // 结束日志会话
+    await logStorage.endLogSession(botId).catch(err => {
+        console.error(`[LogStorage] Failed to end log session: ${err}`);
+    });
     // Clean up bot state after a delay
     setTimeout(() => {
         if (!activeBotIds.has(botId)) {

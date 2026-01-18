@@ -7,9 +7,9 @@
     "endpointId": "ep_1768106212725_pdsw0a5",
     "url": "https://api.laozhang.ai/"
   },
-  "conversing": "You are a helpful Minecraft assistant.",
-  "coding": "You are a coding assistant for Minecraft bots.",
-  "saving_memory": "Save important information to memory.",
+  "conversing": "",
+  "coding": "",
+  "saving_memory": "",
   "modes": {
     "self_preservation": true,
     "unstuck": true,

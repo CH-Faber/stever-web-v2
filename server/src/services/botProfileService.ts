@@ -1,6 +1,6 @@
 import { promises as fs } from 'fs';
 import path from 'path';
-import { BotProfile, BotModes, ModelConfig, ValidationResult, ValidationError } from '../../../shared/types/index.js';
+import { BotProfile, BotModes, BotBehaviorSettings, ModelConfig, ValidationResult, ValidationError } from '../../../shared/types/index.js';
 
 // Default profiles directory - can be configured via environment variable
 const PROFILES_DIR = process.env.PROFILES_DIR || path.join(process.cwd(), '..', 'profiles');
@@ -18,12 +18,57 @@ const DEFAULT_BOT_MODES: BotModes = {
   cheat: false,
 };
 
+// Default behavior settings
+const DEFAULT_BEHAVIOR: BotBehaviorSettings = {
+  cooldown: 3000,
+  max_messages: 15,
+  num_examples: 2,
+  max_commands: -1,
+  relevant_docs_count: 5,
+  code_timeout_mins: -1,
+  narrate_behavior: true,
+  chat_bot_messages: true,
+  load_memory: true,  // ✅ 默认启用记忆加载
+  allow_vision: false,
+  language: 'zh-CN',
+  init_message: 'Respond with hello world and your name',
+  only_chat_with: [],
+  speak: false,
+  chat_ingame: true,
+  show_command_syntax: 'full',
+  spawn_timeout: 30,
+  block_place_delay: 0,
+  base_profile: 'assistant',
+};
+
 // Default prompts
 const DEFAULT_PROMPTS = {
   conversing: 'You are a helpful Minecraft assistant.',
   coding: 'You are a coding assistant for Minecraft bots.',
   saving_memory: 'Save important information to memory.',
 };
+
+/**
+ * Migrates old language codes to new format
+ */
+function migrateBehaviorSettings(behavior?: Partial<BotBehaviorSettings>): BotBehaviorSettings {
+  if (!behavior) {
+    return { ...DEFAULT_BEHAVIOR };
+  }
+
+  const migrated = { ...DEFAULT_BEHAVIOR, ...behavior };
+  
+  // Migrate old language codes to google-translate-api-x compatible codes
+  if (migrated.language === 'zh') {
+    migrated.language = 'zh-CN';  // google-translate-api-x uses 'zh-CN' for simplified Chinese
+  } else if (migrated.language === 'zh-cn') {
+    migrated.language = 'zh-CN';  // Ensure correct case
+  } else if (migrated.language === 'zh-tw') {
+    migrated.language = 'zh-TW';  // Ensure correct case for traditional Chinese
+  }
+  
+  return migrated;
+}
 
 /**
  * Ensures the profiles directory exists
@@ -129,6 +174,21 @@ export async function getAllBotProfiles(): Promise<BotProfile[]> {
         profile.id = path.basename(file, '.json');
       }
       
+      // Migrate behavior settings if needed
+      let needsSave = false;
+      if (profile.behavior) {
+        const migratedBehavior = migrateBehaviorSettings(profile.behavior);
+        if (JSON.stringify(migratedBehavior) !== JSON.stringify(profile.behavior)) {
+          profile.behavior = migratedBehavior;
+          needsSave = true;
+        }
+      }
+      
+      // Save migrated profile back to disk
+      if (needsSave) {
+        await fs.writeFile(filePath, JSON.stringify(profile, null, 2), 'utf-8');
+      }
+      
       profiles.push(profile);
     } catch (error) {
       console.error(`Error reading profile ${file}:`, error);
@@ -157,6 +217,13 @@ export async function getBotProfileById(id: string): Promise<BotProfile | null> 
       profile.id = id;
     }
     
+    // Migrate behavior settings if needed
+    if (profile.behavior) {
+      profile.behavior = migrateBehaviorSettings(profile.behavior);
+      // Save the migrated profile back to disk
+      await fs.writeFile(filePath, JSON.stringify(profile, null, 2), 'utf-8');
+    }
+    
     return profile;
   } catch (error) {
     // File doesn't exist or is invalid
@@ -172,6 +239,11 @@ export async function createBotProfile(data: Omit<BotProfile, 'id'>): Promise<Bo
   
   const id = generateId();
   
+  // IMPORTANT: Do NOT set default values for conversing, coding, saving_memory!
+  // These prompts contain critical placeholders ($COMMAND_DOCS, $EXAMPLES, etc.)
+  // in mindcraft's _default.json. If we set simple defaults here, they will
+  // override the complete prompts and the bot won't know about available commands.
+  // Let mindcraft use its defaults from profiles/defaults/_default.json
   const profile: BotProfile = {
     id,
     name: data.name,
@@ -180,10 +252,12 @@ export async function createBotProfile(data: Omit<BotProfile, 'id'>): Promise<Bo
     visionModel: data.visionModel,
     embedding: data.embedding,
     speakModel: data.speakModel,
-    conversing: data.conversing || DEFAULT_PROMPTS.conversing,
-    coding: data.coding || DEFAULT_PROMPTS.coding,
-    saving_memory: data.saving_memory || DEFAULT_PROMPTS.saving_memory,
+    // Only include prompts if explicitly provided by user
+    conversing: data.conversing || '',
+    coding: data.coding || '',
+    saving_memory: data.saving_memory || '',
     modes: data.modes || { ...DEFAULT_BOT_MODES },
+    behavior: migrateBehaviorSettings(data.behavior),
   };
   
   const filePath = getProfilePath(id);
@@ -209,6 +283,7 @@ export async function updateBotProfile(id: string, data: Partial<BotProfile>): P
     id, // Ensure ID cannot be changed
     model: data.model || existingProfile.model,
     modes: data.modes ? { ...existingProfile.modes, ...data.modes } : existingProfile.modes,
+    behavior: migrateBehaviorSettings(data.behavior ? { ...existingProfile.behavior, ...data.behavior } : existingProfile.behavior),
   };
   
   const filePath = getProfilePath(id);
@@ -246,4 +321,4 @@ export async function botProfileExists(id: string): Promise<boolean> {
   }
 }
 
-export { PROFILES_DIR, DEFAULT_BOT_MODES, DEFAULT_PROMPTS };
+export { PROFILES_DIR, DEFAULT_BOT_MODES, DEFAULT_BEHAVIOR, DEFAULT_PROMPTS };

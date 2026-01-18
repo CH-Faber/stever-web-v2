@@ -1,0 +1,96 @@
+[
+  {
+    "sessionId": "bot_1768106403862_k0khacg_2026-01-15T18-14-14-821Z",
+    "botId": "bot_1768106403862_k0khacg",
+    "botName": "Stever01",
+    "startTime": "2026-01-15T18:14:14.822Z",
+    "logFile": "E:\\code\\Minecraft\\stever-web-v2\\logs\\bot_1768106403862_k0khacg_2026-01-15T18-14-14-821Z.jsonl",
+    "endTime": "2026-01-15T18:14:34.130Z"
+  },
+  {
+    "sessionId": "bot_1768106403862_k0khacg_2026-01-15T18-14-37-268Z",
+    "botId": "bot_1768106403862_k0khacg",
+    "botName": "Stever01",
+    "startTime": "2026-01-15T18:14:37.268Z",
+    "logFile": "E:\\code\\Minecraft\\stever-web-v2\\logs\\bot_1768106403862_k0khacg_2026-01-15T18-14-37-268Z.jsonl"
+  },
+  {
+    "sessionId": "bot_1768106403862_k0khacg_2026-01-16T06-42-59-407Z",
+    "botId": "bot_1768106403862_k0khacg",
+    "botName": "Stever01",
+    "startTime": "2026-01-16T06:42:59.407Z",
+    "logFile": "E:\\code\\Minecraft\\stever-web-v2\\logs\\bot_1768106403862_k0khacg_2026-01-16T06-42-59-407Z.jsonl"
+  },
+  {
+    "sessionId": "bot_1768106403862_k0khacg_2026-01-16T12-12-23-147Z",
+    "botId": "bot_1768106403862_k0khacg",
+    "botName": "Stever01",
+    "startTime": "2026-01-16T12:12:23.148Z",
+    "logFile": "E:\\code\\Minecraft\\stever-web-v2\\logs\\bot_1768106403862_k0khacg_2026-01-16T12-12-23-147Z.jsonl"
+  },
+  {
+    "sessionId": "bot_1768106403862_k0khacg_2026-01-16T12-17-48-079Z",
+    "botId": "bot_1768106403862_k0khacg",
+    "botName": "Stever01",
+    "startTime": "2026-01-16T12:17:48.080Z",
+    "logFile": "E:\\code\\Minecraft\\stever-web-v2\\logs\\bot_1768106403862_k0khacg_2026-01-16T12-17-48-079Z.jsonl"
+  },
+  {
+    "sessionId": "bot_1768106403862_k0khacg_2026-01-16T13-22-58-464Z",
+    "botId": "bot_1768106403862_k0khacg",
+    "botName": "Stever01",
+    "startTime": "2026-01-16T13:22:58.464Z",
+    "logFile": "E:\\code\\Minecraft\\stever-web-v2\\logs\\bot_1768106403862_k0khacg_2026-01-16T13-22-58-464Z.jsonl"
+  },
+  {
+    "sessionId": "bot_1768106403862_k0khacg_2026-01-16T18-03-23-101Z",
+    "botId": "bot_1768106403862_k0khacg",
+    "botName": "Stever01",
+    "startTime": "2026-01-16T18:03:23.101Z",
+    "logFile": "E:\\code\\Minecraft\\stever-web-v2\\logs\\bot_1768106403862_k0khacg_2026-01-16T18-03-23-101Z.jsonl",
+    "endTime": "2026-01-16T18:07:51.559Z"
+  },
+  {
+    "sessionId": "bot_1768106403862_k0khacg_2026-01-16T18-08-08-978Z",
+    "botId": "bot_1768106403862_k0khacg",
+    "botName": "Stever01",
+    "startTime": "2026-01-16T18:08:08.978Z",
+    "logFile": "E:\\code\\Minecraft\\stever-web-v2\\logs\\bot_1768106403862_k0khacg_2026-01-16T18-08-08-978Z.jsonl",
+    "endTime": "2026-01-17T04:35:46.033Z"
+  },
+  {
+    "sessionId": "bot_1768106403862_k0khacg_2026-01-17T04-36-20-885Z",
+    "botId": "bot_1768106403862_k0khacg",
+    "botName": "Stever01",
+    "startTime": "2026-01-17T04:36:20.885Z",
+    "logFile": "E:\\code\\Minecraft\\stever-web-v2\\logs\\bot_1768106403862_k0khacg_2026-01-17T04-36-20-885Z.jsonl"
+  },
+  {
+    "sessionId": "bot_1768106403862_k0khacg_2026-01-17T04-39-28-807Z",
+    "botId": "bot_1768106403862_k0khacg",
+    "botName": "Stever01",
+    "startTime": "2026-01-17T04:39:28.807Z",
+    "logFile": "E:\\code\\Minecraft\\stever-web-v2\\logs\\bot_1768106403862_k0khacg_2026-01-17T04-39-28-807Z.jsonl"
+  },
+  {
+    "sessionId": "bot_1768106403862_k0khacg_2026-01-17T04-42-58-529Z",
+    "botId": "bot_1768106403862_k0khacg",
+    "botName": "Stever01",
+    "startTime": "2026-01-17T04:42:58.529Z",
+    "logFile": "E:\\code\\Minecraft\\stever-web-v2\\logs\\bot_1768106403862_k0khacg_2026-01-17T04-42-58-529Z.jsonl"
+  },
+  {
+    "sessionId": "bot_1768106403862_k0khacg_2026-01-17T04-45-58-203Z",
+    "botId": "bot_1768106403862_k0khacg",
+    "botName": "Stever01",
+    "startTime": "2026-01-17T04:45:58.204Z",
+    "logFile": "E:\\code\\Minecraft\\stever-web-v2\\logs\\bot_1768106403862_k0khacg_2026-01-17T04-45-58-203Z.jsonl"
+  },
+  {
+    "sessionId": "bot_1768106403862_k0khacg_2026-01-17T05-52-48-605Z",
+    "botId": "bot_1768106403862_k0khacg",
+    "botName": "Stever01",
+    "startTime": "2026-01-17T05:52:48.605Z",
+    "logFile": "E:\\code\\Minecraft\\stever-web-v2\\logs\\bot_1768106403862_k0khacg_2026-01-17T05-52-48-605Z.jsonl"
+  }
+]

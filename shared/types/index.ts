@@ -134,6 +134,32 @@ export interface BotModes {
   cheat: boolean;
 }
 
+/**
+ * Bot behavior settings (per-bot configuration)
+ */
+export interface BotBehaviorSettings {
+  cooldown: number;                        // Response cooldown in ms (default: 3000)
+  max_messages: number;                    // Max messages in context (default: 15)
+  num_examples: number;                    // Number of examples for prompting (default: 2)
+  max_commands: number;                    // Max consecutive commands (-1 for unlimited)
+  relevant_docs_count: number;             // Number of relevant docs for prompting (default: 5)
+  code_timeout_mins: number;               // Code execution timeout (-1 for unlimited)
+  narrate_behavior: boolean;               // Chat automatic actions
+  chat_bot_messages: boolean;              // Chat messages to other bots
+  load_memory: boolean;                    // Load memory from previous session
+  allow_vision: boolean;                   // Allow vision model
+  language: string;                        // Language for translation (default: 'en')
+  // Additional settings
+  init_message: string;                    // Message sent on spawn
+  only_chat_with: string[];                // Only chat with specific players (empty = public)
+  speak: boolean;                          // Enable text-to-speech
+  chat_ingame: boolean;                    // Show bot responses in minecraft chat
+  show_command_syntax: 'full' | 'shortened' | 'none';  // Command syntax display
+  spawn_timeout: number;                   // Seconds allowed for bot to spawn
+  block_place_delay: number;               // Delay between placing blocks (ms)
+  base_profile: 'survival' | 'assistant' | 'creative' | 'god_mode';  // Base profile type
+}
+
 // ============================================
 // Bot Profile Types
 // ============================================
@@ -150,6 +176,7 @@ export interface BotProfile {
   coding: string;                // 编码提示词
   saving_memory: string;         // 记忆保存提示词
   modes: BotModes;               // 机器人模式配置
+  behavior?: BotBehaviorSettings; // 行为设置
 }
 
 // ============================================
@@ -239,6 +266,57 @@ export interface LogEntry {
 }
 
 // ============================================
+// Log Session Types
+// ============================================
+
+export interface LogSession {
+  sessionId: string;
+  botId: string;
+  botName: string;
+  startTime: Date;
+  endTime?: Date;
+  logFile: string;
+}
+
+export interface LogSessionsResponse {
+  sessions: LogSession[];
+}
+
+export interface SessionLogsResponse {
+  logs: LogEntry[];
+  total: number;
+}
+
+export interface ActiveSessionResponse {
+  active: boolean;
+  sessionId?: string;
+  session?: LogSession;
+}
+
+// ============================================
+// Bot Memory Types
+// ============================================
+
+export interface BotMemoryTurn {
+  role: 'system' | 'assistant' | 'user';
+  content: string;
+}
+
+export interface BotMemory {
+  memory: string;                          // Natural language summary
+  turns: BotMemoryTurn[];                  // Recent conversation turns
+  self_prompting_state: number;            // Self-prompting state
+  self_prompt: string | null;              // Current self-prompt
+  taskStart: number;                       // Task start timestamp
+  last_sender: string | null;              // Last message sender
+}
+
+export interface BotMemoryResponse {
+  memory: BotMemory | null;
+  exists: boolean;
+}
+
+// ============================================
 // Position and Inventory Types
 // ============================================
 
@@ -280,6 +358,7 @@ export interface CreateBotRequest {
   coding?: string;
   saving_memory?: string;
   modes?: Partial<BotModes>;
+  behavior?: Partial<BotBehaviorSettings>;
 }
 
 export interface UpdateBotRequest extends Partial<CreateBotRequest> {}

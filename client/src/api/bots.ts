@@ -7,6 +7,7 @@ import type {
   UpdateBotRequest,
   BotStatusResponse,
   BotStartRequest,
+  BotMemoryResponse,
 } from '../../../shared/types';
 
 export const botsApi = {
@@ -52,5 +53,10 @@ export const botsApi = {
   // Get bot status
   getStatus: async (id: string): Promise<BotStatusResponse> => {
     return api.get<BotStatusResponse>(`/api/bots/${id}/status`);
+  },
+
+  // Get bot memory
+  getMemory: async (id: string): Promise<BotMemoryResponse> => {
+    return api.get<BotMemoryResponse>(`/api/bots/${id}/memory`);
   },
 };

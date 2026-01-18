@@ -14,6 +14,10 @@ import {
   validateBotStartPrerequisites,
 } from '../services/processManagerService.js';
 import {
+  getBotMemoryByName,
+  botMemoryExists,
+} from '../services/botMemoryService.js';
+import {
   BotProfile,
   CreateBotRequest,
   UpdateBotRequest,
@@ -22,6 +26,7 @@ import {
   ErrorResponse,
   BotStartRequest,
   BotStatusResponse,
+  BotMemoryResponse,
 } from '../../../shared/types/index.js';
 
 const router = Router();
@@ -369,6 +374,40 @@ router.get('/:id/status', async (req: Request<{ id: string }>, res: Response<Bot
       error: {
         code: 'INTERNAL_ERROR',
         message: 'Failed to get bot status',
+      },
+    });
+  }
+});
+
+/**
+ * GET /api/bots/:id/memory - Get bot memory
+ */
+router.get('/:id/memory', async (req: Request<{ id: string }>, res: Response<BotMemoryResponse | ErrorResponse>) => {
+  try {
+    const { id } = req.params;
+
+    // Check if bot profile exists
+    const bot = await getBotProfileById(id);
+    if (!bot) {
+      return res.status(404).json({
+        error: {
+          code: 'NOT_FOUND',
+          message: `Bot profile with id '${id}' not found`,
+        },
+      });
+    }
+
+    // Get memory using bot name
+    const memory = await getBotMemoryByName(bot.name);
+    const exists = await botMemoryExists(bot.name);
+
+    res.json({ memory, exists });
+  } catch (error) {
+    console.error('Error getting bot memory:', error);
+    res.status(500).json({
+      error: {
+        code: 'INTERNAL_ERROR',
+        message: 'Failed to get bot memory',
       },
     });
   }

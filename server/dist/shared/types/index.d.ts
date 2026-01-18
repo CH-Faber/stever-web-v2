@@ -184,6 +184,26 @@ export interface LogEntry {
     message: string;
     source: string;
 }
+export interface LogSession {
+    sessionId: string;
+    botId: string;
+    botName: string;
+    startTime: Date;
+    endTime?: Date;
+    logFile: string;
+}
+export interface LogSessionsResponse {
+    sessions: LogSession[];
+}
+export interface SessionLogsResponse {
+    logs: LogEntry[];
+    total: number;
+}
+export interface ActiveSessionResponse {
+    active: boolean;
+    sessionId?: string;
+    session?: LogSession;
+}
 export interface Position {
     x: number;
     y: number;
