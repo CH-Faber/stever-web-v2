@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Calendar, Clock, Trash2, Download } from 'lucide-react';
+import { ArrowLeft, Calendar, Clock, Trash2 } from 'lucide-react';
 import { getAllSessions, getBotSessions, deleteSession } from '../api/logs';
 import type { LogSession } from '../../../shared/types';
 import { formatDistanceToNow } from 'date-fns';
