@@ -2,33 +2,67 @@
 
 这个目录包含了在 Ubuntu 服务器上部署 stever-web-v2 项目所需的 Nginx 配置文件和部署脚本。
 
-## 文件说明
+## 📁 文件说明
 
 - `mc.faberhu.top.conf` - Nginx 配置文件
+- `QUICK_START.md` - **⭐ 快速开始指南（推荐从这里开始）**
+- `USER_SETUP.md` - **👤 用户设置指南（如果只有 root 用户，先看这个）**
 - `DEPLOYMENT.md` - 详细的部署指南
 - `deploy.sh` - 自动化部署脚本
+- `create-deploy-user.sh` - 创建部署用户的脚本
+- `install-certbot.sh` - Certbot 安装脚本
 - `README.md` - 本文件
 
-## 快速开始
+## 🚀 快速开始
 
-### 1. 首次部署
+**如果你只有 root 用户，先查看 `USER_SETUP.md` 创建普通用户！**
 
-参考 `DEPLOYMENT.md` 文件中的详细步骤进行首次部署。
-
-### 2. 使用部署脚本
-
-部署脚本可以帮助你快速更新代码：
+### 方法 1: 一键部署（推荐）
 
 ```bash
-# 给脚本添加执行权限
-chmod +x nginx/deploy.sh
+# 1. 克隆项目到服务器
+cd /var/www
+git clone <your-repo-url> stever-web-v2
+cd stever-web-v2
 
-# 首次完整部署
+# 2. 给脚本添加执行权限
+chmod +x nginx/*.sh
+
+# 3. 安装 certbot（如果需要）
+bash nginx/install-certbot.sh
+
+# 4. 执行完整部署
 ./nginx/deploy.sh full
+```
 
-# 后续更新部署
+### 方法 2: 分步部署
+
+参考 `QUICK_START.md` 或 `DEPLOYMENT.md` 文件中的详细步骤。
+
+### 更新代码
+
+```bash
+# 使用部署脚本更新
 ./nginx/deploy.sh update
 ```
+
+## ⚠️ 常见问题
+
+### certbot: command not found
+
+```bash
+bash nginx/install-certbot.sh
+```
+
+### [ERROR] Please do not run this script as root
+
+不要使用 `sudo` 运行部署脚本：
+```bash
+./nginx/deploy.sh full  # ✅ 正确
+sudo ./nginx/deploy.sh full  # ❌ 错误
+```
+
+更多问题解决方案请查看 `QUICK_START.md`。
 
 ## 配置说明
 

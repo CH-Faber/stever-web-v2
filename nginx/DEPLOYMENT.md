@@ -12,6 +12,8 @@
 
 ### 1. 安装必要软件
 
+**重要：以下命令应该以普通用户身份运行（使用 sudo 提权），不要直接用 root 用户登录！**
+
 ```bash
 # 更新系统
 sudo apt update && sudo apt upgrade -y
@@ -27,7 +29,15 @@ sudo apt install -y nodejs
 sudo npm install -g pm2
 
 # 安装 Certbot (用于 SSL 证书)
+# 方法 1: 使用 apt (推荐)
 sudo apt install certbot python3-certbot-nginx -y
+
+# 方法 2: 如果上面的方法失败，使用 snap
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
+# 验证 certbot 安装
+certbot --version
 ```
 
 ### 2. 克隆项目到服务器
@@ -91,14 +101,43 @@ sudo systemctl restart nginx
 
 ### 6. 获取 SSL 证书
 
+**注意：在获取 SSL 证书之前，确保：**
+1. 域名 mc.faberhu.top 已经解析到服务器 IP
+2. 防火墙已开放 80 和 443 端口
+3. Nginx 已经启动并运行
+
 ```bash
+# 检查域名解析是否正确
+nslookup mc.faberhu.top
+
+# 检查 Nginx 是否运行
+sudo systemctl status nginx
+
 # 使用 Certbot 自动获取并配置 SSL 证书
 sudo certbot --nginx -d mc.faberhu.top
 
 # Certbot 会自动修改 Nginx 配置并重启服务
+# 按照提示输入邮箱地址，同意服务条款
+
+# 如果遇到问题，可以先测试（不会真正获取证书）
+sudo certbot --nginx -d mc.faberhu.top --dry-run
+```
+
+**如果 certbot 命令未找到，请先安装：**
+
+```bash
+# 使用 snap 安装（推荐）
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
+
+# 或使用 apt 安装
+sudo apt update
+sudo apt install certbot python3-certbot-nginx -y
 ```
 
 ### 7. 使用 PM2 启动后端服务
+
+**重要：以普通用户身份运行，不要用 root！**
 
 ```bash
 cd /var/www/stever-web-v2/server
@@ -106,13 +145,26 @@ cd /var/www/stever-web-v2/server
 # 启动服务
 pm2 start dist/server/src/index.js --name stever-web-backend
 
-# 设置开机自启
+# 设置开机自启（这个命令会输出一条需要执行的命令，复制并执行它）
 pm2 startup
+
+# 保存 PM2 进程列表
 pm2 save
 
 # 查看服务状态
 pm2 status
 pm2 logs stever-web-backend
+```
+
+**注意：** 如果你之前用 root 运行过 PM2，需要先清理：
+```bash
+# 以 root 身份停止所有进程
+sudo pm2 kill
+
+# 然后以普通用户重新启动
+pm2 start dist/server/src/index.js --name stever-web-backend
+pm2 startup
+pm2 save
 ```
 
 ### 8. 配置防火墙
