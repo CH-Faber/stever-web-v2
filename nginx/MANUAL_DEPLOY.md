@@ -12,7 +12,7 @@
 
 ## 核心步骤（最简化版本）
 
-### 1. 安装基础软件
+# 安装基础软件
 
 ```bash
 # 更新系统
@@ -27,9 +27,12 @@ sudo apt install -y nodejs
 
 # 安装 PM2
 sudo npm install -g pm2
+
+# 安装 Mindcraft 系统依赖 (用于 canvas)
+sudo apt install -y build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev libxi-dev libxinerama-dev libxrandr-dev
 ```
 
-### 2. 克隆并构建项目
+# 克隆并构建项目
 
 ```bash
 # 克隆项目
@@ -46,6 +49,10 @@ npm run build
 cd ../client
 npm install
 npm run build
+
+# 安装 Mindcraft 依赖
+cd ../mindcraft
+npm install
 ```
 
 ### 3. 配置环境变量

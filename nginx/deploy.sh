@@ -67,6 +67,11 @@ full_deploy() {
     npm install || { log_error "Client npm install failed"; exit 1; }
     npm run build || { log_error "Client build failed"; exit 1; }
     
+    # Install mindcraft dependencies
+    log_info "Installing mindcraft dependencies..."
+    cd ../mindcraft
+    npm install || { log_error "Mindcraft npm install failed"; exit 1; }
+    
     # Setup Nginx if not already configured
     if [ ! -f "/etc/nginx/sites-enabled/$NGINX_CONF" ]; then
         log_info "Setting up Nginx configuration..."
@@ -116,6 +121,11 @@ update_deploy() {
     cd ../client
     npm install || { log_error "Client npm install failed"; exit 1; }
     npm run build || { log_error "Client build failed"; exit 1; }
+    
+    # Update mindcraft dependencies
+    log_info "Updating mindcraft dependencies..."
+    cd ../mindcraft
+    npm install || { log_error "Mindcraft npm install failed"; exit 1; }
     
     # Restart PM2 process
     log_info "Restarting backend service..."

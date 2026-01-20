@@ -10,7 +10,7 @@
 
 ## 部署步骤
 
-### 1. 安装必要软件
+# 安装必要软件
 
 **重要：以下命令应该以普通用户身份运行（使用 sudo 提权），不要直接用 root 用户登录！**
 
@@ -28,15 +28,15 @@ sudo apt install -y nodejs
 # 安装 PM2
 sudo npm install -g pm2
 
+# 安装 Mindcraft 所需的系统依赖 (用于 canvas 编译)
+sudo apt install -y build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev libxi-dev libxinerama-dev libxrandr-dev
+
 # 安装 Certbot (用于 SSL 证书)
-# 方法 1: 使用 apt (推荐)
 sudo apt install certbot python3-certbot-nginx -y
 
-# 方法 2: 如果上面的方法失败，使用 snap
-sudo snap install --classic certbot
-sudo ln -s /snap/bin/certbot /usr/bin/certbot
-
-# 验证 certbot 安装
+# 验证安装
+node --version
+npm --version
 certbot --version
 ```
 
@@ -53,7 +53,7 @@ git clone <your-repo-url> stever-web-v2
 cd stever-web-v2
 ```
 
-### 3. 安装依赖并构建
+# 安装依赖并构建
 
 ```bash
 # 安装服务端依赖
@@ -65,6 +65,10 @@ npm run build
 cd /var/www/stever-web-v2/client
 npm install
 npm run build
+
+# 安装 Mindcraft 依赖
+cd /var/www/stever-web-v2/mindcraft
+npm install
 ```
 
 ### 4. 配置环境变量
@@ -83,7 +87,7 @@ MINDCRAFT_PATH=/var/www/stever-web-v2/mindcraft
 CLIENT_URL=https://mc.faberhu.top
 ```
 
-### 5. 配置 Nginx
+# 配置 Nginx
 
 ```bash
 # 复制 Nginx 配置文件
@@ -96,6 +100,7 @@ sudo ln -s /etc/nginx/sites-available/mc.faberhu.top /etc/nginx/sites-enabled/
 sudo nginx -t
 
 # 如果测试通过，重启 Nginx
+# 此时 Nginx 会以 HTTP 模式运行，SSL 部分已在配置中被注释
 sudo systemctl restart nginx
 ```
 
@@ -107,20 +112,11 @@ sudo systemctl restart nginx
 3. Nginx 已经启动并运行
 
 ```bash
-# 检查域名解析是否正确
-nslookup mc.faberhu.top
-
-# 检查 Nginx 是否运行
-sudo systemctl status nginx
-
 # 使用 Certbot 自动获取并配置 SSL 证书
 sudo certbot --nginx -d mc.faberhu.top
 
 # Certbot 会自动修改 Nginx 配置并重启服务
-# 按照提示输入邮箱地址，同意服务条款
-
-# 如果遇到问题，可以先测试（不会真正获取证书）
-sudo certbot --nginx -d mc.faberhu.top --dry-run
+# 它会自动取消那些被注释的 SSL 行，或者添加新的 SSL 配置
 ```
 
 **如果 certbot 命令未找到，请先安装：**

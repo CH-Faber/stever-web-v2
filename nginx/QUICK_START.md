@@ -56,7 +56,7 @@ bash nginx/install-certbot.sh
 
 ## 分步执行（如果一键脚本失败）
 
-### 步骤 1: 安装依赖
+# 安装依赖
 
 ```bash
 # 更新系统
@@ -76,11 +76,14 @@ npm --version
 # 安装 PM2
 sudo npm install -g pm2
 
+# 安装 Mindcraft 所需的系统依赖 (用于 canvas 编译)
+sudo apt install -y build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev libxi-dev libxinerama-dev libxrandr-dev
+
 # 安装 certbot
-bash nginx/install-certbot.sh
+sudo apt install certbot python3-certbot-nginx -y
 ```
 
-### 步骤 2: 构建项目
+# 构建项目
 
 ```bash
 cd /var/www/stever-web-v2
@@ -95,8 +98,12 @@ cd ../client
 npm install
 npm run build
 
+# 安装 Mindcraft 依赖
+cd ../mindcraft
+npm install
+
 # 验证构建结果
-ls -la dist/
+ls -la ../client/dist/
 ```
 
 ### 步骤 3: 配置环境变量
